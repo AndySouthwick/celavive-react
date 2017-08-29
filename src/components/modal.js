@@ -1,16 +1,25 @@
 import React, {Component} from 'react'
 import { Button, Modal, ModalBody} from 'reactstrap';
 import ModalForm from './modalform'
-import { Redirect } from 'react-router-dom'
 
 class CaptureModal extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            modal: false,
-            redirect: false
-        };
 
+
+       let eventfired = localStorage.getItem("eventfired")
+        console.log(eventfired)
+        if (eventfired == 1) {
+            console.log(eventfired)
+            this.state = {
+                modal: false
+            }
+        }else {
+            this.state = {
+                modal: false,
+            };
+            setTimeout(function() { this.setState({modal: true}); }.bind(this), 4000);
+        }
         this.toggle = this.toggle.bind(this);
     }
 
@@ -18,18 +27,16 @@ class CaptureModal extends Component {
         this.setState({
             modal: !this.state.modal
         });
+        localStorage.setItem("eventfired", 1)
     }
 
-    toggleClose() {
-        const redirect = true
-
-        console.log('event fireds')
-
-if(redirect) {
-    return <Redirect to='/intro'/>;
-}
-
-    }
+    // toggleClose() {
+    //     this.setState({
+    //         modal: this.state.modal
+    //     });
+    //     console.log('event fireds')
+    //
+    // }
 
     render() {
 
@@ -39,9 +46,9 @@ if(redirect) {
                 <Button type="button" className="btn btn-primary btn-xl"  onClick={this.toggle}>SIGN UP FOR CELAVIVE UPDATES</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalBody className="text-center" >
-                        <a href="/intro"><Button type="button" className="close modal-check" data-dismiss="modal"  onClick={this.toggleClose} aria-label="Close">
+                        <Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
                             <i className="fa fa-times faCloseModal"></i>
-                        </Button></a>
+                        </Button>
 
 
                         <h3 className="">Your first look at<br/>
