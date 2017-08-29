@@ -1,0 +1,105 @@
+//Portrait View
+
+@media only screen and (max-width : 1024px) {
+  .intro-header {
+    border: none;
+  }
+  div.row.greybg {
+    margin-top: -53px;
+  }
+  span.incelligence-header {
+    position: relative;
+    left: 0px;
+  }
+  .incelligence {
+    padding-top: 100px;
+    margin-top: 0;
+  }
+
+
+  img.science-vertical {
+    left: 102px;
+    top: 30px;
+    position: absolute;
+    height: 491px;
+  }
+
+}
+@media only screen and (min-width : 1025px) {
+  .intro-header {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  .incelligencedescription {
+    line-height: 2em;
+  }
+  .incelligence {
+    padding-top: 40px;
+  }
+  .mobile-padding{
+    padding: 2em;
+  }
+  .section-intro {
+    background-image: none !important;
+  }
+  .intro-header {
+    padding:20px 0;
+    border: none;
+
+  }
+  .paragraphtext {
+    margin: 2rem 0;
+  }
+  div.row.greybg {
+    margin-top: 50px;
+  }
+  img.healthy-quote {
+    position: absolute;
+    left: 51px;
+    top: -84px;
+    z-index: 500;
+    width: 20em;
+  }
+  .section-science {
+    min-height: 300px !important;
+  }
+  .section-cta {
+
+    .btn-xl {
+      font-size: 13px;
+    }
+  }
+
+  .section-footer {
+    ul li {
+      font-size: 11px;
+      line-height: 16px;
+    }
+  }
+  .greybg {
+    h2 {
+      font-size: 2em;
+    }
+
+  }
+
+
+  div.row.greybg {
+    height: auto;
+  }
+
+  .products_mobile{
+    margin-top: 10em;
+    width: 400px;
+    margin-left: 8px;
+  }
+  .mobileproduct{
+    margin-top: 12em;
+  }
+
+
+
+}
+
