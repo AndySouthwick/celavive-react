@@ -5,48 +5,37 @@ import Hero from '../components/introspecific/header'
 import SectionIntro from '../components/introspecific/sectionintro'
 import SectionIncell from '../components/introspecific/sectionincell'
 import SectionFounded from '../components/introspecific/sectionfounded'
+import Navigation from '../components/navigation'
 import {languages} from '../languages/languages'
 import { chlan } from '../actions/actions'
 import store from '../store'
+
 
 class Intro extends Component {
 
     constructor(){
         super()
-        const currentState = store.getState()
-        this.state = currentState
+
     }
 
-componentWillMount(){
 
-}
+
     render() {
+
+
+       const chosenLanguage = languages.find(item => item.language === this.props.match.params.language)
         const currentState = store.getState()
-        console.log(currentState)
 
-        const Selectors = languages.map((lan) =>
-            <div key={lan.id}>
-                <li onClick={() => this.setState({
-                    id: lan.id,
-                    language: lan.language,
-                    intro: lan.intro,
-                    founded: lan.founded,
-                    science: lan.science
-                })}>
-                    {lan.language}
-                </li>
-            </div>
-        );
-        const localStateId = this.state.id
 
-        if(currentState.id !== localStateId){
-           store.dispatch(chlan(this.state))
-        }
+      if(chosenLanguage !== currentState){
+          store.dispatch(chlan(chosenLanguage))
+      }
 
-        {console.log(this.state)}
+        console.log(chosenLanguage)
+
         return (
             <div className="full-height">
-              {Selectors}
+                <Navigation/>
                 <Hero/>
                 <SectionIntro/>
                 <SectionIncell/>

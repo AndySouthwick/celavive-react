@@ -965,3 +965,7 @@ img.img-responsive.floatimg.hidden-xs.hidden-sm.hidden-md.ae6 {
     top: 5px; }
   #emailSubmissionSuccessAlert.alert.alert-info.visible {
     display: block; }
+
+.dropdown-menu {
+  background-color: transparent !important;
+  border: none !important; }

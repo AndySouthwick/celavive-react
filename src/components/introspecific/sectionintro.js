@@ -11,12 +11,16 @@ class SectionIntro extends Component {
     }
 
     render() {
+
         return (
             <section className="section-intro">
+
                 <Container>
                     <Row>
                         <Col md="9">
+
                             <div className="intro-header ae1">
+
                                 <img src={require('../../img/intro-mobile.png')} className="img-responsive ae1 visible-xs visible-sm intro-header-mobile" alt="Introducing Advanced Skincare" />
                                     <img src={require('../../img/intro-header.png')} className="img-responsive ae2 intro-header-text" alt="Introducing Advanced Skincare" />
 
