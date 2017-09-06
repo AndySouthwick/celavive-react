@@ -7,9 +7,7 @@ class CaptureModal extends Component {
     constructor(props) {
         super(props);
        let eventfired = localStorage.getItem("eventfired")
-        console.log(eventfired)
         if (eventfired == 1) {
-            console.log(eventfired)
             this.state = {
                 modal: false,
                 redirect: false

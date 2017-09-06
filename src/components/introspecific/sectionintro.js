@@ -1,8 +1,14 @@
 import React, {Component} from 'react'
 import { Container, Row, Col} from 'reactstrap';
-
+import {languages} from '../../languages/languages';
+import {connect} from 'react-redux'
+import store from '../../store'
 
 class SectionIntro extends Component {
+
+    componentWillMount () {
+        const currentState = store.getState()
+    }
 
     render() {
         return (
@@ -15,11 +21,7 @@ class SectionIntro extends Component {
                                     <img src={require('../../img/intro-header.png')} className="img-responsive ae2 intro-header-text" alt="Introducing Advanced Skincare" />
 
                                         <p className="paragraphtext ae3">
-                                            Products that actively support beauty-preserving
-                                            functions in your skin to defy visible signs of aging
-                                            like photodamage, dryness, loss of firmness,
-                                            discoloration, texture, and wrinkles to dramatically
-                                            improve the look of your skin.
+                                            {this.props.intro}
                                         </p>
                             </div>
                         </Col>
@@ -36,4 +38,12 @@ class SectionIntro extends Component {
     }
 }
 
-export default SectionIntro
+const mapStateToProps = (state) => {
+    return{
+        intro: state.intro
+    }
+}
+
+const reduxConnect = connect(mapStateToProps)(SectionIntro)
+
+export default reduxConnect

@@ -11,6 +11,7 @@ class App extends Component {
           <Switch>
                <Route exact path="/" component={Landing}/>
                <Route exact path="/intro" component={Intro}/>
+               <Route path="/anz-ch" component={Intro}/>
           </Switch>
       </div>
     );
@@ -18,3 +19,4 @@ class App extends Component {
 }
 
 export default App;
+
