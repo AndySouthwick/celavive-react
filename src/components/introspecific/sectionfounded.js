@@ -37,6 +37,7 @@ class SectionFounder extends Component {
 const mapStateToProps = state => {
     return {
         founded: state.founded
+
     }
 }
 

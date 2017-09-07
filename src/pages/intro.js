@@ -9,6 +9,7 @@ import Navigation from '../components/navigation'
 import {languages} from '../languages/languages'
 import { chlan } from '../actions/actions'
 import store from '../store'
+import Science from '../components/introspecific/science'
 
 
 class Intro extends Component {
@@ -40,6 +41,7 @@ class Intro extends Component {
                 <SectionIntro/>
                 <SectionIncell/>
                 <SectionFounded/>
+                <Science/>
                 <CelaviveCta/>
                 <CelaviveFooter/>
             </div>

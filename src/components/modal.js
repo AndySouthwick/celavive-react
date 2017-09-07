@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 import { Button, Modal, ModalBody} from 'reactstrap';
 import ModalForm from './modalform'
-import { Redirect } from 'react-router'
+import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
 
 class CaptureModal extends Component {
     constructor(props) {
@@ -33,9 +34,9 @@ class CaptureModal extends Component {
                 <Button type="button" className="btn btn-primary btn-xl"  onClick={this.toggle}>SIGN UP FOR CELAVIVE UPDATES</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalBody className="text-center" >
-                        <a href="/intro"><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
+                        <Link to={`/${this.props.language}/introInt`}><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
                             <i className="fa fa-times faCloseModal"></i>
-                        </Button></a>
+                        </Button></Link>
                         <h3 className="">Your first look at<br/>
                             the future of skincare!<br/>
                             Product available<br/>
@@ -50,4 +51,11 @@ class CaptureModal extends Component {
     }
 }
 
-export default CaptureModal
+const mapStateToProps = state => {
+    return {
+        language: state.language
+    }
+}
+
+const reduxConnect = connect(mapStateToProps)(CaptureModal)
+export default reduxConnect
