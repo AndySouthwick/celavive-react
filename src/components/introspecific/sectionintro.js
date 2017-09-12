@@ -8,9 +8,12 @@ class SectionIntro extends Component {
 
     componentWillMount () {
         const currentState = store.getState()
+
     }
 
     render() {
+
+
 
         return (
             <section className="section-intro">
@@ -20,20 +23,18 @@ class SectionIntro extends Component {
                         <Col md="9">
 
                             <div className="intro-header ae1">
-
-                                <img src={require('../../img/intro-mobile.png')} className="img-responsive ae1 visible-xs visible-sm intro-header-mobile" alt="Introducing Advanced Skincare" />
-                                    <img src={require('../../img/intro-header.png')} className="img-responsive ae2 intro-header-text" alt="Introducing Advanced Skincare" />
-
+                                <h1>{this.props.introheader}</h1>
+                                <img src={require('../../img/intro-mobile.png')} className="img-responsive ae1 intro-header-mobile mobile" alt="Introducing Advanced Skincare" />
                                         <p className="paragraphtext ae3">
                                             {this.props.intro}
                                         </p>
                             </div>
                         </Col>
                     </Row>
-                    <Row className="intro-img hidden-xs hidden-sm">
-                        <img src={require('../../img/science-vertical.png')} alt="" className="science-vertical img-responsive hidden-sm hidden-xs ae4"/>
+                    <Row className="intro-img">
+                        <img src={require('../../img/science-vertical.png')} alt="" className="science-vertical desktop ae4 "/>
                             <Col md={{size:10, offset: 2}}>
-                                <img src={require('../../img/introducing-desktop.png')} className="img-responsive ae3 product-line" alt=""/>
+                                <img src={require('../../img/introducing-desktop.png')} className="img-responsive ae3 product-line desktop" alt=""/>
                             </Col>
                     </Row>
                 </Container>
@@ -44,7 +45,10 @@ class SectionIntro extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        intro: state.intro
+        introheader: state.introheader,
+        intro: state.intro,
+        img1: state.img1,
+      img2: state.img2
     }
 }
 

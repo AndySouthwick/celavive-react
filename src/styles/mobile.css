@@ -17,9 +17,46 @@
 
 @media only screen and (min-width: 1025px) {
   .intro-header {
-    padding: 50px; } }
+    padding: 50px; }
+  .mobile {
+    display: none; }
+  .productReveal {
+    /*transform:scale 1s;
+    animation: scale 1s;*/
+    -moz-animation: scale 2.5s;
+    /* Firefox */
+    -webkit-animation: scale 2.5s;
+    /* Safari and Chrome */
+    -o-animation: scale 2.5s;
+    /* Opera */
+    margin-top: -20px; }
+  @keyframes scale {
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } }
+  @-moz-keyframes scale {
+    /* Firefox */
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } }
+  @-webkit-keyframes scale {
+    /* Safari and Chrome */
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } }
+  @-o-keyframes scale {
+    /* Opera */
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } } }
 
 @media only screen and (max-width: 480px) {
+  .desktop {
+    display: none; }
   .incelligencedescription {
     line-height: 2em; }
   .incelligence {

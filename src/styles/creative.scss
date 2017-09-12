@@ -1,18 +1,31 @@
 @import "variables.scss";
 @import "mixins.scss";
-
-// Global Components
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Gotham A', 'Gotham B', sans-serif;
+  font-family: 'Gotham A', 'Gotham B', sans-serif!important;
   font-size: 16px;
   @media (max-width: 991px) {
   font-size: 14px;
 
 }
 }
+
+
+
+.intro-header h1{
+  font-family: 'Arapey', serif;
+  color: #828282;
+  font-size: 5em;
+}
+
+.incelligence h1{
+  font-family: 'Arapey', serif;
+  color: #828282!important;
+  font-size: 3em!important;
+}
+
 #root {
   height:100%;}
 #root > [data-reactroot] { height: 100%; }
@@ -231,8 +244,8 @@ header {
   @media (min-width: 768px) {
   min-height: 100%;
   .header-content {
-    padding: 350px 15px 100px;
-    //top: 50%;
+    padding: 200px 15px 100px;
+    top: 50%;
     //-webkit-transform: translateY(-50%);
     //-ms-transform: translateY(-50%);
     //transform: translateY(-50%);
@@ -597,7 +610,6 @@ section {
   }
 }
 .incelligence {
-  padding: 0;
   margin-top: -40px;
 }
 .incelligence h1 {

@@ -8,7 +8,7 @@ export const initialState = {
     'like photodamage, dryness, loss of firmness,\n' +
     'discoloration, texture, and wrinkles to dramatically\n' +
     'improve the look of your skin.',
-    founded: 'World leaders in nutrition and creators of USANA InCelligence Technology™ have discovered a way to specifically target your ' +
+  science: 'World leaders in nutrition and creators of USANA InCelligence Technology™ have discovered a way to specifically target your ' +
     'unique beauty needs. Using targeted nutrient combinations, Celavive awakens your cells’ natural renewing ability to ' +
     'activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive approach ' +
     'means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically ' +
@@ -16,7 +16,7 @@ export const initialState = {
     'healthy skin cell activity, your complexion will begin to appear healthier, more radiant, and incredibly restored. Discover your ' +
     'skin’s natural ability to fight visible aging.' +
     '',
-    science: 'The exclusive Cell-Signalling Complex found in Celavive ' +
+   founded: 'The exclusive Cell-Signalling Complex found in Celavive ' +
     'is made up of two bioactive peptides and two botanical extracts. When combined, ' +
     'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
     'aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients ' +
@@ -30,8 +30,13 @@ export function reducer(state = initialState, action){
             return{
                 ...initialState,
                 id: action.payload.id,
+                incellheader: action.payload.incellheader,
                 language: action.payload.language,
+                img1: action.payload.img1,
+                img2: action.payload.img2,
+                celavivefounded: action.payload.celavivefounded,
                 intro: action.payload.intro,
+                introheader: action.payload.introheader,
                 founded: action.payload.founded,
                 science: action.payload.science
             }

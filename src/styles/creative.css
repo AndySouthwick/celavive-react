@@ -2,12 +2,22 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Gotham A', 'Gotham B', sans-serif;
+  font-family: "Gotham A", "Gotham B", sans-serif !important;
   font-size: 16px; }
   @media (max-width: 991px) {
     html,
     body {
       font-size: 14px; } }
+
+.intro-header h1 {
+  font-family: 'Arapey', serif;
+  color: #828282;
+  font-size: 5em; }
+
+.incelligence h1 {
+  font-family: 'Arapey', serif;
+  color: #828282 !important;
+  font-size: 3em !important; }
 
 #root {
   height: 100%; }
@@ -185,7 +195,8 @@ header {
     header {
       min-height: 100%; }
       header .header-content {
-        padding: 350px 15px 100px; }
+        padding: 200px 15px 100px;
+        top: 50%; }
         header .header-content .header-content-inner {
           max-width: 1200px;
           margin-left: auto;
@@ -515,7 +526,6 @@ section span.fa-3x {
     margin-top: 20px; }
 
 .incelligence {
-  padding: 0;
   margin-top: -40px; }
 
 .incelligence h1 {
@@ -816,9 +826,46 @@ img.img-responsive.floatimg.hidden-xs.hidden-sm.hidden-md.ae6 {
 
 @media only screen and (min-width: 1025px) {
   .intro-header {
-    padding: 50px; } }
+    padding: 50px; }
+  .mobile {
+    display: none; }
+  .productReveal {
+    /*transform:scale 1s;
+    animation: scale 1s;*/
+    -moz-animation: scale 2.5s;
+    /* Firefox */
+    -webkit-animation: scale 2.5s;
+    /* Safari and Chrome */
+    -o-animation: scale 2.5s;
+    /* Opera */
+    margin-top: -20px; }
+  @keyframes scale {
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } }
+  @-moz-keyframes scale {
+    /* Firefox */
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } }
+  @-webkit-keyframes scale {
+    /* Safari and Chrome */
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } }
+  @-o-keyframes scale {
+    /* Opera */
+    from {
+      width: 500px; }
+    to {
+      width: 800px; } } }
 
 @media only screen and (max-width: 480px) {
+  .desktop {
+    display: none; }
   .incelligencedescription {
     line-height: 2em; }
   .incelligence {

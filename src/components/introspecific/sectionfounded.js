@@ -16,11 +16,11 @@ class SectionFounder extends Component {
                 <Container>
                     <Row>
                         <Col md="5" className="left">
-                            <img className="founded-on-science-img ae7 hidden-sm hidden-xs" src={require("../../img/founded-on-science-left.png")} alt=""/>
-                                <img src={require("../../img/bubbles-mobile.png")} className="ae7 visible-xs visible-sm" alt=""/>
+                            <img  className="founded-on-science-img ae7 img-responsive" src={require("../../img/founded-on-science-left.png")} alt=""/>
+                                <img src={require("../../img/bubbles-mobile.png")} className="ae7 img-responsive mobile" alt=""/>
                         </Col>
                         <Col md="6">
-                            <span className="fa-3x ae1 incelligence-header">INCELLIGENCE</span>
+                            <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>
                             <div className="celvCarouse">
                                 <div className="celv-secondary-text">
                                     <p className="paragraphtext ae1">{this.props.founded} </p>
@@ -36,7 +36,8 @@ class SectionFounder extends Component {
 
 const mapStateToProps = state => {
     return {
-        founded: state.founded
+        founded: state.founded,
+        incellheader: state.incellheader
 
     }
 }
