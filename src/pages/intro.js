@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import CelaviveFooter from '../components/footer'
-import CelaviveCta from '../components/cta'
-import Hero from '../components/introspecific/header'
-import SectionIntro from '../components/introspecific/sectionintro'
+import CelaviveCta from '../components/cta/cta'
+import Hero from '../components/introspecific/introheader/header'
+import SectionIntro from '../components/introspecific/sectionintro/sectionintro'
 import SectionIncell from '../components/introspecific/sectionincell'
 import SectionFounded from '../components/introspecific/sectionfounded'
 import Navigation from '../components/navigation'
 import {languages} from '../languages/languages'
 import { chlan } from '../actions/actions'
 import store from '../store'
-import Science from '../components/introspecific/science'
+import Science from '../components/introspecific/healthyskin/science'
 import SectionSocial from '../components/introspecific/sectionsocial'
 
 

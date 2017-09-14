@@ -2,14 +2,12 @@
   padding: 50px;
   display: flex;
   background-color: #BCDEF3;
-  justify-content: center;
-  .btn-xl {
+  justify-content: center; }
+  .section-cta .btn-xl {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 24px;
     background-color: #8fc7e8;
     color: #ffffff;
     border-color: #71b8e2;
     font-weight: 700;
-    font-size: 13px;
-  }
-}
+    font-size: 13px; }

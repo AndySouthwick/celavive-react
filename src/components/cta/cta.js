@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
-import CaptureModal from './modal'
+import CaptureModal from '../modal'
 import {Container, Row, Col} from 'reactstrap'
+import './cta.css'
 
 class CelaviveCta extends Component {
 

@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Container, Row, Col} from 'reactstrap'
 
+
 class CelaviveFooter extends Component {
 
     render(){
@@ -57,6 +58,21 @@ class CelaviveFooter extends Component {
                                 </li>
                             </ul>
                         </Col>
+                  </Row>
+                  <Row>
+                      <Col xs="12">
+                          <div className="footer-square-text">
+                              <small>* These statements have not been evaluated by the Food and Drug Administration. This product
+                                  is not intended to diagnose, treat, cure or prevent any disease.
+                              </small>
+                          </div>
+                          <div className="footer-text">
+                              <small>USANA Health Sciences is known for manufacturing the highest quality products backed by a
+                                  potency guarantee. To ensure you and your family are receiving genuine world-class USANA
+                                  products, purchase them only through your independent USANA Associate or www.usana.com.
+                              </small>
+                          </div>
+                      </Col>
                   </Row>
 
               </Container>

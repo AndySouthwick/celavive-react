@@ -15,9 +15,9 @@ class SectionFounder extends Component {
             <section className="section-founded-on-science">
                 <Container>
                     <Row>
-                        <Col md="5" className="left">
-                            <img  className="founded-on-science-img ae7 img-responsive" src={require("../../img/founded-on-science-left.png")} alt=""/>
-                                <img src={require("../../img/bubbles-mobile.png")} className="ae7 img-responsive mobile" alt=""/>
+                        <Col md="5" sm="12" xs="12" className="left">
+                            <img  className="founded-on-science-img ae7 desktop img-responsive" src={require("../../img/founded-on-science-left.png")} alt=""/>
+                            <img src={require("../../img/bubbles-mobile.png")} className="ae7 mobile img-responsive" alt=""/>
                         </Col>
                         <Col md="6">
                             <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>

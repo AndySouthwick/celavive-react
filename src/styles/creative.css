@@ -12,7 +12,7 @@ body {
 .intro-header h1 {
   font-family: 'Arapey', serif;
   color: #828282;
-  font-size: 5em; }
+  font-size: 4em; }
 
 .incelligence h1 {
   font-family: 'Arapey', serif;
@@ -750,23 +750,12 @@ section.section-intro {
   background-repeat: no-repeat;
   background-position: 0 530px; }
 
-.section-science {
-  min-height: 640px; }
-
 span.incelligence-header {
   position: relative;
   left: -110px; }
 
 .section-incelligence {
   background: #f9f9f9; }
-
-.section-cta {
-  padding: 50px;
-  display: flex;
-  background-color: #BCDEF3;
-  justify-content: center; }
-  .section-cta .btn-xl {
-    font-size: 24px; }
 
 img.celavive-pic-1 {
   position: absolute;
@@ -828,40 +817,7 @@ img.img-responsive.floatimg.hidden-xs.hidden-sm.hidden-md.ae6 {
   .intro-header {
     padding: 50px; }
   .mobile {
-    display: none; }
-  .productReveal {
-    /*transform:scale 1s;
-    animation: scale 1s;*/
-    -moz-animation: scale 2.5s;
-    /* Firefox */
-    -webkit-animation: scale 2.5s;
-    /* Safari and Chrome */
-    -o-animation: scale 2.5s;
-    /* Opera */
-    margin-top: -20px; }
-  @keyframes scale {
-    from {
-      width: 500px; }
-    to {
-      width: 800px; } }
-  @-moz-keyframes scale {
-    /* Firefox */
-    from {
-      width: 500px; }
-    to {
-      width: 800px; } }
-  @-webkit-keyframes scale {
-    /* Safari and Chrome */
-    from {
-      width: 500px; }
-    to {
-      width: 800px; } }
-  @-o-keyframes scale {
-    /* Opera */
-    from {
-      width: 500px; }
-    to {
-      width: 800px; } } }
+    display: none; } }
 
 @media only screen and (max-width: 480px) {
   .desktop {
