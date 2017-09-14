@@ -43,7 +43,7 @@ class Navigation extends Component {
                     founded: lan.founded,
                     science: lan.science
                 })}>
-                    <Link to={`/${lan.language}/introInt`}> {lan.language} </Link>
+                    <Link to={`/${lan.language}/intro`}> {lan.language} </Link>
                 </li>
             </div>
         );

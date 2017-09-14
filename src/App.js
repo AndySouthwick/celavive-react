@@ -3,6 +3,7 @@ import './styles/App.css';
 import {Route, Switch} from 'react-router-dom'
 import Landing from './pages/landing'
 import Intro from './pages/intro'
+import Products from './pages/products/products'
 
 class App extends Component {
   render() {
@@ -12,7 +13,9 @@ class App extends Component {
           <Switch>
                <Route exact path="/" component={Landing}/>
                <Route  path="/intro" component={Intro}/>
-               <Route exact  path="/:language/introInt" component={Intro}/>
+               <Route exact  path="/:language/intro" component={Intro}/>
+            <Route exact  path="/:language/products" component={Products}/>
+
           </Switch>
       </div>
     );
