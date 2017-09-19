@@ -7,7 +7,7 @@ import SectionIncell from '../components/introspecific/sectionincell'
 import SectionFounded from '../components/introspecific/sectionfounded'
 import Navigation from '../components/navigation'
 import {languages} from '../languages/languages'
-import { chlan } from '../actions/actions'
+import { chlan, chpage } from '../actions/actions'
 import store from '../store'
 import Science from '../components/introspecific/healthyskin/science'
 import SectionSocial from '../components/introspecific/sectionsocial'
@@ -15,18 +15,24 @@ import SectionSocial from '../components/introspecific/sectionsocial'
 
 class Intro extends Component {
 
-    constructor(){
-        super()
-
-    }
-
-
-
     render() {
 
 
        const chosenLanguage = languages.find(item => item.language === this.props.match.params.language)
+        const currentPage =  this.props.match.params.page
         const currentState = store.getState()
+
+      console.log(currentPage)
+
+      if(currentPage !== null){
+
+         const updatePage = {
+           page: currentPage
+         }
+
+         store.dispatch(chpage(updatePage))
+      }
+
 
 
       if(chosenLanguage !== currentState){
@@ -45,7 +51,6 @@ class Intro extends Component {
                 <Science/>
               <SectionSocial/>
                 <CelaviveCta/>
-
                 <CelaviveFooter/>
             </div>
         );

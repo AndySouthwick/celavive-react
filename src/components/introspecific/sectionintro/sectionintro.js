@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import { Container, Row, Col} from 'reactstrap';
-import {languages} from '../../../languages/languages';
 import {connect} from 'react-redux'
 import store from '../../../store'
 import './intro.css'
+import { Link } from 'react-router-dom'
 
 class SectionIntro extends Component {
 
@@ -25,7 +25,7 @@ class SectionIntro extends Component {
 
                             <div className="intro-header ae1">
 
-                                <img src={require('../../../img/intro-mobile.png')} className="img-responsive ae1 intro-header-mobile mobile" alt="Introducing Advanced Skincare" />
+                                <Link to={`/${this.props.language}/2/products`}><img src={require('../../../img/intro-mobile.png')} className="img-responsive ae1 intro-header-mobile mobile" alt="Introducing Advanced Skincare" /></Link>
                                         <p className="paragraphtext ae3">
                                             <h1>{this.props.introheader}</h1>
                                             {this.props.intro}
@@ -36,7 +36,7 @@ class SectionIntro extends Component {
                     <Row className="intro-img">
                         <img src={require('../../../img/science-vertical.png')} alt="" className="science-vertical desktop ae4 "/>
                             <Col md={{size:10, offset: 2}}>
-                                <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line desktop" alt=""/>
+                                <Link to={`/${this.props.language}/2/products`}> <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line desktop" alt=""/></Link>
                             </Col>
                     </Row>
                 </Container>
@@ -50,7 +50,9 @@ const mapStateToProps = (state) => {
         introheader: state.introheader,
         intro: state.intro,
         img1: state.img1,
-      img2: state.img2
+        img2: state.img2,
+        language: state.language,
+        page: state.page
     }
 }
 

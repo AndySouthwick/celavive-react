@@ -11,11 +11,12 @@ class App extends Component {
     return (
       <div className="full-height">
           <Switch>
-               <Route exact path="/" component={Landing}/>
-               <Route  path="/intro" component={Intro}/>
-               <Route exact  path="/:language/intro" component={Intro}/>
-            <Route exact  path="/:language/products" component={Products}/>
+            <Route exact path="/" component={Landing}/>
 
+            <Route exact path="/:language" component={Landing}/>
+               <Route  path="/intro" component={Intro}/>
+               <Route exact  path="/:language/:page/intro" component={Intro}/>
+            <Route exact  path="/:language/:page/products" component={Products}/>
           </Switch>
       </div>
     );

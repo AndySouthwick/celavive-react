@@ -11,12 +11,10 @@ class CaptureModal extends Component {
         if (eventfired == 1) {
             this.state = {
                 modal: false,
-                redirect: false
             }
         }else {
             this.state = {
                 modal: false,
-                redirect: false
             };
             setTimeout(function() { this.setState({modal: true}); }.bind(this), 4000);
         }
@@ -29,12 +27,28 @@ class CaptureModal extends Component {
         localStorage.setItem("eventfired", 1)
     }
     render() {
-        return (
+
+      let currentPageLink =  [];
+
+      if(this.props.page === ''){
+        currentPageLink= `/${this.props.language}/1/intro`
+
+      }
+      if(this.props.page === '1'){
+        currentPageLink= `/${this.props.language}/1/intro`
+
+      }
+      if(this.props.page === '2'){
+        currentPageLink= `/${this.props.language}/2/products`
+
+      }
+
+      return (
             <div>
                 <Button type="button" className="btn btn-primary btn-xl"  onClick={this.toggle}>SIGN UP FOR CELAVIVE UPDATES</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalBody className="text-center" >
-                        <Link to={`/${this.props.language}/introInt`}><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
+                        <Link to={currentPageLink}><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
                             <i className="fa fa-times faCloseModal"></i>
                         </Button></Link>
                         <h3 className="">Your first look at<br/>
@@ -53,7 +67,9 @@ class CaptureModal extends Component {
 
 const mapStateToProps = state => {
     return {
-        language: state.language
+        language: state.language,
+      page: state.page
+
     }
 }
 

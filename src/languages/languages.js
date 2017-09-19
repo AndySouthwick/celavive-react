@@ -22,7 +22,16 @@ export const languages = [
         'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
         'aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients ' +
         'support your body’s own natural lipid production and help reinforce six major elements that can help maintain' +
-        'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.'
+        'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
+        ctabutton: 'Sign Up For Celavive Updates\n',
+        modalheader: 'Your first look at the future of skincare!\n Product Available',
+        modalearly: 'early 2018',
+        modalsub: 'Subscribe for updates\n',
+        modalformph: 'Email Address',
+        modalformbtnsub: 'Subscribe',
+        modalformbtnnothanks: 'No Thanks'
+
+
     },
     {   id: 2,
         language: 'anz-en',
@@ -42,7 +51,14 @@ export const languages = [
         'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
         'aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients ' +
         'support your body’s own natural lipid production and help reinforce six major elements that can help maintain' +
-        'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.'
+        'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
+      ctabutton: 'Sign Up For Celavive Updates\n',
+      modalheader: 'Your first look at the future of skincare!\n Product Available',
+      modalearly: 'early 2018',
+      modalsub: 'Subscribe for updates\n',
+      modalformph: 'Email Address',
+      modalformbtnsub: 'Subscribe',
+      modalformbtnnothanks: 'No Thanks'
     },
     {
         id: 3,
@@ -61,7 +77,14 @@ export const languages = [
         '包含胶原蛋白、弹性蛋白、和玻尿酸，使您的肌肤看起来更年轻。在这个人体天然的运作过程中，' +
         '藉由将先进的营养素组合物导入皮肤，产生额外的保湿效果，提升强力的湿润感。除了这种独家的复方之外，' +
         'Celavive产品更含有我们的Olivol®植物混合物，是由多种水果萃取物所组成。只要使用一次，就能24小时持续提供丰富的水分。' +
-        ''
+        '',
+      ctabutton: '注册获取Celavive最新信息',
+      modalheader: '让您优先体验新一代的护肤品！\n',
+      modalearly: '产品将在2018年初上市\n',
+      modalsub: '订阅更新\n',
+      modalformph: '电子邮件地址\n',
+      modalformbtnsub: '订阅',
+      modalformbtnnothanks: '不用了，谢谢\n'
     },
     {   id: 4,
        language: 'co-en',
@@ -91,7 +114,15 @@ export const languages = [
         'the feeling of intense hydration and plumping effects.\n' +
         'In addition to this exclusive complex, Celavive products also feature our' +
         'Olivol™ Botanical Blend, which is comprised of fruit extracts that have been clinically ' +
-        'shown to provide 24 hours of rich hydration after just one application.\n'    },
+        'shown to provide 24 hours of rich hydration after just one application.\n',
+        ctabutton: 'Sign Up For Celavive Updates\n',
+        modalheader: 'Your first look at the future of skincare!\n Product Available',
+        modalearly: 'early 2018',
+        modalsub: 'Subscribe for updates\n',
+        modalformph: 'Email Address',
+        modalformbtnsub: 'Subscribe',
+        modalformbtnnothanks: 'No Thanks'},
+
     {   id: 5,
         language: 'co-es',
         introheader: "Cuidado de la piel de alto desempeño formulado con InCelligence®",
@@ -125,7 +156,14 @@ export const languages = [
         'capas más superiores de la piel, favoreciendo la sensación de una hidratación intensa y un ' +
         'efecto de alisamiento.Además de este exclusivo complejo, los productos Celavive también ' +
         'incluyen la mezcla botánica Olivol®, compuesta por extractos de frutas que clínicamente han ' +
-        'demostrado aportar 24 horas de rica hidratación después de solo una aplicación. '    },
+        'demostrado aportar 24 horas de rica hidratación después de solo una aplicación. ',
+      ctabutton: 'Suscríbase para recibir las últimas novedades sobre Celavive\n',
+      modalheader: '¡Acérquese al futuro en el cuidado de la piel!\n',
+      modalearly: 'Productos disponibles a principios de 2018',
+      modalsub: 'Suscríbase para estar informado de las novedades\n',
+      modalformph: 'correo electrónico\n',
+      modalformbtnsub: 'Suscribirme\n',
+      modalformbtnnothanks: 'No, gracias\n'},
     {   id: 6,
         language: 'eu-fr',
        introheader: 'Des soins de la peau qui misent sur le complexe InCelligence®\n',
@@ -156,6 +194,13 @@ export const languages = [
         'ainsi une sensation d’hydratation intensive et des effets raffermissants.Outre ce complexe exclusif, ' +
         'les produits Celavive misent aussi sur le mélange végétal Olivol™, fait d’extraits de fruits éprouvés en ' +
         'clinique pour assurer une riche hydratation pendant 24 heures après une seule application.',
+      ctabutton: 'Abonnement aux mises à jour Celavive',
+      modalheader: 'Aperçu en primeur de l’avenir des soins de beauté! \n',
+      modalearly: 'Produit disponible au début de 2018  \n',
+      modalsub: 'Abonnement aux mises à jour\n',
+      modalformph: 'Adresse email',
+      modalformbtnsub: 'Je m’abonne\n',
+      modalformbtnnothanks: 'Non merci\n'
     },
     {   id: 7,
         language: 'eu-ro',
@@ -187,6 +232,13 @@ export const languages = [
         'intensă și efectele creștere a consistenței.În plus față de acest complex exclusiv, produsele Celavive sunt ' +
         'echipate și cu amestecul nostru de extracte din plante Olivol™, format din extracte de fructe despre care s-a ' +
         'dovedit clinic că asigură o hidratare bogată timp de 24 de ore, după o singură aplicare.',
+      ctabutton: 'Abonnement aux mises à jour Celavive',
+      modalheader: 'Aperçu en primeur de l’avenir des soins de beauté! \n',
+      modalearly: 'Produit disponible au début de 2018  \n',
+      modalsub: 'Abonnement aux mises à jour\n',
+      modalformph: 'Adresse email',
+      modalformbtnsub: 'Je m’abonne\n',
+      modalformbtnnothanks: 'Non merci\n'
     },
     {   id: 8,
         language: 'eu-en',
@@ -214,6 +266,13 @@ export const languages = [
         'In addition to this exclusive complex, Celavive products also feature our Olivol™ Botanical Blend, ' +
         'which is comprised of fruit extracts that have been clinically shown to provide 24 hours of rich hydration ' +
         'after just one application.',
+      ctabutton: 'Sign Up For Celavive Updates\n',
+      modalheader: 'Your first look at the future of skincare!\n Product Available',
+      modalearly: 'early 2018',
+      modalsub: 'Subscribe for updates\n',
+      modalformph: 'Email Address',
+      modalformbtnsub: 'Subscribe',
+      modalformbtnnothanks: 'No Thanks'
     },
     {   id: 9,
         language: 'eu-de',
@@ -235,6 +294,13 @@ export const languages = [
         'Komplex enthalten die Celavive-Produkte unsere Olivol™-Pflanzenmischung. Diese besteht aus Fruchtextrakten, die ' +
         'nach nur einer Anwendung die Haut 24 Stunden lang intensiv mit Feuchtigkeit versorgen, wie in klinischen Tests ' +
         'nachgewiesen wurde.',
+      ctabutton: 'Registrieren Sie sich, um aktuelle Informationen über Celavive zu erhalten',
+      modalheader: 'Ihr erster Blick in die Zukunft der Hautpflege!\n',
+      modalearly: 'Produkt ab Anfang 2018 erhältlich\n',
+      modalsub: 'Aktuelle Informationen abonnieren\n',
+      modalformph: 'E-Mail-Adresse\n',
+      modalformbtnsub: 'Abonnieren\n',
+      modalformbtnnothanks: 'Nein danke\n'
     },
     {   id: 10,
         language: 'eu-es',
@@ -250,6 +316,13 @@ export const languages = [
         'Como parte de este proceso natural, y mediante la aplicación de avanzadas combinaciones de nutrientes en la piel, se produce una hidratación adicional gracias a nutrientes que penetran en las capas más superiores de la piel, favoreciendo la sensación de una hidratación intensa y un efecto de alisamiento.' +
         'Además de este exclusivo complejo, los productos Celavive también incluyen la mezcla botánica Olivol®, compuesta por extractos de frutas que clínicamente han demostrado aportar 24 horas de abundante hidratación después de solo una aplicación.' +
         '',
+      ctabutton: 'Suscríbase para recibir las últimas novedades sobre Celavive\n',
+      modalheader: '¡Acérquese al futuro en el cuidado de la piel!\n',
+      modalearly: 'Productos disponibles a principios de 2018',
+      modalsub: 'Suscríbase para estar informado de las novedades\n',
+      modalformph: 'correo electrónico\n',
+      modalformbtnsub: 'Suscribirme\n',
+      modalformbtnnothanks: 'No, gracias\n'
     },
   {   id: 11,
     language: 'eu-it',
@@ -295,7 +368,14 @@ export const languages = [
     'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
     'aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients ' +
     'support your body’s own natural lipid production and help reinforce six major elements that can help maintain' +
-    'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.'
+    'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
+    ctabutton: 'Sign Up For Celavive Updates\n',
+    modalheader: 'Your first look at the future of skincare!\n Product Available',
+    modalearly: 'early 2018',
+    modalsub: 'Subscribe for updates\n',
+    modalformph: 'Email Address',
+    modalformbtnsub: 'Subscribe',
+    modalformbtnnothanks: 'No Thanks'
   },
   {   id: 13,
     language: 'hk-ch',
@@ -311,7 +391,14 @@ export const languages = [
     ' \n' +
     '在這個人體的天然運作過程中，產品透過將先進的營養組合導入皮膚，將訊號進一步傳入軟組織以達致額外的保濕作用，提升深層滋潤和飽滿豐盈的效果。\n' +
     ' \n' +
-    '除了這種獨有複合物外，Celavive產品更蘊含由多種水果精華所組成的Olivol™植物混合物。經臨床證實，使用一次即能持續24小時提供高度補濕。\n'
+    '除了這種獨有複合物外，Celavive產品更蘊含由多種水果精華所組成的Olivol™植物混合物。經臨床證實，使用一次即能持續24小時提供高度補濕。\n',
+    ctabutton: '注册获取Celavive最新信息',
+    modalheader: '让您优先体验新一代的护肤品！\n',
+    modalearly: '产品将在2018年初上市\n',
+    modalsub: '订阅更新\n',
+    modalformph: '电子邮件地址\n',
+    modalformbtnsub: '订阅',
+    modalformbtnnothanks: '不用了，谢谢\n'
   },
   {   id: 14,
     language: 'jp',
@@ -324,7 +411,14 @@ export const languages = [
     incellheader: 'インセリジェンス® を採用\n',
     founded: 'セルシルナル複合体は、2つのバイオアクティブ ペプチドと2つの植物抽出成分で構成されています。' +
     'これらを組み合わせることで、コラーゲン、エラスチン、ヒアルロン酸といった美しい肌には不可欠な要素の状態を整えます。さらに、科学を基に厳選した栄養素を肌に与えることで、肌が本来もっている「美の力」に働きかけ、みずみずしく、ふっくら感のある肌へ導きます。' +
-    'セルシグナル複合体に加え、みずみずしさを長く持続するために、果物抽出成分（りんご、レンズ豆、スイカ抽出成分）で構成されるオリボル® 植物ブレンドが含まれています。\n'
+    'セルシグナル複合体に加え、みずみずしさを長く持続するために、果物抽出成分（りんご、レンズ豆、スイカ抽出成分）で構成されるオリボル® 植物ブレンドが含まれています。\n',
+    ctabutton: 'セラヴィヴ最新情報をメールで受信する',
+    modalheader: 'スキンケアの未来を見よう！\n',
+    modalearly: '2018年初旬、発売開始\n',
+    modalsub: '更新情報のメール受信\n',
+    modalformph: 'Emailアドレス',
+    modalformbtnsub: 'メールを受信する\n',
+    modalformbtnnothanks: 'メールを希望しない\n'
   },
   {   id: 15,
     language: 'kr',
@@ -341,7 +435,14 @@ export const languages = [
     '피부 특성에 맞게 영양소 공급을 촉진함으로써 피부가 더욱 젊어 보이게 합니다. 피부 건강에 필수적인 여섯 가지 주요한 성분은 또한 피부 표면을 더욱 건강하게 하고 ' +
     '피부결을 더욱 윤기 있게 합니다.' +
     '이러한 고급 영양소 포뮬라는 피부 스스로 충분한 수분을 유지하는 기능을 강화하여 피부에 수분이 충만하게 하므로 탱탱한 피부로 가꾸어줍니다.  ' +
-    '유사나만의 기술력에 더하여 셀라비브 제품은 올리볼™ 식물성 추출물 블렌드가 함유되어 있어 몇 번만 발라도 풍부한 수분을 제공할 수 있게 구성되었습니다.\n'
+    '유사나만의 기술력에 더하여 셀라비브 제품은 올리볼™ 식물성 추출물 블렌드가 함유되어 있어 몇 번만 발라도 풍부한 수분을 제공할 수 있게 구성되었습니다.\n',
+    ctabutton: '셀라비브 제품 최신 소식을 원하시면 등록해주세요\n',
+    modalheader: '스킨케어의 미래를 가장 먼저 확인해보세요!\n',
+    modalearly: '셀라비브 제품은 2018년 초 출시 예정입니다\n',
+    modalsub: '최신 소식을 구독하세요\n',
+    modalformph: '이메일 주소\n',
+    modalformbtnsub: '구독하기\n',
+    modalformbtnnothanks: '다음에 하기\n'
   },
   {   id: 16,
     language: 'mx',
@@ -358,27 +459,17 @@ export const languages = [
     'saludable, más radiante e increíblemente restaurada.Descubra la capacidad natural de su piel para combatir el ' +
     'envejecimiento visible.',
     incellheader: 'Hecho con la Tecnología InCelligence®   ',
-    founded: 'El exclusivo Complejo Celavive está compuesto por dos péptios bioactivos y dos extractos botánicos.  Cuando se combinan, estos ingredientes pueden ayudar a combatir el estrés ambiental y dar apoyo contra las marcas visibles de la piel. Además, estos ingredientes clave apoyan la producción natural de lípidos del cuerpo y ayudan a reforzar seis importantes elementos naturales que pueden ayudar a  mantener una matriz dérmica saludable, incluyendo colágeno, elastina y ácido hialuróico, para gozar de una piel de apariencia más joven.Como parte de este proceso natural, y mediante la aplicación de avanzadas combinaciones de nutrientes en la piel, se produce una humectación adicional a partir de señales que son enviadas más allá de la capa suave, favoreciendo la sensación de una hidratación intensa y un efecto de alisamiento.Además de este exclusivo complejo, los productos Celavive también incluyen la mezcla botánica Olivol®, compuesta por extractos de frutas que clínicamente han demostrado aportar 24 horas de rica hidratación después de solo una aplicación. '
-  },
-  {   id: 16,
-    language: 'mx',
-    introheader:'Cuidado de la piel de alto desempeño formulado con InCelligence Technology®\n',
-    intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente funciones conservadoras de la belleza para combatir los signos visibles de envejecimiento como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel.  \n',
-    celavivefounded: 'La línea USANA Celavive® fue creada con base en la ciencia de la belleza. \n',
-    science: 'Los líderes mundiales en nutrición y creadores de la Tecnología InCelligence® han descubierto la manera' +
-    ' de atacar específicamente sus necesidades de belleza, que son únicas.Mediante el uso de combinaciones de nutrientes ' +
-    'dirigidas, Celavive despierta la capacidad natural de renovación de sus células para activar funciones conservadoras ' +
-    'de belleza e ir más allá de cualquier régimen tradicional para el cuidado de la piel.  Este enfoque integral significa ' +
-    'que Celavive responde de manera única a las necesidades de cada persona, mejorando el tono y la textura, y reduciendo' +
-    ' dramáticamente la aparición de arrugas.A través del uso de sustancias botánicas naturales y poderosos péptidos para ' +
-    'apoyar la comunicación que señaliza la actividad de las células de una piel saludable, su tez comenzará a verse más ' +
-    'saludable, más radiante e increíblemente restaurada.Descubra la capacidad natural de su piel para combatir el ' +
-    'envejecimiento visible.',
-    incellheader: 'Hecho con la Tecnología InCelligence®   ',
-    founded: 'El exclusivo Complejo Celavive está compuesto por dos péptios bioactivos y dos extractos botánicos.  Cuando se combinan, estos ingredientes pueden ayudar a combatir el estrés ambiental y dar apoyo contra las marcas visibles de la piel. Además, estos ingredientes clave apoyan la producción natural de lípidos del cuerpo y ayudan a reforzar seis importantes elementos naturales que pueden ayudar a  mantener una matriz dérmica saludable, incluyendo colágeno, elastina y ácido hialuróico, para gozar de una piel de apariencia más joven.Como parte de este proceso natural, y mediante la aplicación de avanzadas combinaciones de nutrientes en la piel, se produce una humectación adicional a partir de señales que son enviadas más allá de la capa suave, favoreciendo la sensación de una hidratación intensa y un efecto de alisamiento.Además de este exclusivo complejo, los productos Celavive también incluyen la mezcla botánica Olivol®, compuesta por extractos de frutas que clínicamente han demostrado aportar 24 horas de rica hidratación después de solo una aplicación. '
+    founded: 'El exclusivo Complejo Celavive está compuesto por dos péptios bioactivos y dos extractos botánicos.  Cuando se combinan, estos ingredientes pueden ayudar a combatir el estrés ambiental y dar apoyo contra las marcas visibles de la piel. Además, estos ingredientes clave apoyan la producción natural de lípidos del cuerpo y ayudan a reforzar seis importantes elementos naturales que pueden ayudar a  mantener una matriz dérmica saludable, incluyendo colágeno, elastina y ácido hialuróico, para gozar de una piel de apariencia más joven.Como parte de este proceso natural, y mediante la aplicación de avanzadas combinaciones de nutrientes en la piel, se produce una humectación adicional a partir de señales que son enviadas más allá de la capa suave, favoreciendo la sensación de una hidratación intensa y un efecto de alisamiento.Además de este exclusivo complejo, los productos Celavive también incluyen la mezcla botánica Olivol®, compuesta por extractos de frutas que clínicamente han demostrado aportar 24 horas de rica hidratación después de solo una aplicación. ',
+    ctabutton: 'Suscríbase para recibir las últimas novedades sobre Celavive\n',
+    modalheader: '¡Acérquese al futuro en el cuidado de la piel!\n',
+    modalearly: 'Productos disponibles a principios de 2018',
+    modalsub: 'Suscríbase para estar informado de las novedades\n',
+    modalformph: 'correo electrónico\n',
+    modalformbtnsub: 'Suscribirme\n',
+    modalformbtnnothanks: 'No, gracias\n'
   },
   {   id: 17,
-    language: 'my',
+    language: 'my-ch',
     introheader:'采用InCelligence®的高性能护肤产品\n',
     intro: '我们推出先进的护肤产品，能积极支持皮肤中常保美丽的天然机能，减少明显的老化迹象，例如干燥、松弛、粗糙、和皱纹等，大大改善皮肤的外观',
     celavivefounded: 'Celavive以美容科学为基础。\n',
@@ -388,8 +479,14 @@ export const languages = [
     ' \n' +
     '在这个人体天然的运作过程中，藉由将先进的营养素组合物导入皮肤，将讯号进一步传入软组织以产生额外的保湿作用，提升强力的湿润感和丰盈的效果。\n' +
     ' \n' +
-    '除了这种独家的复方之外，Celavive产品更含有我们的[MY]Olivol™[SG]Olivol植物混合物，是由多种水果萃取物所组成。只要使用一次，就能24小时持续提供丰富的水分。\n '
-  },
+    '除了这种独家的复方之外，Celavive产品更含有我们的[MY]Olivol™[SG]Olivol植物混合物，是由多种水果萃取物所组成。只要使用一次，就能24小时持续提供丰富的水分。\n ',
+    ctabutton: '注册获取Celavive最新信息',
+    modalheader: '让您优先体验新一代的护肤品！\n',
+    modalearly: '产品将在2018年初上市\n',
+    modalsub: '订阅更新\n',
+    modalformph: '电子邮件地址\n',
+    modalformbtnsub: '订阅',
+    modalformbtnnothanks: '不用了，谢谢\n'},
   {   id: 18,
     language: 'ph',
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
@@ -404,7 +501,22 @@ export const languages = [
     '\n' +
     'Discover your skin’s natural ability to fight visible signs of aging.\n',
     incellheader: 'Made with InCelligence® \n',
-    founded: 'The exclusive Celavive complex is made up of two bioactive peptides and two botanical extracts. When combined, these ingredients work to help counteract visible signs of chronological and lifestyle stress aging like fine lines and wrinkles by introducing key nutrients into the skin. Plus, these key beauty ingredients help support your body’s own natural lipid production and help support six major elements that can help maintain a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.As part of this natural process, and by introducing advanced nutrient combinations into the skin, additional moisturization is produced, promoting the feeling of intense hydration and plumping effects.In addition to this exclusive complex, some Celavive products also feature our Olivol® Botanical Blend, which is comprised of fruit extracts that have been clinically shown to provide 24 hours of rich hydration after just one application.'
+    founded: 'The exclusive Celavive complex is made up of two bioactive peptides and two botanical extracts. When combined, ' +
+    'these ingredients work to help counteract visible signs of chronological and lifestyle stress aging like fine lines and' +
+    ' wrinkles by introducing key nutrients into the skin. Plus, these key beauty ingredients help support your body’s own natural ' +
+    'lipid production and help support six major elements that can help maintain a healthy skin matrix, including collagen, ' +
+    'elastin, and hyaluronic acid, for noticeably younger-looking skin.As part of this natural process, and by introducing ' +
+    'advanced nutrient combinations into the skin, additional moisturization is produced, promoting the feeling of intense ' +
+    'hydration and plumping effects.In addition to this exclusive complex, some Celavive products also feature our Olivol® ' +
+    'Botanical Blend, which is comprised of fruit extracts that have been clinically shown to provide 24 hours of rich hydration ' +
+    'after just one application.',
+    ctabutton: 'Sign Up For Celavive Updates\n',
+    modalheader: 'Your first look at the future of skincare!\n Product Available',
+    modalearly: 'early 2018',
+    modalsub: 'Subscribe for updates\n',
+    modalformph: 'Email Address',
+    modalformbtnsub: 'Subscribe',
+    modalformbtnnothanks: 'No Thanks'
   },
   {   id: 19,
     language: 'th',
@@ -423,8 +535,14 @@ export const languages = [
     ' \n' +
     'กระบวนการทางธรรมชาตินี้และการนำส่วนผสมสารอาหารสูตรพิเศษอันล้ำสมัยเข้าสู่ผิวทำให้เกิดการผลิตความชุ่มชื้นมากขึ้นจึงทำให้ผิวชุ่มชื่นอย่างล้ำลึกและเปล่งปลั่งเต่งตึง\n' +
     ' \n' +
-    'นอกจากส่วนผสมสูตรพิเศษนี้แล้ว ผลิตภัณฑ์เซลาวีฟบางชนิดยังมีส่วนผสมของสารสกัดโอลิวอลจากพฤกษชาติ ซึ่งประกอบด้วยสารสกัดจากผลไม้ที่ได้รับการพิสูจน์ทางคลินิกแล้วว่าให้ความชุ่มชื้นยาวนานถึง 24 ชั่วโมงหลังการใช้เพียงครั้งเดียว\n'
-  },
+    'นอกจากส่วนผสมสูตรพิเศษนี้แล้ว ผลิตภัณฑ์เซลาวีฟบางชนิดยังมีส่วนผสมของสารสกัดโอลิวอลจากพฤกษชาติ ซึ่งประกอบด้วยสารสกัดจากผลไม้ที่ได้รับการพิสูจน์ทางคลินิกแล้วว่าให้ความชุ่มชื้นยาวนานถึง 24 ชั่วโมงหลังการใช้เพียงครั้งเดียว\n',
+    ctabutton: 'สมัครรับข่าวสารล่าสุดเกี่ยวกับเซลาวีฟ\n',
+    modalheader: 'ครั้งแรกกับอนาคตของผลิตภัณฑ์เพื่อการดูแลผิว\n',
+    modalearly: 'สินค้าวางจำหน่ายต้นปี 2561\n',
+    modalsub: 'สมัครรับข่าวสารล่าสุด\n',
+    modalformph: 'ที่อยู่อีเมล\n',
+    modalformbtnsub: 'สมัครรับข่าวสาร\n',
+    modalformbtnnothanks: 'ไม่ ขอบคุณ\n'},
   {   id: 20,
     language: 'tw',
     introheader:'採用InCelligence®的高性能護膚產品\n',
@@ -432,8 +550,14 @@ export const languages = [
     celavivefounded: 'ยCelavive™以美容科學為基礎。\n',
     science: 'ผ全球營養學的領先者和InCelligence®技術的開發團隊發現了一種專門解決您的獨特美容需求的新方法。Celavive使用針對性的營養素組合，可喚醒您皮膚的天然更新能力，提昇更年輕的外觀，超越傳統的護膚法。這種全面性的方法，意味著Celavive對每個人都有獨特的效果，有助於維持皮膚色調和膚質的外觀和感覺，同時減少皺紋的出現。過使用天然植物性成份和胜肽來支援您身體的天然能力，使您的膚色開始變得更健康、亮麗，容光煥發。發掘皮膚創造健康、亮麗外觀的天然能力。',
     incellheader:'採用InCelligence®\n',
-    founded: '獨家的Celavive複方係由兩種生物活性胜肽和兩種植物萃取物所組成。結合起來，這些成份會將關鍵的營養素導入皮膚中，幫助減少明顯的老化跡象，例如細紋和皺紋。此外，這些關鍵美容成份能支援人體脂質的天然生產過程，可協助支援能維持健康皮膚基質的六個自然發生的元素，使您肌膚看起來更年輕。在這個人體天然的運作過程中，藉由將先進的營養素組合物導入皮膚，產生額外的保濕作用，有助於強力的濕潤感和豐盈的效果。除了這種獨家的複方之外，Celavive產品更含有我們的Olivol™植物混合物，是由多種水果萃取物所組成。只要使用一次，就能提供豐富的水分。'
-  },
+    founded: '獨家的Celavive複方係由兩種生物活性胜肽和兩種植物萃取物所組成。結合起來，這些成份會將關鍵的營養素導入皮膚中，幫助減少明顯的老化跡象，例如細紋和皺紋。此外，這些關鍵美容成份能支援人體脂質的天然生產過程，可協助支援能維持健康皮膚基質的六個自然發生的元素，使您肌膚看起來更年輕。在這個人體天然的運作過程中，藉由將先進的營養素組合物導入皮膚，產生額外的保濕作用，有助於強力的濕潤感和豐盈的效果。除了這種獨家的複方之外，Celavive產品更含有我們的Olivol™植物混合物，是由多種水果萃取物所組成。只要使用一次，就能提供豐富的水分。',
+    ctabutton: '注册获取Celavive最新信息',
+    modalheader: '让您优先体验新一代的护肤品！\n',
+    modalearly: '产品将在2018年初上市\n',
+    modalsub: '订阅更新\n',
+    modalformph: '电子邮件地址\n',
+    modalformbtnsub: '订阅',
+    modalformbtnnothanks: '不用了，谢谢\n'},
 
 
 ]
