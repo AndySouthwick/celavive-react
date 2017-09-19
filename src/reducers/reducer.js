@@ -23,7 +23,14 @@ export function reducer(state = initialState, action){
                 intro: action.payload.intro,
                 introheader: action.payload.introheader,
                 founded: action.payload.founded,
-                science: action.payload.science
+                science: action.payload.science,
+                ctabutton: action.payload.ctabutton,
+                modalheader: action.payload.modalheader,
+                modalearly: action.payload.modalearly,
+                modalsub: action.payload.modalsub,
+                modalformph:  action.payload.modalformph,
+                modalformbtnsub: action.payload.modalformbtnnothanks,
+                modalformbtnnothanks: action.payload.modalformbtnnothanks
             }
       case actionTypes.UPDATE_PAGE:
         console.log('hit reducer')

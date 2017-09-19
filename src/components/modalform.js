@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import { Button, Modal, Form, ModalBody, Input, Label } from 'reactstrap';
+import {connect} from 'react-redux'
+
 
 class ModalForm extends Component{
 
@@ -26,17 +28,17 @@ class ModalForm extends Component{
                             <Label className="previewLabel" for="awf_field-92405287"></Label>
                             <div className="af-textWrap">
                                 <Input className="text" id="awf_field-92405287" type="text" name="email" value=""
-                                       tabIndex="500" placeholder="Email Address"/>
+                                       tabIndex="500" placeholder={this.props.modalformph}/>
                             </div>
                             <div className="af-clear"></div>
                         </div>
                         <div className="af-element buttonContainer">
                             <button name="submit" className="btn btn-primary btn-lg btn-block" type="submit"
-                                    value="Submit" tabIndex="501">Subscribe
+                                    value="Submit" tabIndex="501">{this.props.modalformbtnsub}
                             </button>
 
                             <a href="/intro"><button name="cancel" className="btn btn-primary-invert btn-lg btn-block modal-check" type="button"
-                                                     data-dismiss="modal" value="cancel" tabIndex="501">No Thanks
+                                                     data-dismiss="modal" value="cancel" tabIndex="501">{this.props.modalformbtnnothanks}
                             </button></a>
                             <div className="af-clear"></div>
                         </div>
@@ -53,4 +55,13 @@ class ModalForm extends Component{
         )
     }
 }
-export default ModalForm
+const mapStateToProps = state => {
+  return {
+    modalformph: state.modalformph,
+    modalformbtnsub: state.modalformbtnsub,
+    modalformbtnnothanks: state.modalformbtnnothanks
+  }
+}
+
+const reduxConnect = connect(mapStateToProps)(ModalForm)
+export default reduxConnect

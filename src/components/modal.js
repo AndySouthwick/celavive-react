@@ -45,18 +45,17 @@ class CaptureModal extends Component {
 
       return (
             <div>
-                <Button type="button" className="btn btn-primary btn-xl"  onClick={this.toggle}>SIGN UP FOR CELAVIVE UPDATES</Button>
+                <Button type="button" className="btn btn-primary btn-xl"  onClick={this.toggle}>{this.props.ctabutton}</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalBody className="text-center" >
                         <Link to={currentPageLink}><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
                             <i className="fa fa-times faCloseModal"></i>
-                        </Button></Link>
-                        <h3 className="">Your first look at<br/>
-                            the future of skincare!<br/>
-                            Product available<br/>
-                            <span className="date">FEBRUARY 2018</span>
+                        </Button></Link><br/>
+                        <h3 className="">{this.props.modalheader}<br/>
+
+                            <span className="date">{this.props.modalearly}</span>
                         </h3>
-                        <h3 className="mb-0">Subscribe for updates</h3>
+                        <h3 className="mb-0">{this.props.modalsub}</h3>
                             <ModalForm/>
                     </ModalBody>
                 </Modal>
@@ -67,8 +66,14 @@ class CaptureModal extends Component {
 
 const mapStateToProps = state => {
     return {
-        language: state.language,
-      page: state.page
+      language: state.language,
+      page: state.page,
+      ctabutton: state.ctabutton,
+      modalheader: state.modalheader,
+      modalearly: state.modalearly,
+      modalsub: state.modalsub
+
+
 
     }
 }
