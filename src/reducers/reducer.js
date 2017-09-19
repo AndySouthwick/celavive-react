@@ -30,7 +30,8 @@ export function reducer(state = initialState, action){
                 modalsub: action.payload.modalsub,
                 modalformph:  action.payload.modalformph,
                 modalformbtnsub: action.payload.modalformbtnnothanks,
-                modalformbtnnothanks: action.payload.modalformbtnnothanks
+                modalformbtnnothanks: action.payload.modalformbtnnothanks,
+                flag: action.payload.flag
             }
       case actionTypes.UPDATE_PAGE:
         console.log('hit reducer')

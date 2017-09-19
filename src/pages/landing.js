@@ -3,7 +3,7 @@ import '../styles/App.css';
 import CelaviveHeader from '../components/landingspecific/header'
 import CelaviveFooter from '../components/footer'
 import CelaviveCta from '../components/cta/cta'
-import Navigation from '../components/navigation'
+import Navigation from '../components/navigation/navigation'
 import {languages} from '../languages/languages'
 import { chlan } from '../actions/actions'
 import store from '../store'

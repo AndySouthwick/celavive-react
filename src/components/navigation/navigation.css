@@ -1,0 +1,68 @@
+@keyframes slideMenuIn {
+  0% {
+    right: -100%; }
+  100% {
+    right: 0%; } }
+
+@keyframes slideMenuOut {
+  0% {
+    right: 0%; }
+  100% {
+    right: -100%; } }
+
+.hide {
+  top: 0;
+  bottom: 0;
+  padding: 1.3em;
+  margin-top: -.5em;
+  line-height: .5em;
+  z-index: 101;
+  animation: slideMenuOut 1s;
+  position: fixed;
+  right: -100%;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.86);
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.show {
+  top: 0;
+  bottom: 0;
+  padding: 1.3em;
+  margin-top: -.5em;
+  line-height: .5em;
+  z-index: 101;
+  animation: slideMenuIn .5s;
+  position: fixed;
+  right: 0%;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.86);
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.flag img {
+  border-radius: 50%; }
+
+.navMenu {
+  background-color: #FFFFFF !important;
+  height: 100%; }
+
+.navmenuitem {
+  border-bottom: solid .1em;
+  border-color: rgba(139, 199, 234, 0.45);
+  line-height: 2em;
+  position: relative;
+  left: 50px;
+  margin-left: -35px;
+  margin-right: -35px; }
+
+.toggleButon {
+  position: fixed;
+  right: 10px;
+  top: 1em;
+  border-radius: 50%;
+  z-index: 102; }
+
+.navMenu h4 {
+  margin-top: 1em;
+  margin-right: 2em; }
