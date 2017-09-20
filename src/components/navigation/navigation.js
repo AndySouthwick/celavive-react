@@ -52,6 +52,8 @@ class Navigation extends Component {
 
         let Selectors =  [];
 
+
+
         if(this.props.page === '1'){
           Selectors = languages.map((lan) =>
             <div key={lan.id} className="navmenuitem">

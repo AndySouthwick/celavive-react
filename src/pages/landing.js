@@ -7,6 +7,8 @@ import Navigation from '../components/navigation/navigation'
 import {languages} from '../languages/languages'
 import { chlan, chpage } from '../actions/actions'
 import store from '../store'
+import {Redirect} from 'react-router-dom'
+
 
 class Landing extends Component {
   constructor(){
@@ -14,8 +16,12 @@ class Landing extends Component {
 
   }
 
+
     render() {
 
+      if(!this.props.match.params.page){
+        console.log('working')
+      }
       const currentPage =  this.props.match.params.page
 
       console.log(currentPage)

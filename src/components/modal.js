@@ -30,16 +30,16 @@ class CaptureModal extends Component {
 
       let currentPageLink =  [];
 
-      if(this.props.page === ''){
-        currentPageLink= `/${this.props.language}/1/intro`
-
-      }
       if(this.props.page === '1'){
-        currentPageLink= `/${this.props.language}/1/intro`
+        currentPageLink= `/${this.props.language}/2/intro`
 
       }
       if(this.props.page === '2'){
-        currentPageLink= `/${this.props.language}/2/products`
+        currentPageLink= `/${this.props.language}/2/intro`
+
+      }
+      if(this.props.page === '3'){
+        currentPageLink= `/${this.props.language}/3/products`
 
       }
 
