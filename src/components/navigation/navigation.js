@@ -52,21 +52,6 @@ class Navigation extends Component {
 
         let Selectors =  [];
 
-        if(this.props.page === ''){
-          Selectors = languages.map((lan) =>
-            <div key={lan.id} className="navmenuitem">
-              <div onClick={() => this.setState({
-                id: lan.id,
-                language: lan.language,
-                flag: lan.flag
-              })}>
-                <Link to={`${lan.language}`}> {lan.language} <span className="flag"><img src={lan.flag} width="25" height="25"/></span></Link>
-              </div>
-            </div>
-          )
-        }
-
-
         if(this.props.page === '1'){
           Selectors = languages.map((lan) =>
             <div key={lan.id} className="navmenuitem">
@@ -75,12 +60,12 @@ class Navigation extends Component {
                 language: lan.language,
                 flag: lan.flag
               })}>
-                <Link to={`/${lan.language}/1/intro`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span> </Col></Link>
+                <Link to={`/${lan.language}/1`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span> </Col></Link>
               </div>
             </div>
-          );
-
+          )
         }
+
 
         if(this.props.page === '2'){
           Selectors = languages.map((lan) =>
@@ -89,8 +74,23 @@ class Navigation extends Component {
                 id: lan.id,
                 language: lan.language,
                 flag: lan.flag
+              })}>
+                <Link to={`/${lan.language}/2/intro`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span> </Col></Link>
+              </div>
+            </div>
+          );
+
+        }
+
+        if(this.props.page === '3'){
+          Selectors = languages.map((lan) =>
+            <div key={lan.id} className="navmenuitem">
+              <div onClick={() => this.setState({
+                id: lan.id,
+                language: lan.language,
+                flag: lan.flag
               })} >
-                <Link to={`${lan.language}/products`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span></Col></Link>
+                <Link to={`../../${lan.language}/3/products`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span></Col></Link>
               </div>
             </div>
 

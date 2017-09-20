@@ -17,16 +17,16 @@ class Cleanse extends Component{
           </Col>
         </Row>
         <Row>
-          <Col md="4">
+          <Col md="4" xs="12">
             <img src={require('../../../img/conditioningmakeupremover.png')} alt=""/>
             <p>Conditioning Makeup Remover</p>
           </Col>
-          <Col md="4">
+          <Col md="4" xs="12">
             <img src={require('../../../img/creamyfoamcleanser.png')} alt=""/>
           <p>Creamy Foam Cleanser</p>
             <p><i>combination/oily skin</i></p>
           </Col>
-          <Col md="4">
+          <Col md="4" xs="12">
             <img src={require('../../../img/gentlemilkcleanser.png')} alt=""/>
             <p>Gentle Milk Cleanser</p>
             <i>dry/sensitive skin</i>
