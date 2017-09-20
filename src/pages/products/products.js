@@ -24,6 +24,7 @@ class Products extends Component{
 
   render(){
 
+
     const currentPage =  this.props.match.params.page
 
     console.log(currentPage)

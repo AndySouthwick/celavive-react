@@ -3,7 +3,7 @@ import {languages} from '../../languages/languages'
 import { chlan } from '../../actions/actions'
 import store from '../../store'
 import {connect} from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link, Redirect } from 'react-router-dom'
 import {Container, Col, Row, Button} from 'reactstrap'
 import './navigation.css'
 
@@ -15,7 +15,8 @@ class Navigation extends Component {
     this.state = {
       ...currentState,
       toggleNavMenu: 'hide',
-      toggleButton: 'togleButonOff'
+      toggleButton: 'togleButonOff',
+      redirect: false
     };
   }
 
@@ -24,7 +25,6 @@ class Navigation extends Component {
       toggleNavMenu: 'show',
     })
   }
-
   toggleMenuOff = () => {
     this.setState({
       toggleNavMenu: 'hide',
@@ -32,7 +32,7 @@ class Navigation extends Component {
   }
       render(){
 
-        console.log(this.state)
+
 
         const currentState = store.getState()
 
@@ -51,6 +51,21 @@ class Navigation extends Component {
 
 
         let Selectors =  [];
+
+        if(!this.props.page){
+          Selectors = languages.map((lan) =>
+            <div key={lan.id} className="navmenuitem">
+              <div onClick={() => this.setState({
+                id: lan.id,
+                language: lan.language,
+                flag: lan.flag
+              })}>
+                <Link to={`/${lan.language}/1`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span> </Col></Link>
+              </div>
+            </div>
+          )
+        }
+
 
 
 

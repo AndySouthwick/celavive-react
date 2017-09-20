@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { Jumbotron, Button } from 'reactstrap';
 import './hero.css'
+import {connect} from 'react-redux'
 
 class Hero extends Component{
   render(){
@@ -10,11 +11,20 @@ class Hero extends Component{
           <div className="herotext">
             <h1>CELAVIVE</h1>
             <p>____</p>
-            <p>A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.</p>
+            <p>{this.props.herotext}</p>
           </div>
         </Jumbotron>
       </div>
     )
   }
 }
-export default Hero
+
+//export default Hero
+const mapStateToProps = state => {
+  return {
+    herotext: state.changit.productstagline
+  }
+}
+
+const reduxConnect = connect(mapStateToProps)(Hero)
+export default reduxConnect

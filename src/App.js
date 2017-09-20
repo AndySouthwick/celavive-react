@@ -12,7 +12,7 @@ class App extends Component {
       <div className="full-height">
           <Switch>
             <Route exact path="/" component={Landing}/>
-
+            <Route exact path="/:language" component={Landing}/>
             <Route exact path="/:language/:page" component={Landing}/>
                <Route  path="/intro" component={Intro}/>
                <Route exact  path="/:language/:page/intro" component={Intro}/>

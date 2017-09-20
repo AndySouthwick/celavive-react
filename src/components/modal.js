@@ -29,6 +29,9 @@ class CaptureModal extends Component {
     render() {
 
       let currentPageLink =  [];
+      if(!this.props.page){
+        currentPageLink= `/${this.props.language}/2/intro`
+      }
 
       if(this.props.page === '1'){
         currentPageLink= `/${this.props.language}/2/intro`
@@ -72,9 +75,6 @@ const mapStateToProps = state => {
       modalheader: state.modalheader,
       modalearly: state.modalearly,
       modalsub: state.modalsub
-
-
-
     }
 }
 
