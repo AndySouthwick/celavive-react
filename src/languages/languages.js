@@ -1,6 +1,6 @@
 export const languages = [
     {   id: 1,
-        language: 'us-en',
+        language: 'EN-US',
         introheader:'Introducing advanced skincare',
         celavivefounded: 'Celavive™ - Founded on the Scinece of Beuty',
         intro: ' Products that actively support beauty-preserving\n' +
@@ -58,7 +58,7 @@ export const languages = [
 
     },
     {   id: 2,
-        language: 'anz-en',
+        language: 'EN-ANZ',
         introheader:'High-Performance Skincare Featuring InCelligence®\n',
         intro: 'Introducing skincare products that actively support your skin’s natural functions to reduce the appearance of visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n',
         celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
@@ -113,7 +113,7 @@ export const languages = [
         id: 3,
         introheader: '採用InCelligence®的高性能護膚產品',
         intro: '為了擁有光鮮亮麗的年輕肌膚，您需要有標靶性的營養素，來支援您肌膚天然常保美麗的機能，同時幫助抵禦環境和生活因素的傷害。',
-        language: 'anz-ch',
+        language: 'ZH-ANZ',
          celavivefounded: 'USANA Celavive®以美容科学为基础。\n',
         science: '全球营养学的领先者和InCelligence®技术的开发团队发现了一种专门解决您的美容特殊需求的新方法。' +
         'Celavive使用针对性的营养素组合，可唤醒您皮肤的天然更新能力，提升更年轻的外貌，超越了传统的护肤法。这种全面性的方法，意味着Celavive对每个人都有独特的效果，' +
@@ -161,7 +161,7 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'
     },
     {   id: 4,
-       language: 'co-en',
+       language: 'EN-CO',
         introheader: 'High-Performance Skincare Featuring InCelligence®\n',
         intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like photodamage, dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of your skin. \n',
         celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
@@ -223,7 +223,7 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'},
 
     {   id: 5,
-        language: 'co-es',
+        language: 'ES-CO',
         introheader: "Cuidado de la piel de alto desempeño formulado con InCelligence®",
         intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente ' +
         'funciones conservadoras de - belleza para combatir los signos visibles de envejecimiento ' +
@@ -289,7 +289,7 @@ export const languages = [
       productsrepnightgel: 'Replenishing Night Gel',
       productsrepnightcream: 'Replenishing Night Cream'},
     {   id: 6,
-        language: 'eu-fr',
+        language: 'FR-EU',
        introheader: 'Des soins de la peau qui misent sur le complexe InCelligence®\n',
        intro: 'Voici des produits de soins de la peau qui renforcent activement les fonctions préservant la ' +
       'beauté de la peau afin de défier les signes visibles du vieillissement – sécheresse, perte de fermeté, ' +
@@ -352,7 +352,7 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'
     },
     {   id: 7,
-        language: 'eu-ro',
+        language: 'RO-EU',
         introheader: 'Îngrijire de înaltă performanță a pielii cu ajutorul InCelligence®\n',
         intro: 'Introducem produse avansate de îngrijire a pielii, care susțin în mod activ funcțiile naturale de întreținere a ' +
       'frumuseții ale pielii, combătând semnele vizibile ale îmbătrânirii precum uscăciunea, pierderea fermității, afectarea' +
@@ -415,8 +415,9 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'
     },
     {   id: 8,
-        language: 'eu-en',
-        intro: 'Products that actively support beauty-preserving functions in your skin to defy visible signs of aging like ' +
+        language: 'EN-EU',
+      introheader:'Introducing advanced skincare',
+      intro: 'Products that actively support beauty-preserving functions in your skin to defy visible signs of aging like ' +
         'photodamage dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of ' +
         'your skin.\n',
         celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
@@ -474,7 +475,7 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'
     },
     {   id: 9,
-        language: 'eu-de',
+        language: 'DE-EU',
         introheader: 'Wirkungsvolle Hautpflege mit InCelligence®\n',
         celavivefounded: 'Celavive™ gründet sich auf die Wissenschaft der Schönheit. \n',
         intro: 'Wir stellen vor: innovative Pflegeprodukte, die die natürlichen Schutzfunktionen Ihrer Haut aktiv unterstützen, Ihren Teint merklich verbessern und sichtbaren Anzeichen der Alterung wie Trockenheit, Schlaffheit, und Faltenbildung entgegenwirken. \n',
@@ -527,7 +528,7 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'
     },
     {   id: 10,
-        language: 'eu-es',
+        language: 'ES-EU',
          introheader: 'Cuidado de la piel de alto rendimiento formulado con InCelligence Technology®\n',
         intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente funciones conservadoras de la belleza para combatir los signos visibles de envejecimiento como el daño ocasionado por el sol, la sequedad, la pérdida de firmeza, la decoloración, la textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel.',
         celavivefounded:'La línea Celavive™ fue creada con base en la ciencia de la belleza. \n',
@@ -551,7 +552,7 @@ export const languages = [
       modalformbtnnothanks: 'No, gracias\n'
     },
   {   id: 11,
-    language: 'eu-it',
+    language: 'IT-EU',
     introheader: 'Skincare ad alte prestazioni con InCelligence®\n',
     intro: 'Introduzione di prodotti avanzati per la cura della pelle che supportano attivamente le funzioni di conservazione della bellezza naturale della pelle per sfidare i segni visibili dell\'invecchiamento, come secchezza, la perdita di tono, struttura e rughe, migliorando notevolmente l\'aspetto della tua pelle. \n',
     celavivefounded:'Celavive® è stata fondata sulla scienza della bellezza. \n',
@@ -578,7 +579,7 @@ export const languages = [
     'dimostrato di essere in grado di fornire un’idratazione intensa di 24 ore anche dopo una sola applicazione.',
 },
   {   id: 12,
-    language: 'hk-en',
+    language: 'EN-HK',
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     intro: ' Introducing advanced skincare products that actively support natural beauty-preserving ' +
     'functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, ' +
@@ -631,7 +632,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'
   },
   {   id: 13,
-    language: 'hk-ch',
+    language: 'ZH-HK',
     introheader:'採用InCelligence®的高效護膚品\n',
     intro: '我們推出融入先進科學的護膚產品，能積極支援肌膚的天然美容功能，對抗明顯的衰老跡象，例如乾燥、鬆弛、粗糙和皺紋，有效改善您的肌膚。',
     celavivefounded: 'USANA Celavive®以美容科學為基礎。\n',
@@ -679,7 +680,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'
   },
   {   id: 14,
-    language: 'jp',
+    language: 'JP',
     introheader:'インセリジェンス®を採用したスキンケア製品\n',
     intro: 'あなたに秘められた美しさ、水に満たされたようなにみずみすしさを感じ、うるおいに包まれた肌へ。思わずハッとするような、あなたへと導いてくれるスキンケア製品の登場です。\n',
     celavivefounded: 'セラヴィブ®は、科学を基に設計されました\n',
@@ -724,7 +725,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'
   },
   {   id: 15,
-    language: 'kr',
+    language: 'KR',
     introheader:'유사나만의 기술력으로 탄생한 스킨케어 시스템',
     intro: '피부 스스로 충분한 수분 유지를 강화하여 피부 건조를 방지하고 피부를 탱탱하게 하며 피부결을 고르게 유지해주어 더욱 빛나는 피부로 보이게 가꾸어주는 스킨케어 제품이 드디어 출시됩니다.\n',
     celavivefounded: '유사나®셀라비브™는 아름다움의 과학으로 탄생하였습니다.\n',
@@ -773,7 +774,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'
   },
   {   id: 16,
-    language: 'mx',
+    language: 'MX',
     introheader:'Cuidado de la piel de alto desempeño formulado con InCelligence Technology®\n',
     intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente funciones conservadoras de la belleza para combatir los signos visibles de envejecimiento como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel.  \n',
     celavivefounded: 'La línea USANA Celavive® fue creada con base en la ciencia de la belleza. \n',
@@ -822,7 +823,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'
   },
   {   id: 17,
-    language: 'my-ch',
+    language: 'ZH-MY',
     introheader:'采用InCelligence®的高性能护肤产品\n',
     intro: '我们推出先进的护肤产品，能积极支持皮肤中常保美丽的天然机能，减少明显的老化迹象，例如干燥、松弛、粗糙、和皱纹等，大大改善皮肤的外观',
     celavivefounded: 'Celavive以美容科学为基础。\n',
@@ -843,7 +844,7 @@ export const languages = [
     modalformbtnsub: '订阅',
     modalformbtnnothanks: '不用了，谢谢\n'},
   {   id: 18,
-    language: 'ph',
+    language: 'PH',
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n' +
     '\n',
@@ -899,7 +900,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'
   },
   {   id: 19,
-    language: 'th',
+    language: 'TH',
     introheader:'ผลิตภัณฑ์ดูแลผิวพรรณประสิทธิภาพสูงที่พัฒนาขึ้นด้วยเทคโนโลยีอินเซลลิเจนซ์\n',
     intro: 'ขอแนะนำผลิตภัณฑ์ดูแลผิวพรรณที่ส่งเสริมการทำงานตามธรรมชาติของผิวเพื่อลดสัญญาณแห่งวัยที่เห็นได้ชัดเช่น ความแห้งกร้าน, การสูญเสียความยืดหยุ่นและความละเอียดของผิว และริ้วรอยเหี่ยวย่น',
     celavivefounded: 'ยูซานา เซลาวีฟ พัฒนาขึ้นจากวิทยาศาสตร์แห่งความงาม\n',
@@ -949,7 +950,7 @@ export const languages = [
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'},
   {   id: 20,
-    language: 'tw',
+    language: 'TW',
     introheader:'採用InCelligence®的高性能護膚產品\n',
     intro: '我們推出的護膚產品，能積極支援您皮膚減少明顯老化跡象的天然機能，例如乾燥、鬆弛、粗糙、和皺紋等，有助於維持皮膚年輕的外觀與感覺。\n',
     celavivefounded: 'ยCelavive™以美容科學為基礎。\n',
@@ -988,6 +989,62 @@ export const languages = [
     productsprodaycream: 'Protective Day Cream',
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'},
+  {   id: 21,
+    language: 'EN-CA',
+    introheader:'High-Performance Skincare Featuring InCelligence®\n',
+    intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n' +
+    '\n',
+    celavivefounded: 'Celavive™ is founded on the science of beauty.',
+    science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your unique beauty needs.\n' +
+    '\n' +
+    'Using targeted nutrient combinations, Celavive helps awaken our skin’s natural renewing ability to activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive approach means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically reducing the appearance of wrinkles.\n' +
+    '\n' +
+    'By using natural botanicals and powerful peptides to support your body’s natural renewing abilities, your complexion will begin to appear healthier, more radiant, and incredibly restored. \n' +
+    '\n' +
+    'Discover your skin’s natural ability to fight visible signs of aging.\n',
+    incellheader: 'Made with InCelligence® \n',
+    flag: './../../img/countryflag/ph.png',
+
+    founded: 'The exclusive Celavive complex is made up of two bioactive peptides and two botanical extracts. When combined, ' +
+    'these ingredients work to help counteract visible signs of chronological and lifestyle stress aging like fine lines and' +
+    ' wrinkles by introducing key nutrients into the skin. Plus, these key beauty ingredients help support your body’s own natural ' +
+    'lipid production and help support six major elements that can help maintain a healthy skin matrix, including collagen, ' +
+    'elastin, and hyaluronic acid, for noticeably younger-looking skin.As part of this natural process, and by introducing ' +
+    'advanced nutrient combinations into the skin, additional moisturization is produced, promoting the feeling of intense ' +
+    'hydration and plumping effects.In addition to this exclusive complex, some Celavive products also feature our Olivol® ' +
+    'Botanical Blend, which is comprised of fruit extracts that have been clinically shown to provide 24 hours of rich hydration ' +
+    'after just one application.',
+    ctabutton: 'Sign Up For Celavive Updates\n',
+    modalheader: 'Your first look at the future of skincare!\n Product Available',
+    modalearly: 'early 2018',
+    modalsub: 'Subscribe for updates\n',
+    modalformph: 'Email Address',
+    modalformbtnsub: 'Subscribe',
+    modalformbtnnothanks: 'No Thanks',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+  },
 
 
 ]

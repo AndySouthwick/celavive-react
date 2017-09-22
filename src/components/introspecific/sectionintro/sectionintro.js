@@ -25,7 +25,7 @@ class SectionIntro extends Component {
 
                             <div className="intro-header ae1">
 
-                                <Link to={`/${this.props.language}/3/products`}><img src={require('../../../img/intro-mobile.png')} className="img-responsive ae1 intro-header-mobile mobile" alt="Introducing Advanced Skincare" /></Link>
+                                <img src={require('../../../img/intro-mobile.png')} className="img-responsive ae1 intro-header-mobile mobile" alt="Introducing Advanced Skincare" />
                                         <p className="paragraphtext ae3">
                                             <h1>{this.props.introheader}</h1>
                                             {this.props.intro}
@@ -36,7 +36,7 @@ class SectionIntro extends Component {
                     <Row className="intro-img">
                         <img src={require('../../../img/science-vertical.png')} alt="" className="science-vertical desktop ae4 "/>
                             <Col md={{size:10, offset: 2}}>
-                                <Link to={`/${this.props.language}/3/products`}> <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line desktop" alt=""/></Link>
+                                 <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line desktop" alt=""/>
                             </Col>
                     </Row>
                 </Container>

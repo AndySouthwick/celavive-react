@@ -24,7 +24,6 @@ class SectionSocial extends Component {
               </Row>
               <div className="clearfix bottom celv-secondary-text ae12">
                 <div><img className="title" src={require("../../img/USANAcelavive.png")} alt=""/></div>
-                <div className="content">Learn about individuals who live healthy lifestyles that go beyond supplementation.</div>
               </div>
             </Col>
           </Row>

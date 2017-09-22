@@ -22,7 +22,7 @@ class Hero extends Component{
 //export default Hero
 const mapStateToProps = state => {
   return {
-    herotext: state.changit.productstagline
+    herotext: state.changeit.productstagline
   }
 }
 

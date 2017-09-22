@@ -16,7 +16,7 @@
   }
 }
 
-.hide{
+.hideMenu{
   top: 0;
   bottom:0;
   padding:1.3em;
@@ -26,14 +26,14 @@
   animation: slideMenuOut 1s;
   position: fixed;
   right:-100%;
-  width: auto;
+  width: 250px;
   background-color: rgba(255, 255, 255, 0.86);
   overflow-y:scroll;
   overflow-x:hidden;
 
 
 }
-.show{
+.showMenu{
   top: 0;
   bottom:0;
   padding:1.3em;
@@ -43,24 +43,27 @@
   animation: slideMenuIn .5s;
   position: fixed;
   right:0%;
-  width: auto;
+  width: 250px;
   background-color: rgba(255, 255, 255, 0.86);
   overflow-y:scroll;
   overflow-x:hidden;
 
 }
 
+
 .flag img{
-  border-radius: 50%;
+  width: 25px;
+  background-size: cover;
 }
+
 
 .navMenu{
   background-color: #FFFFFF!important;
   height: 100%;
 }
 .navmenuitem{
-  border-bottom: solid .1em;
-  border-color: rgba(139, 199, 234, 0.45);;
+  //border-bottom: solid .1em;
+  //border-color: rgba(139, 199, 234, 0.45);;
   line-height: 2em;
   position: relative;
   left: 50px ;
@@ -72,7 +75,6 @@
    position: fixed;
    right:10px;
    top:1em;
-   border-radius: 50%;
    z-index: 102;
 }
  .navMenu h4{
@@ -80,4 +82,7 @@
    margin-right: 2em;
  }
 
+ .myflexcontainer{
+   height: 21em;
+ }
 

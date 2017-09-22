@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Container, Row, Col} from 'reactstrap'
+import {connect} from 'react-redux'
 
 
 class Hydrate extends Component{
@@ -8,30 +9,30 @@ class Hydrate extends Component{
       <Container className="tone">
         <Row>
           <Col>
-            <h2>Hydrate</h2>
-            <i>Text about tone product here</i>
+            <h2>{this.props.hydrate}</h2>
+            <i>{this.props.hydratetext}</i>
           </Col>
         </Row>
         <Row>
           <Col xs="12" md="3">
             <img src={require('../../../img/protectivedaylotion.png')} alt=""/>
-            <p>Protective Day Lotion</p>
-            <i>combination/oily skin</i>
+            <p>{this.props.prodaylo}</p>
+            <i>{this.props.combo}</i>
           </Col>
           <Col xs="12" md="3">
           <img src={require('../../../img/protectivedaycream.png')} alt=""/>
-          <p>Protective Day Cream</p>
-            <i>dry/sensitive skin</i>
+          <p>{this.props.prodaycream}</p>
+            <i>{this.props.dry}</i>
         </Col>
           <Col xs="12" md="3">
             <img src={require('../../../img/replenishingnightgel.png')} alt=""/>
-            <p>Replenishing Night Gel</p>
-            <i>combination/oily skin</i>
+            <p>{this.props.repnightgel}</p>
+            <i>{this.props.combo}</i>
           </Col>
           <Col xs="12" md="3">
             <img src={require('../../../img/replenishingnightcream.png')} alt=""/>
-            <p>Replenishing Night Cream</p>
-            <i>dry/sensitive skin</i>
+            <p>{this.props.repnightcream}</p>
+            <i>{this.props.dry}</i>
           </Col>
         </Row>
 
@@ -39,4 +40,18 @@ class Hydrate extends Component{
     )
   }
 }
-export default Hydrate
+
+const mapStateToProps = state => ({
+  hydrate: state.changeit.productshydrate,
+  hydratetext: state.changeit.productstexthydrate,
+  prodaylo: state.changeit.productsprodaylotion,
+  dry: state.changeit.productsdrytallic,
+  combo: state.changeit.productscomboitallic,
+  prodaycream: state.changeit.productsprodaycream,
+  repnightgel: state.changeit.productsrepnightgel,
+  repnightcream: state.changeit.productsrepnightcream
+})
+
+const withReduxConnect = connect(mapStateToProps)(Hydrate)
+
+export default withReduxConnect

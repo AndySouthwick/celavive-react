@@ -14,7 +14,7 @@ class Navigation extends Component {
     const currentState = store.getState()
     this.state = {
       ...currentState,
-      toggleNavMenu: 'hide',
+      toggleNavMenu: 'hideMenu',
       toggleButton: 'togleButonOff',
       redirect: false
     };
@@ -22,12 +22,12 @@ class Navigation extends Component {
 
   toggleMenuOn = () => {
     this.setState({
-      toggleNavMenu: 'show',
+      toggleNavMenu: 'showMenu',
     })
   }
   toggleMenuOff = () => {
     this.setState({
-      toggleNavMenu: 'hide',
+      toggleNavMenu: 'hideMenu',
     })
   }
       render(){
@@ -60,11 +60,14 @@ class Navigation extends Component {
                 language: lan.language,
                 flag: lan.flag
               })}>
-                <Link to={`/${lan.language}/1`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span> </Col></Link>
+                <Link to={`/${lan.language}/1`}><span className="flag"><img src={lan.flag} /></span> {lan.language}</Link>
               </div>
             </div>
           )
         }
+
+
+
 
 
 
@@ -76,8 +79,8 @@ class Navigation extends Component {
                 id: lan.id,
                 language: lan.language,
                 flag: lan.flag
-              })}>
-                <Link to={`/${lan.language}/1`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span> </Col></Link>
+              })} >
+                <Link to={`/${lan.language}/1`}><span className="flag"><img src={lan.flag} /></span> {lan.language}  </Link>
               </div>
             </div>
           )
@@ -85,14 +88,20 @@ class Navigation extends Component {
 
 
         if(this.props.page === '2'){
+
           Selectors = languages.map((lan) =>
+
+
+
+
             <div key={lan.id} className="navmenuitem">
               <div onClick={() => this.setState({
                 id: lan.id,
                 language: lan.language,
-                flag: lan.flag
+                flag: lan.flag,
               })}>
-                <Link to={`/${lan.language}/2/intro`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span> </Col></Link>
+                {console.log(lan.flag)}
+                <Link to={`/${lan.language}/2/intro`}><span className="flag"><img src={lan.flag} /></span> {lan.language}</Link>
               </div>
             </div>
           );
@@ -107,7 +116,7 @@ class Navigation extends Component {
                 language: lan.language,
                 flag: lan.flag
               })} >
-                <Link to={`../../${lan.language}/3/products`}> <Col>{lan.language}</Col><Col> <span className="flag"><img src={lan.flag} width="25" height="25"/></span></Col></Link>
+                <Link to={`../../${lan.language}/3/products`}><span className="flag"><img src={lan.flag} width="25" height="25"/></span> {lan.language}</Link>
               </div>
             </div>
 
@@ -119,10 +128,10 @@ class Navigation extends Component {
         console.log(this.props.page)
 
 
-        let toggleButton = <span className="toggleButton"><img onClick={this.toggleMenuOn} className='toggleButon' src={this.props.flag} alt="" width='35' height='35' /></span>
+        let toggleButton = <span className="toggleButton"><img onClick={this.toggleMenuOn} className='toggleButon' src={this.props.flag} alt="" width="30"/></span>
 
-        if(this.state.toggleNavMenu === 'show') {
-          toggleButton = <span className="toggleButton"><img onClick={this.toggleMenuOff} className='toggleButon' src={this.props.flag} alt="" width='35' height='35'/></span>
+        if(this.state.toggleNavMenu === 'showMenu') {
+          toggleButton = <span className="toggleButton"><img onClick={this.toggleMenuOff} className='toggleButon' src={this.props.flag} alt="" width="30"/></span>
         }
 
 
@@ -139,7 +148,7 @@ class Navigation extends Component {
                 <div className={this.state.toggleNavMenu}>
 
                   <h4>Countries</h4> <hr/>
-                  <div className="allowscroll">{Selectors}
+                  <div className="myflexcontainer d-flex flex-column flex-wrap">{Selectors}
                   </div>
                 </div>
             </Col>

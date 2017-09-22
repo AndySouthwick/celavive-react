@@ -14,7 +14,7 @@ export function reducer(state = initialState, action){
         case actionTypes.CHANGE_LANGUAGE:
             return{
                 ...state,
-                changit: action.payload,
+                changeit: action.payload,
                 id: action.payload.id,
                 incellheader: action.payload.incellheader,
                 language: action.payload.language,
