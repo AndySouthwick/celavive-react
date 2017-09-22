@@ -58,7 +58,7 @@ class ModalForm extends Component{
 const mapStateToProps = state => {
   return {
     modalformph: state.modalformph,
-    modalformbtnsub: state.modalformbtnsub,
+    modalformbtnsub: state.changeit.modalformbtnsub,
     modalformbtnnothanks: state.modalformbtnnothanks
   }
 }

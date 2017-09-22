@@ -992,28 +992,20 @@ export const languages = [
   {   id: 21,
     language: 'EN-CA',
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
-    intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n' +
+    intro: 'Introducing advanced skincare products that actively support beauty-preserving functions in your skin to defy visible signs of aging, like photodamage, dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of your skin.' +
     '\n',
     celavivefounded: 'Celavive™ is founded on the science of beauty.',
-    science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your unique beauty needs.\n' +
-    '\n' +
-    'Using targeted nutrient combinations, Celavive helps awaken our skin’s natural renewing ability to activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive approach means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically reducing the appearance of wrinkles.\n' +
-    '\n' +
-    'By using natural botanicals and powerful peptides to support your body’s natural renewing abilities, your complexion will begin to appear healthier, more radiant, and incredibly restored. \n' +
-    '\n' +
-    'Discover your skin’s natural ability to fight visible signs of aging.\n',
+    science: 'World leaders in nutrition and creators of InCelligence® have discovered a way to specifically target your unique beauty needs. Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing ability to activate youth-preserving beauty functions, ' +
+    'going beyond traditional skincare regimens. This comprehensive approach means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically reducing the appearance of wrinkles.' +
+    'By using natural botanicals and powerful peptides to support [CA] your body’s natural renewing abilities, your complexion will begin to appear healthier, more radiant, and incredibly restored. Discover your skin’s natural ability to fight visible aging.' +
+    '',
     incellheader: 'Made with InCelligence® \n',
-    flag: './../../img/countryflag/ph.png',
+    flag: './../../img/countryflag/ca.png',
 
-    founded: 'The exclusive Celavive complex is made up of two bioactive peptides and two botanical extracts. When combined, ' +
-    'these ingredients work to help counteract visible signs of chronological and lifestyle stress aging like fine lines and' +
-    ' wrinkles by introducing key nutrients into the skin. Plus, these key beauty ingredients help support your body’s own natural ' +
-    'lipid production and help support six major elements that can help maintain a healthy skin matrix, including collagen, ' +
-    'elastin, and hyaluronic acid, for noticeably younger-looking skin.As part of this natural process, and by introducing ' +
-    'advanced nutrient combinations into the skin, additional moisturization is produced, promoting the feeling of intense ' +
-    'hydration and plumping effects.In addition to this exclusive complex, some Celavive products also feature our Olivol® ' +
-    'Botanical Blend, which is comprised of fruit extracts that have been clinically shown to provide 24 hours of rich hydration ' +
-    'after just one application.',
+    founded: 'The exclusive complex found in USANA® Celavive™ is made up of two bioactive peptides and two botanical extracts. When combined, these ingredients work to counteract visible signs of chronological and lifestyle stress aging like fine lines and wrinkles ' +
+    'by introducing key nutrients into the skin. Plus, these key beauty ingredients support your body’s own natural lipid production and help reinforce six major elements that can help maintain a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.' +
+    'As part of this natural process, and by introducing advanced nutrient combinations into the skin, additional moisturization is produced from signals sent further into the soft layer, promoting the feeling of intense hydration and plumping effects.' +
+    'In addition to this exclusive complex, Celavive products also feature Olivol™ Botanical Blend, which is comprised of fruit extracts that have been clinically shown to provide 24 hours of rich hydration after just one application.',
     ctabutton: 'Sign Up For Celavive Updates\n',
     modalheader: 'Your first look at the future of skincare!\n Product Available',
     modalearly: 'early 2018',
@@ -1045,6 +1037,342 @@ export const languages = [
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'
   },
+  {   id: 22,
+    language: 'ZH-CA',
+    introheader:'InCelligence®的高性能護膚產品\n',
+    intro: '我們推出先進的護膚產品，能積極支援皮膚中常保美麗的機能，防止明顯的老化跡象，例如紫外線或輻射傷害、乾燥、鬆弛、暗斑、粗糙、和皺紋等，大大改善皮膚的外觀。',
+    celavivefounded: 'USANA® Celavive™以美容科學為基礎。\n',
+    science: '全球營養學的領先者和開發InCelligence®的團隊，發現了一種專門解決您的獨特美容需求的新方法。Celavive使用針對性的營養素組合，可喚醒您皮膚的天然更新能力，啟動人體常保青春的機能，超越傳統的護膚法。這種全面性的方法，意味著Celavive對每個人都有獨特的效果，能改善皮膚色調和膚質，同時明顯減少皺紋的出現。' +
+    '通過使用天然植物性成份和強大的胜肽來支援 天然的更新能力，使您的膚色開始變得更健康、更亮麗，還有驚人的修復力。發掘皮膚對抗老化跡象的天然能力。',
+    incellheader: '採用InCelligence®\n',
+    flag: './../../img/countryflag/ca.png',
 
+    founded: 'USANA® Celavive™所採用的獨家複方係由兩種生物活性胜肽和兩種植物萃取物所組成。結合起來，這些成份會將關鍵的營養素導入皮膚中，抵消時間和生活壓力所致的老化跡象，例如細紋和皺紋。此外，這些關鍵美容成份能支援人體脂質的天然生產過程，可協助加強能維持健康皮膚基質的六個主要元素，包含膠原蛋白、彈性蛋白、和玻尿酸，使您肌膚看起來更年輕。在這個人體天然的運作過程中，藉由將先進的營養素組合物導入皮膚，將訊號進一步傳入軟組織以產生額外的保濕效果，提昇強力的濕潤感和豐盈的效果。除了這種獨家的複方之外，Celavive產品更含有Olivol™植物性混合物，是由多種水果萃取物所組成。臨床顯示，只要使用一次，就能24小時持續提供豐富的水分。',
+    ctabutton: '注册获取Celavive最新信息',
+    modalheader: '让您优先体验新一代的护肤品！\n',
+    modalearly: '产品将在2018年初上市\n',
+    modalsub: '订阅更新\n',
+    modalformph: '电子邮件地址\n',
+    modalformbtnsub: '订阅',
+    modalformbtnnothanks: '不用了，谢谢\n',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+  },
+  {   id: 22,
+    language: 'FR-CA',
+    introheader: 'Des soins de la peau d’une rare efficacité qui misent sur InCelligenceMD',
+    intro: 'Voici des produits de soins de la peau perfectionnés qui renforcent activement les fonctions préservant la beauté de la peau afin de défier les signes visibles du vieillissement – lésions photochimiques, sécheresse, perte de fermeté, décoloration, texture déséquilibrée, rides, etc. –améliorant ainsi très nettement l’apparence de la peau. Découvrez dès maintenant votre régime de soins CelavivePour une peau radieuse d’apparence plus jeune, il faut des nutriments ciblés renforçant les fonctions qui préservent la beauté de la peau, tout en contribuant à lutter contre les méfaits visibles de facteurs liés à l’environnement et au style de vie.',
+    celavivefounded: 'CelaviveMC d’USANAMD s’appuie sur le fondement scientifique de la beauté. ',
+    science: 'Des leaders mondiaux en nutrition et les créateurs d’InCelligenceMD la technologie InCelligence® ' +
+    'ont découvert un moyen de cibler précisément les besoins uniques de chacun en matière de soins ' +
+    'de beauté.À l’aide de combinaisons de nutriments ciblés, les produits Celavive éveillent la capacité ' +
+    'innée de la peau de se renouveler afin d’activer les fonctions qui préservent la jeunesse, ce qui va ' +
+    'bien au-delà des régimes de soins de la peau traditionnels. Comme l’approche Celavive est globale, ' +
+    'les produits répondent aux besoins particuliers de chacun; le tonus et le grain de la peau paraissent ' +
+    'améliorés et l’apparence des rides, visiblement atténuée.Grâce à des végétaux naturels et des ' +
+    'peptides puissants qui favorisent la capacité innée de l’organisme à se renouveler, le teint paraît plus ' +
+    'sain et plus radieux, tandis que la peau est admirablement reconstituée.Découvrez la capacité innée de la peau ' +
+    'à lutter contre les signes visibles du vieillissement.',
+    flag: './../../img/countryflag/ca.png',
+
+    incellheader: 'Fait avec InCelligence® \n',
+    founded: 'Le complexe exclusif à l’œuvre dans les produits CelaviveMC d’USANAMD   est constitué ' +
+    'de deux peptides bioactifs et de deux extraits végétaux. Ces ingrédients agissent ensemble pour neutraliser ' +
+    'les signes visibles du stress lié à l’âge et au style de vie, par exemple les rides et ridules, en ' +
+    'incorporant à la peau des nutriments importants. De plus, ces ingrédients favorisent la production' +
+    ' naturelle de lipides dans l’organisme et aident à renforcer six éléments clés qui peuvent contribuer ' +
+    'à préserver l’apparence saine de la matrice cutanée, dont le collagène, l’élastine et l’acide  hyaluronique,' +
+    ' afin que la peau paraisse remarquablement plus jeune. Par ce processus naturel et l’intégration de ' +
+    'combinaisons de nutriments perfectionnés dans l’épiderme, l\'hydratation est accrue grâce à des ' +
+    'ingrédients pénétrant plus en profondeur dans les couches supérieures de la peau, favorisant ' +
+    'ainsi une sensation d’hydratation intensive et des effets raffermissants.Outre ce complexe exclusif, ' +
+    'les produits Celavive misent aussi sur le mélange végétal OlivolMC, fait d’extraits de fruits éprouvés en ' +
+    'clinique pour assurer une riche hydratation pendant 24 heures après une seule application.',
+    ctabutton: 'Abonnement aux mises à jour Celavive',
+    modalheader: 'Aperçu en primeur de l’avenir des soins de beauté! \n',
+    modalearly: 'Produit disponible au début de 2018  \n',
+    modalsub: 'Abonnement aux mises à jour\n',
+    modalformph: 'Adresse email',
+    modalformbtnsub: 'Je m’abonne\n',
+    modalformbtnnothanks: 'Non merci\n',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+  },
+  {   id: 23,
+    language: 'EN-ID',
+    introheader:'Introducing advanced skincare',
+    celavivefounded: 'USANA® Celavive is founded on the science of beauty. \n',
+    intro: ' Products that actively support beauty-preserving\n' +
+    'functions in your skin to defy visible signs of aging\n' +
+    'like photodamage, dryness, loss of firmness,\n' +
+    'discoloration, texture, and wrinkles to dramatically\n' +
+    'improve the look of your skin.',
+    science: 'World leaders in nutrition and creators of USANA InCelligence Technology™ have discovered a way to specifically target your ' +
+    'unique beauty needs. Using targeted nutrient combinations, Celavive awakens your cells’ natural renewing ability to ' +
+    'activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive approach ' +
+    'means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically ' +
+    'reducing the appearance of wrinkles. By using natural botanicals and powerful peptides to support the communication that signals ' +
+    'healthy skin cell activity, your complexion will begin to appear healthier, more radiant, and incredibly restored. Discover your ' +
+    'skin’s natural ability to fight visible aging.' +
+    '',
+    flag: './../../img/countryflag/in.png',
+    incellheader: 'Incelligence',
+    founded: 'The exclusive Celavive complex is made up of two bioactive peptides and two botanical extracts. When combined, these ingredients work to help counteract common signs of visible aging like fine lines and wrinkles by introducing key nutrients into the skin. Plus, these key beauty ingredients support your body’s own natural lipid production and help support six natural occurring elements that can help maintain a healthy skin matrix for noticeably younger-looking skin.As part of this natural process, and by introducing advanced nutrient combinations into the skin, additional moisturisation is produced from signals sent into the soft layer, promoting the feeling of intense hydration and plumping effects.In addition to this exclusive complex, Celavive products also feature our Olivol Botanical Blend, which is comprised of fruit extracts that provide rich hydration after just one application.',
+    ctabutton: 'Sign Up For Celavive Updates\n',
+    modalheader: 'Your first look at the future of skincare!\n Product Available',
+    modalearly: 'early 2018',
+    modalsub: 'Subscribe for updates\n',
+    modalformph: 'Email Address',
+    modalformbtnsub: 'Subscribe',
+    modalformbtnnothanks: 'No Thanks',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+
+
+  },
+  {   id: 24,
+    language: 'ID-ID',
+    introheader:'Perawatan Kulit Performa Tinggi Berteknologi InCelligence®\n',
+    celavivefounded: 'USANA® Celavive berdasarkan pada sains kecantikan. \n',
+    intro: 'Introducing skincare products that actively support your skin’s natural functions to reduce the appearance of visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to improve the look of your skin.',
+    science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your unique beauty needs. Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing ability to support a younger-looking appearance, going beyond traditional skincare regimens. This comprehensive approach means Celavive responds to each individual person, helping to maintain the look of skin tone and texture, while reducing the appearance of wrinkles. By using natural botanicals and powerful peptides to support your body’s natural abilities, your complexion will begin to appear healthier, radiant, and restored. Discover your skin’s natural ability to create a youthful, radiant complexion.' +
+    '',
+    flag: './../../img/countryflag/in.png',
+    incellheader: 'Dibuat dengan InCelligence®\n',
+    founded: 'Celavive kompleks yang eksklusif ini mengandung dua peptida aktif dan dua ekstrak tumbuhan. Saat digabungkan, bahan-bahan ini bekerja untuk membantu melawan tanda-tanda nyata penuaan seperti garis halus dan kerutan dengan memasukkan bahan-bahan nutrisi penting ke dalam kulit. Selain itu, bahan-bahan kecantikan penting ini mendukung produksi lipid alami tubuh dan membantu menunjang enam unsur alami yang dapat membantu menjaga matriks kulit yang sehat agar kulit tampak lebih muda.\n' +
+    ' \n' +
+    'Sebagai bagian dari proses alami ini, dan dengan memasukkan kombinasi nutrisi tinggi ke dalam kulit, pelembapan tambahan diproduksi dari sinyal-sinyal yang dikirimkan ke lapisan lembut, untuk menimbulkan efek hidrasi intens dan kenyal.\n' +
+    ' \n' +
+    'Selain bahan kompleks yang eksklusif ini, produk-produk Celavive juga memiliki Olivol Botanical Blend, yang mengandung ekstrak buah yang memberikan hidrasi berlimpah setelah hanya satu kali pemakaian.\n',
+    ctabutton: 'Mendaftar untuk Pembaruan Celavive\n',
+    modalheader: 'Pandangan pertama Anda pada masa depan perawatan kulit!\n',
+    modalearly: 'Produk Tersedia pada awal 2018\n',
+    modalsub: 'Berlangganan untuk pembaruan\n',
+    modalformph: 'Alamat Email\n',
+    modalformbtnsub: 'Berlangganan\n',
+    modalformbtnnothanks: 'Tidak, Terima Kasih\n',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+  },
+  {   id: 25,
+    language: 'EN-MY',
+    introheader:'High-Performance Skincare Featuring InCelligence®\n',
+    celavivefounded: 'USANA® Celavive is founded on the science of beauty. \n',
+    intro: ' Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to reduce visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin.',
+    science: 'World leaders in nutrition and creators of USANA InCelligence® technology have discovered a way to specifically target your ' +
+    'unique beauty needs. Using targeted nutrient combinations, Celavive awakens your cells’ natural renewing ability to ' +
+    'activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive approach ' +
+    'means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically ' +
+    'reducing the appearance of wrinkles. By using natural botanicals and powerful peptides to support the communication that signals ' +
+    'healthy skin cell activity, your complexion will begin to appear healthier, more radiant, and incredibly restored. Discover your ' +
+    'skin’s natural ability to fight visible aging.' +
+    '',
+    flag: './../../img/countryflag/sg.png',
+    incellheader: 'Made with InCelligence® \n',
+    founded: 'The exclusive Celavive complex is made up of two bioactive peptides and two botanical extracts. When combined, these ingredients work to help counteract common signs of visible aging like fine lines and wrinkles by introducing key nutrients into the skin. Plus, these key beauty ingredients support your body’s own natural lipid production and help support six natural occurring elements that can help maintain a healthy skin matrix for noticeably younger-looking skin.As part of this natural process, and by introducing advanced nutrient combinations into the skin, additional moisturisation is produced from signals sent into the soft layer, promoting the feeling of intense hydration and plumping effects.In addition to this exclusive complex, Celavive products also feature our Olivol®  Botanical Blend, which is comprised of fruit extracts that provide rich hydration after just one application.',
+    ctabutton: 'Sign Up For Celavive Updates\n',
+    modalheader: 'Your first look at the future of skincare!\n Product Available',
+    modalearly: 'early 2018',
+    modalsub: 'Subscribe for updates\n',
+    modalformph: 'Email Address',
+    modalformbtnsub: 'Subscribe',
+    modalformbtnnothanks: 'No Thanks',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+
+
+  },
+  {   id: 26,
+    language: 'ES-US',
+    introheader: "Cuidado de la piel de alto desempeño formulado con InCelligence®",
+    intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente ' +
+    'funciones conservadoras de - belleza para combatir los signos visibles de envejecimiento ' +
+    'como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la ' +
+    'textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel. ',
+    celavivefounded: 'La línea Celavive™ fue creada con base en la ciencia de la belleza. \n',
+    science: 'Los líderes mundiales en nutrición y creadores de la Tecnología InCelligence de USANA (USANA InCelligence Technology® ) han descubierto la manera de atacar específicamente sus necesidades de belleza, que son únicas.Mediante el uso de combinaciones de nutrientes dirigidas, Celavive de USANA despierta la capacidad natural de renovación de sus células para activar funciones conservadoras de belleza e ir más allá de cualquier régimen tradicional para el cuidado de la piel.  Este enfoque integral significa que Celavive responde de manera única a las necesidades de cada persona, mejorando el tono y la textura, y reduciendo dramáticamente la aparición de arrugas.A través del uso de sustancias botánicas naturales y poderosos péptidos para apoyar la comunicación que señaliza la actividad de las células de una piel saludable, su tez comenzará a verse más saludable, más radiante e increíblemente restaurada.Descubra la capacidad natural de su piel para combatir el envejecimiento visible.',
+    incellheader: 'Hecho con la Tecnología InCelligence de USANA (USANA InCelligence Technology®), \n',
+    flag: './../../img/countryflag/us.png',
+    founded: ' El exclusivo Complejo de Señalización Celular presente en Celavive™ está compuesto por dos péptios bioactivos y dos extractos botánicos.  Cuando se combinan, estos ingredientes trabajan para contrarrestar los signos visibles del envejecimiento cronológico y del ocasionado por el estrés del estilo de vida, como líneas finas y arrugas, dirigiéndose a receptores claves de la piel. Además, estos ingredientes clave apoyan la producción natural de lípidos y ayudan a reforzar seis importantes elementos que favorecen el mantenimiento de una matriz de la piel saludable, incluyendo colágeno, elastina y ácido hialuróico, para gozar de una piel de apariencia más joven.Como parte de este proceso natural, y mediante la aplicación de avanzadas combinaciones de nutrientes en la piel, se produce una humectación adicional a partir de señales que son enviadas más allá de la capa suave, favoreciendo la sensación de una hidratación intensa y un efecto de alisamiento.Además de este exclusivo Complejo de Señalización Celular, los productos Celavive también incluyen la mezcla botánica Olivol®, compuesta por extractos de frutas que clínicamente han demostrado aportar 24 horas de rica hidratación después de solo una aplicación.',
+    modalheader: '¡Acérquese al futuro en el cuidado de la piel!\n',
+    modalearly: 'Productos disponibles a principios de 2018',
+    modalsub: 'Suscríbase para estar informado de las novedades\n',
+    modalformph: 'correo electrónico\n',
+    modalformbtnsub: 'Suscribirme\n',
+    modalformbtnnothanks: 'No, gracias\n',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+  },
+  {   id: 27,
+    language: 'ES-ZH',
+    introheader:'採用InCelligence®的高性能護膚產品\n',
+    intro: '我們推出的護膚產品，能積極支援您皮膚減少明顯老化跡象的天然機能，例如乾燥、鬆弛、粗糙、和皺紋等，有助於維持皮膚年輕的外觀與感覺。\n',
+    celavivefounded: 'ยCelavive™以美容科學為基礎。\n',
+    science: 'ผ全球營養學的領先者和InCelligence®技術的開發團隊發現了一種專門解決您的獨特美容需求的新方法。Celavive使用針對性的營養素組合，可喚醒您皮膚的天然更新能力，提昇更年輕的外觀，超越傳統的護膚法。這種全面性的方法，意味著Celavive對每個人都有獨特的效果，有助於維持皮膚色調和膚質的外觀和感覺，同時減少皺紋的出現。過使用天然植物性成份和胜肽來支援您身體的天然能力，使您的膚色開始變得更健康、亮麗，容光煥發。發掘皮膚創造健康、亮麗外觀的天然能力。',
+    incellheader:'採用USANA InCelligence技術®\n',
+    flag: './../../img/countryflag/us.png',
+
+    founded: 'Celavive™所採用的獨家細胞訊號傳輸複方係由兩種生物活性胜肽和兩種植物萃取物所組成。結合起來，這些成份會靶定關鍵的皮膚受體，抵消時間和生活壓力所致的老化跡象，例如細紋和皺紋。此外，這些關鍵美容成份能支援人體脂質的天然生產過程，可協助加強能維持健康皮膚基質的六個主要元素，包含膠原蛋白、彈性蛋白、和玻尿酸，使您肌膚看起來更年輕。\n' +
+    ' \n' +
+    '在這個人體天然的運作過程中，藉由將先進的營養素組合物導入皮膚，將訊號進一步傳入軟組織以產生額外的保濕效果，提昇強力的濕潤感和豐盈的效果。\n' +
+    ' \n' +
+    '除了這種獨家的細胞訊號傳輸複方之外，Celavive產品更含有Olivol®植物性混合物，是由多種水果萃取物所組成。臨床顯示，只要使用一次，就能24小時持續提供豐富的水分。',
+    ctabutton: '注册获取Celavive最新信息',
+    modalheader: '让您优先体验新一代的护肤品！\n',
+    modalearly: '产品将在2018年初上市\n',
+    modalsub: '订阅更新\n',
+    modalformph: '电子邮件地址\n',
+    modalformbtnsub: '订阅',
+    modalformbtnnothanks: '不用了，谢谢\n',
+    productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
+    productsdryskin: 'Dry + Sensitive Skin',
+    productscombooily: 'Combination + Oily Skin',
+    productscleanse: 'Cleanse',
+    productstextcleanse: '',
+    productsmakeupremove: 'Conditioning Makeup Remover\n',
+    productscreamyfoam: 'Creamy Foam Cleanser',
+    productscomboitallic: 'combination/oily skin',
+    productsgentlemilk: 'Gentle Milk Cleanser',
+    productsdrytallic: 'dry/sensitive skin',
+    productstone: 'Tone',
+    productstexttone: '',
+    productsperfectingtoner: 'Perfecting Toner',
+    productsenhance: 'Enhance',
+    productstextenhance: '',
+    productshydeyeesence: 'Hydrating Eye Essence',
+    productsvitalizingserum: 'Vitalizing Serum',
+    productshydrate: 'Hydrate',
+    productstexthydrate: '',
+    productsprodaylotion: 'Protective Day Lotion',
+    productsprodaycream: 'Protective Day Cream',
+    productsrepnightgel: 'Replenishing Night Gel',
+    productsrepnightcream: 'Replenishing Night Cream'
+  },
 
 ]

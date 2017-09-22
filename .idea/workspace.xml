@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc94f62-4c00-4d44-bdaf-fc1c88e43bf8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/countryflag/ca.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/introspecific/sectionintro/sectionintro.js" afterPath="$PROJECT_DIR$/src/components/introspecific/sectionintro/sectionintro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/introspecific/sectionsocial.js" afterPath="$PROJECT_DIR$/src/components/introspecific/sectionsocial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/modalform.js" afterPath="$PROJECT_DIR$/src/components/modalform.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navigation/navigation.css" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navigation/navigation.js" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navigation/navigation.scss" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/languages/languages.js" afterPath="$PROJECT_DIR$/src/languages/languages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/landing.js" afterPath="$PROJECT_DIR$/src/pages/landing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/products/cleanse/cleanse.js" afterPath="$PROJECT_DIR$/src/pages/products/cleanse/cleanse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/products/enhance/enhance.js" afterPath="$PROJECT_DIR$/src/pages/products/enhance/enhance.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/products/hero/hero.js" afterPath="$PROJECT_DIR$/src/pages/products/hero/hero.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/products/hydrate/hydrate.js" afterPath="$PROJECT_DIR$/src/pages/products/hydrate/hydrate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/reducer.js" afterPath="$PROJECT_DIR$/src/reducers/reducer.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,12 +18,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="languages.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navigation.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="languages.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/languages/languages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="992" column="20" lean-forward="false" selection-start-line="992" selection-start-column="20" selection-end-line="992" selection-end-column="20" />
+            <state relative-caret-position="126">
+              <caret line="1299" column="43" lean-forward="false" selection-start-line="1299" selection-start-column="43" selection-end-line="1299" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modalform.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/modalform.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <marker date="1505933365000" expanded="true" signature="77:106" ph="{&quot;id&quot;: 1...}" />
+                <marker date="1505933365000" expanded="true" signature="2990:2998" ph="{&quot;currentpage&quot;: action.payload.currentpage...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="62" column="115" lean-forward="false" selection-start-line="62" selection-start-column="115" selection-end-line="62" selection-end-column="115" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,6 +102,7 @@
       <find>btn-xl</find>
       <find>.section-</find>
       <find>EN-EU</find>
+      <find>olivol</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/pages/intro.js" />
         <option value="$PROJECT_DIR$/src/styles/creative.scss" />
         <option value="$PROJECT_DIR$/src/components/cta/cta.scss" />
-        <option value="$PROJECT_DIR$/src/components/modalform.js" />
         <option value="$PROJECT_DIR$/src/components/modal.js" />
         <option value="$PROJECT_DIR$/src/components/introspecific/sectionincell.js" />
         <option value="$PROJECT_DIR$/src/components/introspecific/sectionfounded.js" />
@@ -124,11 +161,12 @@
         <option value="$PROJECT_DIR$/src/pages/products/hydrate/hydrate.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/landing.js" />
-        <option value="$PROJECT_DIR$/src/components/navigation/navigation.scss" />
         <option value="$PROJECT_DIR$/src/components/introspecific/sectionintro/sectionintro.js" />
         <option value="$PROJECT_DIR$/src/components/introspecific/sectionsocial.js" />
         <option value="$PROJECT_DIR$/src/components/navigation/navigation.js" />
+        <option value="$PROJECT_DIR$/src/components/modalform.js" />
         <option value="$PROJECT_DIR$/src/languages/languages.js" />
+        <option value="$PROJECT_DIR$/src/components/navigation/navigation.scss" />
       </list>
     </option>
   </component>
@@ -148,11 +186,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1680" />
     <option name="y" value="-367" />
     <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="height" value="1349" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -211,27 +249,7 @@
               <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="introspecific" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="celavive-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="introspecific" type="462c0819:PsiDirectoryNode" />
-              <item name="sectionintro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="celavive-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="celavive-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,17 +277,17 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img/countryflag" />
-      <recent name="$PROJECT_DIR$/public/img" />
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/navigation" />
       <recent name="$PROJECT_DIR$/src/pages/products" />
       <recent name="$PROJECT_DIR$/src/components/introspecific/healthyskin" />
       <recent name="$PROJECT_DIR$/src/components/introspecific/sectionintro" />
       <recent name="$PROJECT_DIR$/src/components/introspecific/introheader" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/countryflag" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,12 +414,12 @@
       <workItem from="1505764913635" duration="3596000" />
       <workItem from="1505768678957" duration="35347000" />
       <workItem from="1505873370700" duration="13037000" />
-      <workItem from="1505939283628" duration="8641000" />
+      <workItem from="1505939283628" duration="14504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199970000" />
+    <option name="totallyTimeSpent" value="205833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,7 +431,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="-367" width="2560" height="1417" extended-state="6" />
+    <frame x="1680" y="-367" width="2560" height="1349" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.094131544" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -422,7 +440,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21527778" sideWeight="0.49722" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.54213107" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22807017" sideWeight="0.54213107" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -720,14 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modalform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="52" column="79" lean-forward="true" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -742,16 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="62" column="115" lean-forward="false" selection-start-line="62" selection-start-column="115" selection-end-line="62" selection-end-column="115" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
@@ -816,17 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <marker date="1505933365000" expanded="true" signature="77:106" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1505933365000" expanded="true" signature="2990:2998" ph="{&quot;currentpage&quot;: action.payload.currentpage...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/introspecific/sectionsocial.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -871,18 +860,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.scss">
+    <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="85" column="13" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        <state relative-caret-position="141">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1505933365000" expanded="true" signature="77:106" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1505933365000" expanded="true" signature="2990:2998" ph="{&quot;currentpage&quot;: action.payload.currentpage...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/modalform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/languages/languages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="992" column="20" lean-forward="false" selection-start-line="992" selection-start-column="20" selection-end-line="992" selection-end-column="20" />
+        <state relative-caret-position="126">
+          <caret line="1299" column="43" lean-forward="false" selection-start-line="1299" selection-start-column="43" selection-end-line="1299" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="62" column="115" lean-forward="false" selection-start-line="62" selection-start-column="115" selection-end-line="62" selection-end-column="115" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="80" column="19" lean-forward="true" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
           <folding />
         </state>
       </provider>
