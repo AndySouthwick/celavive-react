@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc94f62-4c00-4d44-bdaf-fc1c88e43bf8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/celavive-react.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/andrewsouthwick.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navigation/navigation.js" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="languages.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="languages.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/languages/languages.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -94,6 +86,16 @@
         <entry file="file://$PROJECT_DIR$/public/img/ladylook/tai.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="62" column="76" lean-forward="false" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -206,11 +208,11 @@
         <option value="$PROJECT_DIR$/src/pages/landing.js" />
         <option value="$PROJECT_DIR$/src/components/introspecific/sectionintro/sectionintro.js" />
         <option value="$PROJECT_DIR$/src/components/introspecific/sectionsocial.js" />
-        <option value="$PROJECT_DIR$/src/components/navigation/navigation.js" />
         <option value="$PROJECT_DIR$/src/components/modalform.js" />
         <option value="$PROJECT_DIR$/src/components/navigation/navigation.scss" />
         <option value="$PROJECT_DIR$/src/components/introspecific/healthyskin/science.js" />
         <option value="$PROJECT_DIR$/src/languages/languages.js" />
+        <option value="$PROJECT_DIR$/src/components/navigation/navigation.js" />
       </list>
     </option>
   </component>
@@ -231,10 +233,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2088" />
-    <option name="y" value="-205" />
+    <option name="x" value="1896" />
+    <option name="y" value="-367" />
     <option name="width" value="1680" />
-    <option name="height" value="972" />
+    <option name="height" value="1250" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -274,6 +276,24 @@
             <path>
               <item name="celavive-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="celavive-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="celavive-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="celavive-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celavive-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -443,12 +463,12 @@
       <workItem from="1505768678957" duration="35347000" />
       <workItem from="1505873370700" duration="13037000" />
       <workItem from="1505939283628" duration="19512000" />
-      <workItem from="1506112307835" duration="53000" />
+      <workItem from="1506112307835" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210894000" />
+    <option name="totallyTimeSpent" value="211451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,7 +480,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2088" y="-205" width="1680" height="972" extended-state="0" />
+    <frame x="1896" y="-367" width="1680" height="1250" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17118746" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20347957" sideWeight="0.49676898" order="9" side_tool="false" content_ui="tabs" />
@@ -468,7 +488,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21527778" sideWeight="0.49722" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22805017" sideWeight="0.54213107" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17316018" sideWeight="0.54213107" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -862,16 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
-          <caret line="62" column="115" lean-forward="false" selection-start-line="62" selection-start-column="115" selection-end-line="62" selection-end-column="115" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/introspecific/sectionintro/sectionintro.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -927,6 +937,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="764" column="50" lean-forward="false" selection-start-line="764" selection-start-column="50" selection-end-line="764" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigation/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="62" column="76" lean-forward="false" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
           <folding />
         </state>
       </provider>
