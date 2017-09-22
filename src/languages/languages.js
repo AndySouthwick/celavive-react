@@ -1,6 +1,8 @@
 export const languages = [
     {   id: 1,
         language: 'EN-US',
+        healthymobile: './../../img/ladylook/healthy-mobile.png',
+        healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
         introheader:'Introducing advanced skincare',
         celavivefounded: 'Celavive™ - Founded on the Scinece of Beuty',
         intro: ' Products that actively support beauty-preserving\n' +
@@ -59,7 +61,9 @@ export const languages = [
     },
     {   id: 2,
         language: 'EN-ANZ',
-        introheader:'High-Performance Skincare Featuring InCelligence®\n',
+      healthymobile: './../../img/ladylook/healthy-mobile.png',
+      healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
+      introheader:'High-Performance Skincare Featuring InCelligence®\n',
         intro: 'Introducing skincare products that actively support your skin’s natural functions to reduce the appearance of visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n',
         celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
         science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your ' +
@@ -114,7 +118,11 @@ export const languages = [
         introheader: '採用InCelligence®的高性能護膚產品',
         intro: '為了擁有光鮮亮麗的年輕肌膚，您需要有標靶性的營養素，來支援您肌膚天然常保美麗的機能，同時幫助抵禦環境和生活因素的傷害。',
         language: 'ZH-ANZ',
-         celavivefounded: 'USANA Celavive®以美容科学为基础。\n',
+      healthymobile: './../../img/ladylook/anzch.png',
+      healthyquote: './../../img/healthyquote/anzch.png',
+
+
+      celavivefounded: 'USANA Celavive®以美容科学为基础。\n',
         science: '全球营养学的领先者和InCelligence®技术的开发团队发现了一种专门解决您的美容特殊需求的新方法。' +
         'Celavive使用针对性的营养素组合，可唤醒您皮肤的天然更新能力，提升更年轻的外貌，超越了传统的护肤法。这种全面性的方法，意味着Celavive对每个人都有独特的效果，' +
         '能改善皮肤色调和肤质，同时减少皱纹的出现。通过使用天然植物性成份和强大的胜肽来支持您身体的天然能力，您的肤色将开始变得更健康、更亮丽，还有惊人的修复力。' +
@@ -163,7 +171,9 @@ export const languages = [
     {   id: 4,
        language: 'EN-CO',
         introheader: 'High-Performance Skincare Featuring InCelligence®\n',
-        intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like photodamage, dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of your skin. \n',
+      healthymobile: './../../img/ladylook/healthy-mobile.png',
+      healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
+      intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like photodamage, dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of your skin. \n',
         celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
         science: 'World leaders in nutrition and creators of InCelligence® technology ' +
         'have discovered a way to specifically target your unique beauty needs.Using targeted' +
@@ -224,7 +234,10 @@ export const languages = [
 
     {   id: 5,
         language: 'ES-CO',
-        introheader: "Cuidado de la piel de alto desempeño formulado con InCelligence®",
+      healthymobile: './../../img/ladylook/es.png',
+      healthyquote: './../../img/healthyquote/esquote.png',
+
+      introheader: "Cuidado de la piel de alto desempeño formulado con InCelligence®",
         intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente ' +
         'funciones conservadoras de - belleza para combatir los signos visibles de envejecimiento ' +
         'como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la ' +
@@ -290,7 +303,10 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'},
     {   id: 6,
         language: 'FR-EU',
-       introheader: 'Des soins de la peau qui misent sur le complexe InCelligence®\n',
+      healthymobile: './../../img/ladylook/fr.png',
+      healthyquote: './../../img/healthyquote/fr.png',
+
+      introheader: 'Des soins de la peau qui misent sur le complexe InCelligence®\n',
        intro: 'Voici des produits de soins de la peau qui renforcent activement les fonctions préservant la ' +
       'beauté de la peau afin de défier les signes visibles du vieillissement – sécheresse, perte de fermeté, ' +
       'grain irrégulier et rides – améliorant ainsi nettement l’apparence de la peau. ',
@@ -353,7 +369,10 @@ export const languages = [
     },
     {   id: 7,
         language: 'RO-EU',
-        introheader: 'Îngrijire de înaltă performanță a pielii cu ajutorul InCelligence®\n',
+      healthymobile: './../../img/ladylook/ro.png',
+      healthyquote: './../../img/healthyquote/ro.png',
+
+      introheader: 'Îngrijire de înaltă performanță a pielii cu ajutorul InCelligence®\n',
         intro: 'Introducem produse avansate de îngrijire a pielii, care susțin în mod activ funcțiile naturale de întreținere a ' +
       'frumuseții ale pielii, combătând semnele vizibile ale îmbătrânirii precum uscăciunea, pierderea fermității, afectarea' +
       ' texturii și ridurile, îmbunătățind în mod dramatic aspectul pielii dumneavoastră. \n',
@@ -416,6 +435,9 @@ export const languages = [
     },
     {   id: 8,
         language: 'EN-EU',
+      healthymobile: './../../img/ladylook/healthy-mobile.png',
+      healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
+
       introheader:'Introducing advanced skincare',
       intro: 'Products that actively support beauty-preserving functions in your skin to defy visible signs of aging like ' +
         'photodamage dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of ' +
@@ -476,7 +498,11 @@ export const languages = [
     },
     {   id: 9,
         language: 'DE-EU',
-        introheader: 'Wirkungsvolle Hautpflege mit InCelligence®\n',
+      healthymobile: './../../img/ladylook/de.png',
+      healthyquote: './../../img/healthyquote/de.png',
+
+
+      introheader: 'Wirkungsvolle Hautpflege mit InCelligence®\n',
         celavivefounded: 'Celavive™ gründet sich auf die Wissenschaft der Schönheit. \n',
         intro: 'Wir stellen vor: innovative Pflegeprodukte, die die natürlichen Schutzfunktionen Ihrer Haut aktiv unterstützen, Ihren Teint merklich verbessern und sichtbaren Anzeichen der Alterung wie Trockenheit, Schlaffheit, und Faltenbildung entgegenwirken. \n',
         science: 'Usana, ein weltweit führender Anbieter von Ernährungsprodukten und Erfinder der InCelligence®-Technologie,' +
@@ -529,7 +555,11 @@ export const languages = [
     },
     {   id: 10,
         language: 'ES-EU',
-         introheader: 'Cuidado de la piel de alto rendimiento formulado con InCelligence Technology®\n',
+      healthymobile: './../../img/ladylook/es.png',
+      healthyquote: './../../img/healthyquote/esquote.png',
+
+
+      introheader: 'Cuidado de la piel de alto rendimiento formulado con InCelligence Technology®\n',
         intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente funciones conservadoras de la belleza para combatir los signos visibles de envejecimiento como el daño ocasionado por el sol, la sequedad, la pérdida de firmeza, la decoloración, la textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel.',
         celavivefounded:'La línea Celavive™ fue creada con base en la ciencia de la belleza. \n',
         science: 'Los líderes mundiales en nutrición y creadores de la Tecnología InCelligence de USANA han descubierto la manera de satisfacer específicamente tus necesidades de belleza, que son únicas.' +
@@ -553,6 +583,8 @@ export const languages = [
     },
   {   id: 11,
     language: 'IT-EU',
+    healthymobile: './../../img/ladylook/it.png',
+    healthyquote: './../../img/healthyquote/it.png',
     introheader: 'Skincare ad alte prestazioni con InCelligence®\n',
     intro: 'Introduzione di prodotti avanzati per la cura della pelle che supportano attivamente le funzioni di conservazione della bellezza naturale della pelle per sfidare i segni visibili dell\'invecchiamento, come secchezza, la perdita di tono, struttura e rughe, migliorando notevolmente l\'aspetto della tua pelle. \n',
     celavivefounded:'Celavive® è stata fondata sulla scienza della bellezza. \n',
@@ -565,7 +597,6 @@ export const languages = [
     'naturali capacità di rinnovamento dell’organismo, la tua carnagione apparirà progressivamente più sana, più luminosa ' +
     'e incredibilmente più sana.Scopri la capacità naturale della tua pelle di combattere linvecchiamento visibile.',
     flag: './../../img/countryflag/lt.png',
-
     incellheader: 'Realizzato con InCelligence® \n',
     founded: 'L\'esclusivo complesso Celavive è costituito da due peptidi bioattivi e da due estratti botanici. Insieme, ' +
     'questi ingredienti contribuiscono a contrastare i segni visibili dell’invecchiamento e dello stress, che si traducono ' +
@@ -580,6 +611,9 @@ export const languages = [
 },
   {   id: 12,
     language: 'EN-HK',
+    healthymobile: './../../img/ladylook/healthy-mobile.png',
+    healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
+
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     intro: ' Introducing advanced skincare products that actively support natural beauty-preserving ' +
     'functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, ' +
@@ -633,6 +667,9 @@ export const languages = [
   },
   {   id: 13,
     language: 'ZH-HK',
+    healthymobile: './../../img/ladylook/hkch.png',
+    healthyquote: './../../img/healthyquote/hkchquote.png',
+
     introheader:'採用InCelligence®的高效護膚品\n',
     intro: '我們推出融入先進科學的護膚產品，能積極支援肌膚的天然美容功能，對抗明顯的衰老跡象，例如乾燥、鬆弛、粗糙和皺紋，有效改善您的肌膚。',
     celavivefounded: 'USANA Celavive®以美容科學為基礎。\n',
@@ -681,6 +718,10 @@ export const languages = [
   },
   {   id: 14,
     language: 'JP',
+    healthymobile: './../../img/ladylook/jp.png',
+    healthyquote: './../../img/healthyquote/jp.png',
+
+
     introheader:'インセリジェンス®を採用したスキンケア製品\n',
     intro: 'あなたに秘められた美しさ、水に満たされたようなにみずみすしさを感じ、うるおいに包まれた肌へ。思わずハッとするような、あなたへと導いてくれるスキンケア製品の登場です。\n',
     celavivefounded: 'セラヴィブ®は、科学を基に設計されました\n',
@@ -726,6 +767,8 @@ export const languages = [
   },
   {   id: 15,
     language: 'KR',
+    healthymobile: './../../img/ladylook/kr.png',
+    healthyquote: './../../img/healthyquote/ko.png',
     introheader:'유사나만의 기술력으로 탄생한 스킨케어 시스템',
     intro: '피부 스스로 충분한 수분 유지를 강화하여 피부 건조를 방지하고 피부를 탱탱하게 하며 피부결을 고르게 유지해주어 더욱 빛나는 피부로 보이게 가꾸어주는 스킨케어 제품이 드디어 출시됩니다.\n',
     celavivefounded: '유사나®셀라비브™는 아름다움의 과학으로 탄생하였습니다.\n',
@@ -775,6 +818,9 @@ export const languages = [
   },
   {   id: 16,
     language: 'MX',
+    healthymobile: './../../img/ladylook/es.png',
+    healthyquote: './../../img/healthyquote/esquote.png',
+
     introheader:'Cuidado de la piel de alto desempeño formulado con InCelligence Technology®\n',
     intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente funciones conservadoras de la belleza para combatir los signos visibles de envejecimiento como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel.  \n',
     celavivefounded: 'La línea USANA Celavive® fue creada con base en la ciencia de la belleza. \n',
@@ -824,6 +870,10 @@ export const languages = [
   },
   {   id: 17,
     language: 'ZH-MY',
+    healthymobile: './../../img/ladylook/chmysg.png',
+    healthyquote: './../../img/healthyquote/mych.png',
+
+
     introheader:'采用InCelligence®的高性能护肤产品\n',
     intro: '我们推出先进的护肤产品，能积极支持皮肤中常保美丽的天然机能，减少明显的老化迹象，例如干燥、松弛、粗糙、和皱纹等，大大改善皮肤的外观',
     celavivefounded: 'Celavive以美容科学为基础。\n',
@@ -845,6 +895,9 @@ export const languages = [
     modalformbtnnothanks: '不用了，谢谢\n'},
   {   id: 18,
     language: 'PH',
+    healthymobile: './../../img/ladylook/healthy-mobile.png',
+    healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
+
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n' +
     '\n',
@@ -901,6 +954,9 @@ export const languages = [
   },
   {   id: 19,
     language: 'TH',
+    healthymobile: './../../img/ladylook/tai.png',
+    healthyquote: './../../img/healthyquote/thai.png',
+
     introheader:'ผลิตภัณฑ์ดูแลผิวพรรณประสิทธิภาพสูงที่พัฒนาขึ้นด้วยเทคโนโลยีอินเซลลิเจนซ์\n',
     intro: 'ขอแนะนำผลิตภัณฑ์ดูแลผิวพรรณที่ส่งเสริมการทำงานตามธรรมชาติของผิวเพื่อลดสัญญาณแห่งวัยที่เห็นได้ชัดเช่น ความแห้งกร้าน, การสูญเสียความยืดหยุ่นและความละเอียดของผิว และริ้วรอยเหี่ยวย่น',
     celavivefounded: 'ยูซานา เซลาวีฟ พัฒนาขึ้นจากวิทยาศาสตร์แห่งความงาม\n',
@@ -951,6 +1007,8 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'},
   {   id: 20,
     language: 'TW',
+    healthymobile: './../../img/ladylook/hkch.png',
+    healthyquote: './../../img/healthyquote/hkch.png',
     introheader:'採用InCelligence®的高性能護膚產品\n',
     intro: '我們推出的護膚產品，能積極支援您皮膚減少明顯老化跡象的天然機能，例如乾燥、鬆弛、粗糙、和皺紋等，有助於維持皮膚年輕的外觀與感覺。\n',
     celavivefounded: 'ยCelavive™以美容科學為基礎。\n',
@@ -991,6 +1049,9 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'},
   {   id: 21,
     language: 'EN-CA',
+    healthymobile: './../../img/ladylook/healthy-mobile.png',
+    healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
+
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     intro: 'Introducing advanced skincare products that actively support beauty-preserving functions in your skin to defy visible signs of aging, like photodamage, dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of your skin.' +
     '\n',
@@ -1039,6 +1100,8 @@ export const languages = [
   },
   {   id: 22,
     language: 'ZH-CA',
+    healthymobile: './../../img/ladylook/anzch.png',
+    healthyquote: './../../img/healthyquote/hkch.png',
     introheader:'InCelligence®的高性能護膚產品\n',
     intro: '我們推出先進的護膚產品，能積極支援皮膚中常保美麗的機能，防止明顯的老化跡象，例如紫外線或輻射傷害、乾燥、鬆弛、暗斑、粗糙、和皺紋等，大大改善皮膚的外觀。',
     celavivefounded: 'USANA® Celavive™以美容科學為基礎。\n',
@@ -1079,8 +1142,11 @@ export const languages = [
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'
   },
-  {   id: 22,
+  {   id: 23,
     language: 'FR-CA',
+    healthymobile: './../../img/ladylook/fr.png',
+    healthyquote: './../../img/healthyquote/fr.png',
+
     introheader: 'Des soins de la peau d’une rare efficacité qui misent sur InCelligenceMD',
     intro: 'Voici des produits de soins de la peau perfectionnés qui renforcent activement les fonctions préservant la beauté de la peau afin de défier les signes visibles du vieillissement – lésions photochimiques, sécheresse, perte de fermeté, décoloration, texture déséquilibrée, rides, etc. –améliorant ainsi très nettement l’apparence de la peau. Découvrez dès maintenant votre régime de soins CelavivePour une peau radieuse d’apparence plus jeune, il faut des nutriments ciblés renforçant les fonctions qui préservent la beauté de la peau, tout en contribuant à lutter contre les méfaits visibles de facteurs liés à l’environnement et au style de vie.',
     celavivefounded: 'CelaviveMC d’USANAMD s’appuie sur le fondement scientifique de la beauté. ',
@@ -1140,8 +1206,11 @@ export const languages = [
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'
   },
-  {   id: 23,
+  {   id: 24,
     language: 'EN-ID',
+    healthymobile: './../../img/ladylook/healthy-mobile.png',
+    healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
+
     introheader:'Introducing advanced skincare',
     celavivefounded: 'USANA® Celavive is founded on the science of beauty. \n',
     intro: ' Products that actively support beauty-preserving\n' +
@@ -1193,8 +1262,11 @@ export const languages = [
 
 
   },
-  {   id: 24,
+  {   id: 25,
     language: 'ID-ID',
+    healthymobile: './../../img/ladylook/indonesia.png',
+    healthyquote: './../../img/healthyquote/in.png',
+
     introheader:'Perawatan Kulit Performa Tinggi Berteknologi InCelligence®\n',
     celavivefounded: 'USANA® Celavive berdasarkan pada sains kecantikan. \n',
     intro: 'Introducing skincare products that actively support your skin’s natural functions to reduce the appearance of visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to improve the look of your skin.',
@@ -1238,8 +1310,11 @@ export const languages = [
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'
   },
-  {   id: 25,
+  {   id: 26,
     language: 'EN-MY',
+    healthymobile: './../../img/ladylook/healthy-mobile.png',
+    healthyquote: './../../img/healthyquote/mych.png',
+
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     celavivefounded: 'USANA® Celavive is founded on the science of beauty. \n',
     intro: ' Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to reduce visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin.',
@@ -1287,8 +1362,11 @@ export const languages = [
 
 
   },
-  {   id: 26,
+  {   id: 27,
     language: 'ES-US',
+    healthymobile: './../../img/ladylook/es.png',
+    healthyquote: './../../img/healthyquote/esquote.png',
+
     introheader: "Cuidado de la piel de alto desempeño formulado con InCelligence®",
     intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente ' +
     'funciones conservadoras de - belleza para combatir los signos visibles de envejecimiento ' +
@@ -1329,8 +1407,11 @@ export const languages = [
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'
   },
-  {   id: 27,
-    language: 'ES-ZH',
+  {   id: 28,
+    language: 'ZH-US',
+    healthymobile: './../../img/ladylook/anzch.png',
+    healthyquote: './../../img/healthyquote/hkchquote.png',
+
     introheader:'採用InCelligence®的高性能護膚產品\n',
     intro: '我們推出的護膚產品，能積極支援您皮膚減少明顯老化跡象的天然機能，例如乾燥、鬆弛、粗糙、和皺紋等，有助於維持皮膚年輕的外觀與感覺。\n',
     celavivefounded: 'ยCelavive™以美容科學為基礎。\n',
