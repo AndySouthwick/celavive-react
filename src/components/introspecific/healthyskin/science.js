@@ -10,10 +10,10 @@ class Scinece extends Component {
                 <Container>
                     <Row className="animatedRow">
                         <Col md="12" xs="12">
-                            <img src={require("../../../img/celavive-pic-1.png")} alt="" className="celavive-pic-1 img-responsive desktop"/>
-                            <img src={require("../../../img/healthy-rect.png")} alt="" className="healthy-rect img-responsive desktop"/>
-                            <img src={this.props.healthyquote} alt="" className="healthy-quote img-responsive desktop"/>
-                            <img src={this.props.healthymobile} alt="" className="mobile img-responsive"/>
+                            <img src={require("../../../img/celavive-pic-1.png")} alt="" className="celavive-pic-1 img-responsive lady-desktop"/>
+                            <img src={require("../../../img/healthy-rect.png")} alt="" className="healthy-rect img-responsive lady-desktop"/>
+                            <img src={this.props.healthyquote} alt="" className="healthy-quote img-responsive lady-desktop"/>
+                            <img src={this.props.healthymobile} alt="" className="lady-mobile  img-responsive"/>
                         </Col>
                     </Row>
                 </Container>

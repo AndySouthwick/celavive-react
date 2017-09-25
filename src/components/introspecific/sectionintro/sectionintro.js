@@ -36,7 +36,7 @@ class SectionIntro extends Component {
                     <Row className="intro-img">
                         <img src={require('../../../img/science-vertical.png')} alt="" className="science-vertical desktop ae4 "/>
                             <Col md={{size:10, offset: 2}}>
-                                 <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line desktop" alt=""/>
+                                 <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line intro-desktop" alt=""/>
                             </Col>
                     </Row>
                 </Container>

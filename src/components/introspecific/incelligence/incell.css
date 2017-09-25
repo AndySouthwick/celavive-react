@@ -1,10 +1,7 @@
-img.img-responsive.ae3.product-line {
-  margin-top: -18em; }
-
 @media only screen and (max-width: 1025px) {
-  .intro-desktop {
+  .testube-desktop {
     display: none; } }
 
 @media only screen and (min-width: 1025px) {
-  .intro-mobile {
+  .testube-mobile {
     display: none; } }
