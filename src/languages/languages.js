@@ -714,7 +714,14 @@ export const languages = [
     'avanzate che agiscono sulla pelle, gli ingredienti che penetrano negli strati superiori della pelle creano un’idratazione ' +
     'aggiuntiva, che conferisce una sensazione di intensa idratazione e di riempimento.Oltre a questo esclusivo complesso, ' +
     'i prodotti Celavive contengono anche la nostra miscela botanica Olivol™ composta da estratti di frutta che hanno ' +
-    'dimostrato di essere in grado di fornire un’idratazione intensa di 24 ore anche dopo una sola applicazione.'
+    'dimostrato di essere in grado di fornire un’idratazione intensa di 24 ore anche dopo una sola applicazione.',
+    ctabutton: 'Iscriviti per ricevere aggiornamenti Celavive\n',
+    modalheader: 'Il tuo sguardo al futuro dei trattamenti per la pelle\n',
+    modalearly: 'Prodotto disponibile all’inizio del 2018\n',
+    modalsub: 'Iscriviti per gli aggiornamenti\n',
+    modalformph: 'indirizzo email\n',
+    modalformbtnsub: 'Iscriviti\n',
+    modalformbtnnothanks: 'No, grazie\n'
 },
   {   id: 14,
     language: 'hk-en',
