@@ -1,6 +1,7 @@
 export const languages = [
     {   id: 1,
         language: 'EN-US',
+        languageterm: 'English',
         healthymobile: './../../img/ladylook/healthy-mobile.png',
         healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
         introheader:'Introducing advanced skincare',
@@ -61,6 +62,7 @@ export const languages = [
     },
     {   id: 2,
         language: 'EN-ANZ',
+      languageterm: 'English',
       healthymobile: './../../img/ladylook/healthy-mobile.png',
       healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
       introheader:'High-Performance Skincare Featuring InCelligence®\n',
@@ -118,6 +120,7 @@ export const languages = [
         introheader: '採用InCelligence®的高性能護膚產品',
         intro: '為了擁有光鮮亮麗的年輕肌膚，您需要有標靶性的營養素，來支援您肌膚天然常保美麗的機能，同時幫助抵禦環境和生活因素的傷害。',
         language: 'ZH-ANZ',
+        languageterm: '中文',
       healthymobile: './../../img/ladylook/anzch.png',
       healthyquote: './../../img/healthyquote/anzch.png',
 
@@ -170,6 +173,7 @@ export const languages = [
     },
     {   id: 4,
        language: 'EN-CO',
+      languageterm: 'English',
         introheader: 'High-Performance Skincare Featuring InCelligence®\n',
       healthymobile: './../../img/ladylook/healthy-mobile.png',
       healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
@@ -234,6 +238,7 @@ export const languages = [
 
     {   id: 5,
         language: 'ES-CO',
+      languageterm: 'Español',
       healthymobile: './../../img/ladylook/es.png',
       healthyquote: './../../img/healthyquote/esquote.png',
 
@@ -303,6 +308,7 @@ export const languages = [
       productsrepnightcream: 'Replenishing Night Cream'},
     {   id: 6,
         language: 'FR-EU',
+      languageterm: 'Français',
       healthymobile: './../../img/ladylook/fr.png',
       healthyquote: './../../img/healthyquote/fr.png',
 
@@ -369,6 +375,7 @@ export const languages = [
     },
     {   id: 7,
         language: 'RO-EU',
+      languageterm: 'Romanian',
       healthymobile: './../../img/ladylook/ro.png',
       healthyquote: './../../img/healthyquote/ro.png',
 
@@ -435,6 +442,7 @@ export const languages = [
     },
     {   id: 8,
         language: 'EN-EU',
+      languageterm: 'English',
       healthymobile: './../../img/ladylook/healthy-mobile.png',
       healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
 
@@ -498,6 +506,7 @@ export const languages = [
     },
     {   id: 9,
         language: 'DE-EU',
+      languageterm: 'Deutsch',
       healthymobile: './../../img/ladylook/de.png',
       healthyquote: './../../img/healthyquote/de.png',
 
@@ -555,6 +564,7 @@ export const languages = [
     },
     {   id: 10,
         language: 'ES-EU',
+      languageterm: 'Español',
       healthymobile: './../../img/ladylook/es.png',
       healthyquote: './../../img/healthyquote/esquote.png',
 
@@ -583,6 +593,7 @@ export const languages = [
     },
   {   id: 11,
     language: 'IT-EU',
+    languageterm: 'Italian',
     healthymobile: './../../img/ladylook/it.png',
     healthyquote: './../../img/healthyquote/it.png',
     introheader: 'Skincare ad alte prestazioni con InCelligence®\n',
@@ -607,10 +618,11 @@ export const languages = [
     'avanzate che agiscono sulla pelle, gli ingredienti che penetrano negli strati superiori della pelle creano un’idratazione ' +
     'aggiuntiva, che conferisce una sensazione di intensa idratazione e di riempimento.Oltre a questo esclusivo complesso, ' +
     'i prodotti Celavive contengono anche la nostra miscela botanica Olivol™ composta da estratti di frutta che hanno ' +
-    'dimostrato di essere in grado di fornire un’idratazione intensa di 24 ore anche dopo una sola applicazione.',
+    'dimostrato di essere in grado di fornire un’idratazione intensa di 24 ore anche dopo una sola applicazione.'
 },
   {   id: 12,
     language: 'EN-HK',
+    languageterm: 'English',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
 
@@ -667,6 +679,7 @@ export const languages = [
   },
   {   id: 13,
     language: 'ZH-HK',
+    languageterm: '中文',
     healthymobile: './../../img/ladylook/hkch.png',
     healthyquote: './../../img/healthyquote/hkchquote.png',
 
@@ -718,6 +731,7 @@ export const languages = [
   },
   {   id: 14,
     language: 'JP',
+    languageterm: '日本語',
     healthymobile: './../../img/ladylook/jp.png',
     healthyquote: './../../img/healthyquote/jp.png',
 
@@ -767,6 +781,7 @@ export const languages = [
   },
   {   id: 15,
     language: 'KR',
+    languageterm: '한국어',
     healthymobile: './../../img/ladylook/kr.png',
     healthyquote: './../../img/healthyquote/ko.png',
     introheader:'유사나만의 기술력으로 탄생한 스킨케어 시스템',
@@ -818,6 +833,7 @@ export const languages = [
   },
   {   id: 16,
     language: 'MX',
+    languageterm: 'Español',
     healthymobile: './../../img/ladylook/es.png',
     healthyquote: './../../img/healthyquote/esquote.png',
 
@@ -870,6 +886,7 @@ export const languages = [
   },
   {   id: 17,
     language: 'ZH-MY',
+    languageterm: '中文',
     healthymobile: './../../img/ladylook/chmysg.png',
     healthyquote: './../../img/healthyquote/mych.png',
 
@@ -895,6 +912,7 @@ export const languages = [
     modalformbtnnothanks: '不用了，谢谢\n'},
   {   id: 18,
     language: 'PH',
+    languageterm: 'English',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
 
@@ -954,6 +972,7 @@ export const languages = [
   },
   {   id: 19,
     language: 'TH',
+    languageterm: 'ภาษาไทย',
     healthymobile: './../../img/ladylook/tai.png',
     healthyquote: './../../img/healthyquote/thai.png',
 
@@ -1007,6 +1026,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'},
   {   id: 20,
     language: 'TW',
+    languageterm: '中文',
     healthymobile: './../../img/ladylook/hkch.png',
     healthyquote: './../../img/healthyquote/hkch.png',
     introheader:'採用InCelligence®的高性能護膚產品\n',
@@ -1049,6 +1069,7 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'},
   {   id: 21,
     language: 'EN-CA',
+    languageterm: 'English',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
 
@@ -1100,6 +1121,7 @@ export const languages = [
   },
   {   id: 22,
     language: 'ZH-CA',
+    languageterm: '中文',
     healthymobile: './../../img/ladylook/anzch.png',
     healthyquote: './../../img/healthyquote/hkch.png',
     introheader:'InCelligence®的高性能護膚產品\n',
@@ -1144,6 +1166,7 @@ export const languages = [
   },
   {   id: 23,
     language: 'FR-CA',
+    languageterm: 'Français',
     healthymobile: './../../img/ladylook/fr.png',
     healthyquote: './../../img/healthyquote/fr.png',
 
@@ -1208,6 +1231,7 @@ export const languages = [
   },
   {   id: 24,
     language: 'EN-ID',
+    languageterm: 'English',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
 
@@ -1264,6 +1288,7 @@ export const languages = [
   },
   {   id: 25,
     language: 'ID-ID',
+    languageterm: 'Indonesia',
     healthymobile: './../../img/ladylook/indonesia.png',
     healthyquote: './../../img/healthyquote/in.png',
 
@@ -1312,6 +1337,7 @@ export const languages = [
   },
   {   id: 26,
     language: 'EN-MY',
+    languageterm: 'English',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/mych.png',
 
@@ -1364,6 +1390,7 @@ export const languages = [
   },
   {   id: 27,
     language: 'ES-US',
+    languageterm: 'Español',
     healthymobile: './../../img/ladylook/es.png',
     healthyquote: './../../img/healthyquote/esquote.png',
 
@@ -1409,6 +1436,7 @@ export const languages = [
   },
   {   id: 28,
     language: 'ZH-US',
+    languageterm: '中文',
     healthymobile: './../../img/ladylook/anzch.png',
     healthyquote: './../../img/healthyquote/hkchquote.png',
 
@@ -1454,6 +1482,6 @@ export const languages = [
     productsprodaycream: 'Protective Day Cream',
     productsrepnightgel: 'Replenishing Night Gel',
     productsrepnightcream: 'Replenishing Night Cream'
-  },
+  }
 
 ]

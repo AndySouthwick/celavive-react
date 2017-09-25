@@ -60,7 +60,7 @@ class Navigation extends Component {
                 language: lan.language,
                 flag: lan.flag
               })}>
-                <Link to={`/${lan.language}/1`} onClick={this.toggleMenuOff}><span className="flag"><img src={lan.flag} /></span> {lan.language}</Link>
+                <Link to={`/${lan.language}/1`} onClick={this.toggleMenuOff}><span className="flag"><img src={lan.flag} /></span> {lan.languageterm}</Link>
               </div>
             </div>
           )
@@ -80,7 +80,7 @@ class Navigation extends Component {
                 language: lan.language,
                 flag: lan.flag
               })} >
-                <Link to={`/${lan.language}/1`} onClick={this.toggleMenuOff}><span className="flag"><img src={lan.flag} /></span> {lan.language}  </Link>
+                <Link to={`/${lan.language}/1`} onClick={this.toggleMenuOff}><span className="flag"><img src={lan.flag} /></span> {lan.languageterm}  </Link>
               </div>
             </div>
           )
@@ -101,7 +101,7 @@ class Navigation extends Component {
                 flag: lan.flag,
               })}>
                 {console.log(lan.flag)}
-                <Link to={`/${lan.language}/2/intro`} onClick={this.toggleMenuOff}><span className="flag"><img src={lan.flag} /></span> {lan.language}</Link>
+                <Link to={`/${lan.language}/2/intro`} onClick={this.toggleMenuOff}><span className="flag"><img src={lan.flag} /></span> {lan.languageterm}</Link>
               </div>
             </div>
           );
@@ -116,7 +116,7 @@ class Navigation extends Component {
                 language: lan.language,
                 flag: lan.flag
               })} >
-                <Link to={`../../${lan.language}/3/products`}><span className="flag"><img src={lan.flag} width="25" height="25"/></span> {lan.language}</Link>
+                <Link to={`../../${lan.language}/3/products`}><span className="flag"><img src={lan.flag} width="25" height="25"/></span> {lan.languageterm}</Link>
               </div>
             </div>
 
