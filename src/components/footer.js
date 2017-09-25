@@ -12,13 +12,13 @@ class CelaviveFooter extends Component {
             <section id="section-footer">
               <Container>
                   <Row>
-                      <Col  md="2" sm="12">
+                      <Col  sm="12" className="text-center">
                           <img src={require('../img/usanalogo.svg')} alt="" className="img-responsive footer-logo"/>
                       </Col>
 
                   </Row>
                   <Row>
-                  <Col>
+                  <Col sm="4">
                       <ul>
                           <li><span className="footerHeader">COMPANY</span></li>
                           <li><a href="https://www.usana.com/" target="_blank">USANA Home</a></li>
@@ -31,7 +31,7 @@ class CelaviveFooter extends Component {
                           </li>
                       </ul>
                   </Col>
-                      <Col >
+                  <Col sm="4">
                           <ul>
                               <li><span className="footerHeader">QUICK LINKS</span></li>
                               <li><a href="http://www.drwentz.com" target="_blank">Dr. Wentz</a></li>
@@ -42,7 +42,7 @@ class CelaviveFooter extends Component {
                               <li><a href="https://whatsupusana.com/">“What’s Up USANA” Blog</a></li>
                           </ul>
                       </Col>
-                        <Col >
+                  <Col sm="4">
                             <ul>
                                 <li><span className="footerHeader">CONNECT</span></li>
                                 <li><a href="https://www.usana.com/dotCom/contactUs?SET_LOCALE=en">Contact Us</a></li>
