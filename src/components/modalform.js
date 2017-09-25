@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { Button, Modal, Form, ModalBody, Input, Label } from 'reactstrap';
 import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
 
 
 class ModalForm extends Component{
@@ -27,7 +28,7 @@ class ModalForm extends Component{
                         <div className="af-element">
                             <Label className="previewLabel" for="awf_field-92405287"></Label>
                             <div className="af-textWrap">
-                                <Input className="text" id="awf_field-92405287" type="text" name="email" value=""
+                                <Input className="text" id="awf_field-92405287" type="text" name="email"
                                        tabIndex="500" placeholder={this.props.modalformph}/>
                             </div>
                             <div className="af-clear"></div>
@@ -37,9 +38,9 @@ class ModalForm extends Component{
                                     value="Submit" tabIndex="501">{this.props.modalformbtnsub}
                             </button>
 
-                            <a href="/intro"><button name="cancel" className="btn btn-primary-invert btn-lg btn-block modal-check" type="button"
+                            <Link to={`${this.props.language}/2/intro`}> <button name="cancel" className="btn btn-primary-invert btn-lg btn-block modal-check" type="button"
                                                      data-dismiss="modal" value="cancel" tabIndex="501">{this.props.modalformbtnnothanks}
-                            </button></a>
+                            </button></Link>
                             <div className="af-clear"></div>
                         </div>
                         <div className="af-element privacyPolicy"><p>We respect your <a
@@ -59,7 +60,8 @@ const mapStateToProps = state => {
   return {
     modalformph: state.modalformph,
     modalformbtnsub: state.changeit.modalformbtnsub,
-    modalformbtnnothanks: state.modalformbtnnothanks
+    modalformbtnnothanks: state.modalformbtnnothanks,
+    language: state.changeit.language
   }
 }
 
