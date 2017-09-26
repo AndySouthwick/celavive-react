@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './header.css'
+import {connect} from 'react-redux'
 
 class Hero extends Component {
     render() {
@@ -7,7 +8,7 @@ class Hero extends Component {
             <header>
                 <div className="header-content">
                     <div className="header-content-inner" data-color="#FFA500, #bada55, #4964A1">
-                        <img src={require('../../../img/celavive-hero.png')} alt=""
+                        <img src={this.props.chero2} alt=""
                              className="img-responsive productReveal" />
                     </div>
                 </div>
@@ -17,4 +18,9 @@ class Hero extends Component {
     }
 }
 
-export default Hero
+const mapStateToProps = state => ({
+  chero2: state.changeit.chero2
+})
+
+const withReduxConnect = connect(mapStateToProps)(Hero)
+export default withReduxConnect
