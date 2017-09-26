@@ -1,37 +1,64 @@
-<svg width="1266" height="230" viewBox="0 0 1266 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100%" height="230" viewBox="0 0 1266 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style type="text/css">
+        <![CDATA[
+          @keyframes changeColor {
+          0% {
+            fill: #FFFFFF;
+          }
+          25% {
+            fill: #fce9dd;
+          }
+          50% {
+            fill: #8bc7ea;
+          }
+          75% {
+            fill: #fce9dd;
+          }
+          100% {
+            fill: #FFFFFF;
+          }
+        }
+
+        path {
+          -webkit-animation: changeColor 3s step-end;
+          animation: changeColor 3s step-end;
+          z-index: 200;
+        }
+  ]]>
+    </style>
 <title>landing-hero-sp</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(1919 -1269)">
-<g id="landing-hero-sp">
-<g id="Vector">
-<use xlink:href="#path0_fill" transform="translate(-752.104 1270.27)" fill="#FFFFFF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path1_fill" transform="translate(-955.759 1270.27)" fill="#FFFFFF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path2_fill" transform="translate(-1032.97 1270.27)" fill="#FFFFFF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path3_fill" transform="translate(-1236.62 1270.27)" fill="#FFFFFF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path4_fill" transform="translate(-1411.1 1269.42)" fill="#FFFFFF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path5_fill" transform="translate(-1561.8 1270.27)" fill="#FFFFFF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path6_fill" transform="translate(-1723.32 1270.27)" fill="#FFFFFF"/>
-</g>
-<g id="Vector">
-<use xlink:href="#path7_fill" transform="translate(-1919 1269)" fill="#FFFFFF"/>
-</g>
-<g id="Vaya m&#195;&#161;s all&#195;&#161; de lo que est&#195;&#161; a simple vista">
-<use xlink:href="#path8_fill" transform="translate(-1913 1448)" fill="#FFFFFF"/>
-</g>
-</g>
-</g>
+    <g id="Canvas" transform="translate(1919 -1269)">
+     <g id="animatedLogo">
+         <g id="Vector">
+            <use xlink:href="#path0_fill" transform="translate(-752.104 1270.27)" fill="#FFFFFF"/>
+        </g>
+        <g id="Vector">
+            <use xlink:href="#path1_fill" transform="translate(-955.759 1270.27)" fill="#FFFFFF"/>
+        </g>
+        <g id="Vector">
+            <use xlink:href="#path2_fill" transform="translate(-1032.97 1270.27)" fill="#FFFFFF"/>
+        </g>
+         <g id="Vector">
+    <use xlink:href="#path3_fill" transform="translate(-1236.62 1270.27)" fill="#FFFFFF"/>
+    </g>
+    <g id="Vector">
+    <use xlink:href="#path4_fill" transform="translate(-1411.1 1269.42)" fill="#FFFFFF"/>
+    </g>
+    <g id="Vector">
+    <use xlink:href="#path5_fill" transform="translate(-1561.8 1270.27)" fill="#FFFFFF"/>
+    </g>
+    <g id="Vector">
+    <use xlink:href="#path6_fill" transform="translate(-1723.32 1270.27)" fill="#FFFFFF"/>
+    </g>
+    <g id="Vector">
+    <use xlink:href="#path7_fill" transform="translate(-1919 1269)" fill="#FFFFFF"/>
+    </g>
+    <g id="Vaya m&#195;&#161;s all&#195;&#161; de lo que est&#195;&#161; a simple vista">
+    <use xlink:href="#path8_fill" transform="translate(-1913 1448)" fill="#FFFFFF"/>
+    </g>
+    </g>
+    </g>
 <defs>
 <path id="path0_fill" d="M 21.5076 20.7099L 21.5076 66.3563L 64.523 66.3563C 66.2099 66.3563 67.8967 67.6243 67.8967 69.7376L 67.8967 83.6851C 67.8967 85.7983 66.6316 87.0663 64.523 87.0663L 21.5076 87.0663L 21.5076 130.177L 95.7301 130.177C 97.417 130.177 99.104 131.445 99.104 133.558L 99.104 147.506C 99.104 149.196 97.8387 150.887 95.7301 150.887L 3.37375 150.887C 1.68688 150.887 5.14794e-05 149.619 5.14794e-05 147.506L 5.14794e-05 2.95856C 5.14794e-05 1.26796 1.26513 5.0384e-08 2.95201 5.0384e-08L 95.7301 5.0384e-08C 97.417 5.0384e-08 99.104 1.26796 99.104 2.95856L 99.104 17.3287C 99.104 19.0193 97.8387 20.2873 95.7301 20.2873L 21.5076 20.2873L 21.5076 20.7099Z"/>
 <path id="path1_fill" d="M 146.722 3.80387L 77.5605 148.773C 77.1388 150.041 75.8736 151.309 74.1867 151.309L 72.4999 151.309C 70.813 151.309 69.5478 150.041 69.1261 148.773L 0.385922 3.80387C -0.879235 1.69061 1.22939 5.0384e-08 2.91626 5.0384e-08L 21.8936 5.0384e-08C 23.5805 5.0384e-08 24.4239 1.69061 25.2673 3.38122L 73.765 109.044L 122.263 3.38122C 123.106 1.69061 123.95 5.0384e-08 125.636 5.0384e-08L 144.614 5.0384e-08C 146.301 5.0384e-08 147.988 1.69061 146.722 3.80387Z"/>

@@ -52,7 +52,7 @@ body {
   }
 }
 
-#animatedLogo {
+.animatedLogo {
   -webkit-animation: changeColor 3s step-end;
   animation: changeColor 3s step-end;
   z-index: 200;
