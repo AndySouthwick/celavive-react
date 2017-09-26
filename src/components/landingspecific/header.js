@@ -40,7 +40,7 @@ class CelaviveHeader extends Component {
         )
     }
 }
-mapStatetoProps = state => ({
-  landing:
-})
+// mapStatetoProps = state => ({
+//   landing:
+// })
 export default CelaviveHeader
