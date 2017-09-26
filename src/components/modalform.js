@@ -7,6 +7,22 @@ import {Link} from 'react-router-dom'
 class ModalForm extends Component{
 
     render(){
+
+     let currentPageLink = []
+
+      if(!this.props.page){
+        currentPageLink= `/${this.props.language}/2/intro`
+      }
+
+      if(this.props.page === '1'){
+        currentPageLink= `/${this.props.language}/2/intro`
+
+      }
+
+      if(this.props.page === '2'){
+        currentPageLink= `/${this.props.language}/2/intro`
+
+      }
         return(
 
             <Form method="post" className="af-form-wrapper" acceptCharset="UTF-8"
@@ -38,7 +54,7 @@ class ModalForm extends Component{
                                     value="Submit" tabIndex="501">{this.props.modalformbtnsub}
                             </button>
 
-                            <Link to={`${this.props.language}/2/intro`}> <button name="cancel" className="btn btn-primary-invert btn-lg btn-block modal-check" type="button"
+                            <Link to={currentPageLink}> <button name="cancel" className="btn btn-primary-invert btn-lg btn-block modal-check" type="button"
                                                      data-dismiss="modal" value="cancel" tabIndex="501">{this.props.modalformbtnnothanks}
                             </button></Link>
                             <div className="af-clear"></div>

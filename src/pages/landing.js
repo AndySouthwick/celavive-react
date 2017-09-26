@@ -18,7 +18,7 @@ class Landing extends Component {
     this.state = {
       id: '1',
       page:'1',
-      language: 'US-EN',
+      language: 'us-en',
       redirect: false
     }
 
@@ -56,7 +56,7 @@ console.log(this.state)
       if(chosenLanguage){
         store.dispatch(chlan(chosenLanguage))
       }else{
-        chosenLanguage = languages.find(item => item.language === 'EN-US')
+        chosenLanguage = languages.find(item => item.language === 'us-en')
         store.dispatch(chlan(chosenLanguage))
         }
 
