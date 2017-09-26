@@ -202,6 +202,7 @@ aside {
 header {
   z-index: -999;
   position: relative;
+  display: table!important;
   width: 100%;
   min-height: auto;
   background: -moz-radial-gradient(center, ellipse cover, rgba(250, 244, 241, 1) 0%, rgba(239, 222, 213, 1) 100%); /* ff3.6+ */
@@ -215,8 +216,9 @@ header {
   color: white;
   .header-content {
     position: relative;
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
-    //padding: 100px 15px 100px;
     width: 100%;
     z-index: 1000;
     svg.img-responsive {
@@ -245,7 +247,6 @@ header {
   min-height: 100%;
   .header-content {
     padding: 200px 15px 100px;
-    top: 50%;
     //-webkit-transform: translateY(-50%);
     //-ms-transform: translateY(-50%);
     //transform: translateY(-50%);
