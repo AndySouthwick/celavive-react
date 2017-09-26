@@ -1083,7 +1083,7 @@ export const languages = [
     languageterm: 'ภาษาไทย',
     healthymobile: './../../img/ladylook/tai.png',
     healthyquote: './../../img/healthyquote/thai.png',
-    chero2: './../../img/celavive-hero-th.png',
+    chero2: './../../img/celavive-hero-us-th.png',
     introheader:'ผลิตภัณฑ์ดูแลผิวพรรณประสิทธิภาพสูงที่พัฒนาขึ้นด้วยเทคโนโลยีอินเซลลิเจนซ์\n',
     intro: 'ขอแนะนำผลิตภัณฑ์ดูแลผิวพรรณที่ส่งเสริมการทำงานตามธรรมชาติของผิวเพื่อลดสัญญาณแห่งวัยที่เห็นได้ชัดเช่น ความแห้งกร้าน, การสูญเสียความยืดหยุ่นและความละเอียดของผิว และริ้วรอยเหี่ยวย่น',
     celavivefounded: 'ยูซานา เซลาวีฟ พัฒนาขึ้นจากวิทยาศาสตร์แห่งความงาม\n',
