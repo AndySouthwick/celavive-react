@@ -2,6 +2,7 @@ export const languages = [
     {   id: 1,
         language: 'us-en',
         languageterm: 'English',
+      landinghero: './../../img/landing-her-en.svg',
         chero2: './../../img/celavive-hero.png',
         healthymobile: './../../img/ladylook/healthy-mobile.png',
         healthyquote: './../../img/healthyquote/healthy-looking-skin.png',

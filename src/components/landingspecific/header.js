@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Container, Row, Col} from 'reactstrap'
+import {connect} from'react-redux'
 
 class CelaviveHeader extends Component {
 
@@ -40,5 +40,7 @@ class CelaviveHeader extends Component {
         )
     }
 }
-
+mapStatetoProps = state => ({
+  landing:
+})
 export default CelaviveHeader
