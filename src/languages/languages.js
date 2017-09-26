@@ -6,7 +6,7 @@ export const languages = [
         healthymobile: './../../img/ladylook/healthy-mobile.png',
         healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
         introheader:'Introducing advanced skincare',
-        celavivefounded: 'Celavive™ - Founded on the Scinece of Beuty',
+        celavivefounded: 'Celavive™ - Founded on the Science of Beauty',
         intro: ' Products that actively support beauty-preserving\n' +
         'functions in your skin to defy visible signs of aging\n' +
         'like photodamage, dryness, loss of firmness,\n' +
@@ -21,7 +21,7 @@ export const languages = [
         'skin’s natural ability to fight visible aging.' +
         '',
         flag: './../../img/countryflag/us.png',
-        incellheader: 'Incelligence',
+        incellheader: 'INCELLIGENCE',
         founded: 'The exclusive Cell-Signalling Complex found in Celavive ' +
         'is made up of two bioactive peptides and two botanical extracts. When combined, ' +
         'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
