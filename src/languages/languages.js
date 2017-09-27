@@ -2,6 +2,7 @@ export const languages = [
     {   id: 1,
         language: 'us-en',
         languageterm: 'English',
+        menumarket: 'Market',
         landinghero: './../../img/landing-hero-en.svg',
         chero2: './../../img/celavive-hero.png',
         healthymobile: './../../img/ladylook/healthy-mobile.png',
@@ -65,6 +66,7 @@ export const languages = [
   {   id: 2,
     language: 'us-es',
     languageterm: 'Español',
+    menumarket: 'Marcado',
     healthymobile: './../../img/ladylook/es.png',
     healthyquote: './../../img/healthyquote/esquote.png',
     landinghero: './../../img/landing-hero-sp.svg',
@@ -114,6 +116,7 @@ export const languages = [
   {   id: 3,
     language: 'us-zh',
     languageterm: '中文',
+    menumarket: '市場',
     healthymobile: './../../img/ladylook/anzch.png',
     healthyquote: './../../img/healthyquote/hkchquote.png',
     landinghero: './../../img/landing-hero-cht.svg',
@@ -167,6 +170,7 @@ export const languages = [
       languageterm: 'English',
       landinghero: './../../img/landing-hero-en.svg',
       chero2: './../../img/celavive-hero.png',
+      menumarket: 'Market',
       healthymobile: './../../img/ladylook/healthy-mobile.png',
       healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
       introheader:'High-Performance Skincare Featuring InCelligence®\n',
@@ -225,6 +229,8 @@ export const languages = [
         intro: '為了擁有光鮮亮麗的年輕肌膚，您需要有標靶性的營養素，來支援您肌膚天然常保美麗的機能，同時幫助抵禦環境和生活因素的傷害。',
         language: 'anz-zh',
         languageterm: '中文',
+        menumarket: '市场',
+
       healthymobile: './../../img/ladylook/anzch.png',
       healthyquote: './../../img/healthyquote/anzch.png',
       landinghero: './../../img/landing-hero-cht.svg',
@@ -282,7 +288,7 @@ export const languages = [
       languageterm: 'English',
         introheader: 'High-Performance Skincare Featuring InCelligence®\n',
       landinghero: './../../img/landing-hero-en.svg',
-
+      menumarket: 'Market',
       healthymobile: './../../img/ladylook/healthy-mobile.png',
       healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
       chero2: './../../img/celavive-hero.png',
@@ -349,7 +355,7 @@ export const languages = [
         language: 'co-es',
       languageterm: 'Español',
       landinghero: './../../img/landing-hero-sp.svg',
-
+      menumarket: 'Marcado',
       healthymobile: './../../img/ladylook/es.png',
       healthyquote: './../../img/healthyquote/esquote.png',
       chero2: './../../img/celavive-hero-sp.png',
@@ -421,7 +427,7 @@ export const languages = [
         language: 'eu-fr',
       languageterm: 'Français',
       landinghero: './../../img/landing-hero-fr.svg',
-
+      menumarket: 'Marché',
       healthymobile: './../../img/ladylook/fr.png',
       healthyquote: './../../img/healthyquote/fr.png',
       chero2: './../../img/celavive-hero-fr.png',
@@ -489,7 +495,7 @@ export const languages = [
     {   id: 9,
         language: 'eu-ro',
       landinghero: './../../img/landing-hero-en.svg',
-
+      menumarket: 'Marché',
       languageterm: 'Romanian',
       healthymobile: './../../img/ladylook/ro.png',
       healthyquote: './../../img/healthyquote/ro.png',
@@ -558,8 +564,8 @@ export const languages = [
     {   id: 10,
         language: 'eu-en',
       languageterm: 'English',
+      menumarket: 'Market',
       landinghero: './../../img/landing-hero-en.svg',
-
       healthymobile: './../../img/ladylook/healthy-mobile.png',
       healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
       chero2: './../../img/celavive-hero.png',
@@ -624,6 +630,8 @@ export const languages = [
     {   id: 11,
         language: 'eu-de',
       languageterm: 'Deutsch',
+      menumarket: 'Market',
+
       landinghero: './../../img/landing-hero-de.svg',
 
       healthymobile: './../../img/ladylook/de.png',
@@ -684,6 +692,8 @@ export const languages = [
     {   id: 12,
         language: 'eu-es',
       languageterm: 'Español',
+      menumarket: 'Marcado',
+
       landinghero: './../../img/landing-hero-sp.svg',
 
       healthymobile: './../../img/ladylook/es.png',
@@ -716,7 +726,7 @@ export const languages = [
     language: 'eu-it',
     languageterm: 'Italiano',
     landinghero: './../../img/landing-hero-it.svg',
-
+    menumarket: 'Mercato',
     healthymobile: './../../img/ladylook/it.png',
     healthyquote: './../../img/healthyquote/it.png',
     chero2: './../../img/celavive-hero-it.png',
@@ -753,6 +763,7 @@ export const languages = [
 },
   {   id: 14,
     language: 'hk-en',
+    menumarket: 'Market',
 
     languageterm: 'English',
     landinghero: './../../img/landing-hero-en.svg',
@@ -815,6 +826,7 @@ export const languages = [
     language: 'hk-zh',
     languageterm: '中文',
     landinghero: './../../img/landing-hero-cht.svg',
+    menumarket: '市場',
 
     healthymobile: './../../img/ladylook/hkch.png',
     healthyquote: './../../img/healthyquote/hkchquote.png',
@@ -869,6 +881,7 @@ export const languages = [
     language: 'jp',
     languageterm: '日本語',
     landinghero: './../../img/landing-hero-en.svg',
+    menumarket: '市場',
 
     healthymobile: './../../img/ladylook/jp.png',
     healthyquote: './../../img/healthyquote/jp.png',
@@ -921,7 +934,7 @@ export const languages = [
     language: 'kr',
     languageterm: '한국어',
     landinghero: './../../img/landing-hero-en.svg',
-
+    menumarket: '국가',
     healthymobile: './../../img/ladylook/kr.png',
     healthyquote: './../../img/healthyquote/ko.png',
     chero2: './../../img/celavive-hero.png',
@@ -976,7 +989,7 @@ export const languages = [
     language: 'mx',
     languageterm: 'Español',
     landinghero: './../../img/landing-hero-sp.svg',
-
+    menumarket: 'Marcado',
     healthymobile: './../../img/ladylook/es.png',
     healthyquote: './../../img/healthyquote/esquote.png',
     chero2: './../../img/celavive-hero-sp.png',
@@ -1031,6 +1044,7 @@ export const languages = [
     language: 'my-zh',
     languageterm: '中文',
     landinghero: './../../img/landing-hero-chs.svg',
+    menumarket: '市場',
 
     healthymobile: './../../img/ladylook/chmysg.png',
     healthyquote: './../../img/healthyquote/mych.png',
@@ -1059,7 +1073,7 @@ export const languages = [
     language: 'ph',
     languageterm: 'English',
     landinghero: './../../img/landing-hero-en.svg',
-
+    menumarket: 'Market',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
     chero2: './../../img/celavive-hero.png',
@@ -1121,6 +1135,7 @@ export const languages = [
     language: 'th',
     languageterm: 'ภาษาไทย',
     landinghero: './../../img/landing-hero-th.svg',
+    menumarket: 'ตลาด',
 
     healthymobile: './../../img/ladylook/tai.png',
     healthyquote: './../../img/healthyquote/thai.png',
@@ -1177,6 +1192,7 @@ export const languages = [
     language: 'tw',
     languageterm: '中文',
     landinghero: './../../img/landing-hero-chs.svg',
+    menumarket: '市場',
 
     healthymobile: './../../img/ladylook/hkch.png',
     healthyquote: './../../img/healthyquote/hkch.png',
@@ -1223,6 +1239,7 @@ export const languages = [
     language: 'ca-en',
     languageterm: 'English',
     landinghero: './../../img/landing-hero-en.svg',
+    menumarket: 'Market',
 
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
@@ -1274,8 +1291,9 @@ export const languages = [
     productsrepnightcream: 'Replenishing Night Cream'
   },
   {   id: 24,
-    language: 'ZH-CA',
+    language: 'ca-zh',
     languageterm: '中文',
+    menumarket: '市場',
     healthymobile: './../../img/ladylook/anzch.png',
     healthyquote: './../../img/healthyquote/hkch.png',
     chero2: './../../img/celavive-hero-us-zh.png',
@@ -1323,6 +1341,7 @@ export const languages = [
     language: 'ca-fr',
     languageterm: 'Français',
     landinghero: './../../img/landing-hero-fr.svg',
+    menumarket: 'Marché',
 
     healthymobile: './../../img/ladylook/fr.png',
     healthyquote: './../../img/healthyquote/fr.png',
@@ -1390,7 +1409,7 @@ export const languages = [
     language: 'id-en',
     languageterm: 'English',
     landinghero: './../../img/landing-hero-en.svg',
-
+    menumarket: 'Market',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
     chero2: './../../img/celavive-hero.png',
@@ -1449,7 +1468,7 @@ export const languages = [
     language: 'id',
     languageterm: 'Indonesia',
     landinghero: './../../img/landing-hero-id.svg',
-
+    menumarket: 'Pasar',
     healthymobile: './../../img/ladylook/indonesia.png',
     healthyquote: './../../img/healthyquote/in.png',
     chero2: './../../img/celavive-hero-id.png',
@@ -1500,7 +1519,7 @@ export const languages = [
     language: 'my-en',
     languageterm: 'English',
     landinghero: './../../img/landing-hero-en.svg',
-
+    menumarket: 'Market',
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/mych.png',
     chero2: './../../img/celavive-hero.png',

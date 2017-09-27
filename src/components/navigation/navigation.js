@@ -147,7 +147,7 @@ class Navigation extends Component {
                 </div>
                 <div className={this.state.toggleNavMenu}>
 
-                  <h4>Markets</h4> <hr/>
+                  <h4>{this.props.menumarket}</h4> <hr/>
                   <div className="myflexcontainer d-flex flex-column flex-wrap">{Selectors}
                   </div>
                 </div>
@@ -166,6 +166,7 @@ class Navigation extends Component {
 
 const mapStateToProps = state => {
   return {
+    menumarket: state.changeit.menumarket,
     page: state.page,
     flag: state.flag
   }
