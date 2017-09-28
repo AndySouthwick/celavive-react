@@ -61,7 +61,7 @@ class ModalForm extends Component{
                         </div>
                         <div className="af-element privacyPolicy"><p>We respect your <a
                             title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank"
-                            rel="nofollow">email privacy</a></p>
+                            rel="nofollow">email privacy.</a></p>
                             <div className="af-clear"></div>
                         </div>
                     </div>

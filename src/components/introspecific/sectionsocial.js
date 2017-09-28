@@ -19,7 +19,7 @@ class SectionSocial extends Component {
             <Col xs="10" md="10" className="right">
               <Row className="top ae11">
                 <Col xs="4"><a href="https://www.facebook.com/celavive" target="_blank"><img src={require("../../img/shareable1.png")} alt="" className="ae1"/></a></Col>
-                <Col xs="4"><img src={require("../../img/shareable2.png")} alt="" className="ae2"/></Col>
+                <Col xs="4"><img src={this.props.standard} alt="" className="ae2"/></Col>
                 <Col xs="4"><a href="https://www.instagram.com/celaviveofficial/" target="_blank"><img src={require("../../img/shareable3.png")} alt="" className="ae3"/></a></Col>
               </Row>
               <div className="clearfix bottom celv-secondary-text ae12">
@@ -36,7 +36,8 @@ class SectionSocial extends Component {
 const mapStateToProps = state => {
   return {
     celavivefounded: state.celavivefounded,
-    science: state.science
+    science: state.science,
+    standard: state.changeit.standard
   }
 }
 

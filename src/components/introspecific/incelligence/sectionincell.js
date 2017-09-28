@@ -16,7 +16,7 @@ class SectionIncell extends Component {
                     <Row className="greybg">
                         <Col lg="6" sm="12" xs="12">
                             <img src={require('../../../img/testubeladymob.png')} className="img-responsive visible-xs visible-sm ae1 testube-mobile" alt=""/>
-                                        <h1>{this.props.celavivefounded}</h1>
+                            <h1>{ this.props.celavivefounded}</h1>
                                     <div className="celv-secondary-text">
                                         <p className="paragraphtext ae1">{this.props.science}</p>
                                     </div>

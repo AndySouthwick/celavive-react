@@ -9,6 +9,8 @@ import { chlan, chpage } from '../actions/actions'
 import store from '../store'
 import {Redirect} from 'react-router-dom'
 import {connect} from 'react-redux'
+import DocumentMeta from 'react-document-meta';
+
 
 
 
@@ -26,6 +28,20 @@ class Landing extends Component {
 
 
     render() {
+
+
+      const metaData = {
+        title: 'Introducing Celavive',
+        description: 'I am a description, and I can create multiple tags',
+        canonical: 'http://example.com/path/to/page',
+        meta: {
+          charset: 'utf-8',
+          name: {
+            keywords: 'react,meta,document,html,tags'
+          }
+        }
+      };
+
 console.log(this.state)
       const currentPage =  this.props.match.params.page
 
@@ -64,6 +80,7 @@ console.log(this.state)
       console.log(chosenLanguage)
         return (
             <div className="full-height">
+              <DocumentMeta {...metaData} extend />
                 <Navigation/>
                 <CelaviveHeader/>
                 <CelaviveCta/>
