@@ -30,7 +30,7 @@ export const languages = [
         'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
         'aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients ' +
         'support your body’s own natural lipid production and help reinforce six major elements that can help maintain' +
-        'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
+        ' a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
         ctabutton: 'Sign Up For Celavive Updates\n',
         modalheader: 'Your First Look at the Future of Skincare\n Product Available',
         modalearly: 'early 2018',
@@ -38,6 +38,7 @@ export const languages = [
         modalformph: 'Email Address',
         modalformbtnsub: 'Subscribe',
         modalformbtnnothanks: 'No Thanks',
+        modalprivacy: 'We respect your email privacy.',
         productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
         productsdryskin: 'Dry + Sensitive Skin',
         productscombooily: 'Combination + Oily Skin',
@@ -90,6 +91,8 @@ export const languages = [
     modalformph: 'correo electrónico\n',
     modalformbtnsub: 'Suscribirme\n',
     modalformbtnnothanks: 'No, gracias\n',
+    modalprivacy: 'Respetamos la privacidad de su correo electrónico',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -142,6 +145,8 @@ export const languages = [
     modalformph: '电子邮件地址\n',
     modalformbtnsub: '订阅',
     modalformbtnnothanks: '不用了，谢谢\n',
+    modalprivacy: '我们尊重您电子邮件的隐私',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -193,7 +198,7 @@ export const languages = [
         'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
         'aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients ' +
         'support your body’s own natural lipid production and help reinforce six major elements that can help maintain' +
-        'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
+        ' a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
       ctabutton: 'Sign Up For Celavive Updates\n',
       modalheader: 'Your first look at the future of skincare!\n Product Available',
       modalearly: 'early 2018',
@@ -201,6 +206,8 @@ export const languages = [
       modalformph: 'Email Address',
       modalformbtnsub: 'Subscribe',
       modalformbtnnothanks: 'No Thanks',
+      modalprivacy: 'We respect your email privacy.',
+
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -262,6 +269,8 @@ export const languages = [
       modalformph: '电子邮件地址\n',
       modalformbtnsub: '订阅',
       modalformbtnnothanks: '不用了，谢谢\n',
+      modalprivacy: '我们尊重您电子邮件的隐私',
+
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -332,6 +341,8 @@ export const languages = [
         modalformph: 'Email Address',
         modalformbtnsub: 'Subscribe',
         modalformbtnnothanks: 'No Thanks',
+        modalprivacy: 'We respect your email privacy.',
+
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -407,6 +418,7 @@ export const languages = [
       modalformph: 'correo electrónico\n',
       modalformbtnsub: 'Suscribirme\n',
       modalformbtnnothanks: 'No, gracias\n',
+      modalprivacy: 'Respetamos la privacidad de tu correo electrónico.',
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -477,6 +489,8 @@ export const languages = [
       modalformph: 'Adresse email',
       modalformbtnsub: 'Je m’abonne\n',
       modalformbtnnothanks: 'Non merci\n',
+      modalprivacy: 'Nous respectons la confidentialité de vos courriels.',
+
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -505,7 +519,7 @@ export const languages = [
         language: 'eu-ro',
       landinghero: './../../img/landing-hero-en.svg',
       menumarket: 'Marché',
-      languageterm: 'Romanian',
+      languageterm: 'Română',
       healthymobile: './../../img/ladylook/ro.png',
       healthyquote: './../../img/healthyquote/ro.png',
       chero2: './../../img/celavive-hero-ro.png',
@@ -548,6 +562,8 @@ export const languages = [
       modalformph: 'Adresse email',
       modalformbtnsub: 'Je m’abonne\n',
       modalformbtnnothanks: 'Non merci\n',
+      modalprivacy: 'Noi respectăm confidențialitatea e-mail-ului dumneavoastră',
+
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -616,6 +632,8 @@ export const languages = [
       modalformph: 'Email Address',
       modalformbtnsub: 'Subscribe',
       modalformbtnnothanks: 'No Thanks',
+      modalprivacy: 'We respect your email privacy.',
+
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -679,6 +697,8 @@ export const languages = [
       modalformph: 'E-Mail-Adresse\n',
       modalformbtnsub: 'Abonnieren\n',
       modalformbtnnothanks: 'Nein danke\n',
+      modalprivacy: 'Wir respektieren Ihre E-Mail-Privatsphäre.',
+
       productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
       productsdryskin: 'Dry + Sensitive Skin',
       productscombooily: 'Combination + Oily Skin',
@@ -735,7 +755,9 @@ export const languages = [
       modalsub: 'Suscríbase para estar informado de las novedades\n',
       modalformph: 'correo electrónico\n',
       modalformbtnsub: 'Suscribirme\n',
-      modalformbtnnothanks: 'No, gracias\n'
+      modalformbtnnothanks: 'No, gracias\n',
+      modalprivacy: 'Respetamos la privacidad de tu correo electrónico',
+
     },
   {   id: 13,
     language: 'eu-it',
@@ -776,8 +798,10 @@ export const languages = [
     modalsub: 'Iscriviti per gli aggiornamenti\n',
     modalformph: 'indirizzo email\n',
     modalformbtnsub: 'Iscriviti\n',
-    modalformbtnnothanks: 'No, grazie\n'
-},
+    modalformbtnnothanks: 'No, grazie\n',
+    modalprivacy: 'Rispettiamo la sua privacy relativamente alla sua posta elettronica',
+
+  },
   {   id: 14,
     language: 'hk-en',
     menumarket: 'Market',
@@ -809,7 +833,7 @@ export const languages = [
     'these ingredients work to counteract visible signs of chronological and lifestyle stress ' +
     'aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients ' +
     'support your body’s own natural lipid production and help reinforce six major elements that can help maintain' +
-    'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
+    ' a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
     ctabutton: 'Sign Up For Celavive Updates\n',
     modalheader: 'Your first look at the future of skincare!\n Product Available',
     modalearly: 'early 2018',
@@ -817,6 +841,8 @@ export const languages = [
     modalformph: 'Email Address',
     modalformbtnsub: 'Subscribe',
     modalformbtnnothanks: 'No Thanks',
+    modalprivacy: 'We respect your email privacy.',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -872,6 +898,8 @@ export const languages = [
     modalformph: '电子邮件地址\n',
     modalformbtnsub: '订阅',
     modalformbtnnothanks: '不用了，谢谢\n',
+    modalprivacy: '我们尊重您电子邮件的隐私',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -926,6 +954,7 @@ export const languages = [
     modalformph: 'Emailアドレス',
     modalformbtnsub: 'メールを受信する\n',
     modalformbtnnothanks: 'メールを希望しない\n',
+    modalprivacy: 'ユサナは皆様のEmailアドレスを保護します',
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -983,6 +1012,8 @@ export const languages = [
     modalformph: '이메일 주소\n',
     modalformbtnsub: '구독하기\n',
     modalformbtnnothanks: '다음에 하기\n',
+    modalprivacy: '유사나는 이메일 프라이버시를 존중합니다',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1040,6 +1071,8 @@ export const languages = [
     modalformph: 'correo electrónico\n',
     modalformbtnsub: 'Suscribirme\n',
     modalformbtnnothanks: 'No, gracias\n',
+    modalprivacy: 'Respetamos la privacidad de su correo electrónico',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1093,7 +1126,9 @@ export const languages = [
     modalsub: '订阅更新\n',
     modalformph: '电子邮件地址\n',
     modalformbtnsub: '订阅',
-    modalformbtnnothanks: '不用了，谢谢\n'},
+    modalformbtnnothanks: '不用了，谢谢\n',
+    modalprivacy: '我们尊重您电子邮件的隐私',
+  },
   {   id: 20,
     language: 'ph',
     languageterm: 'English',
@@ -1133,6 +1168,8 @@ export const languages = [
     modalformph: 'Email Address',
     modalformbtnsub: 'Subscribe',
     modalformbtnnothanks: 'No Thanks',
+    modalprivacy: 'We respect your email privacy.',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1193,6 +1230,8 @@ export const languages = [
     modalformph: 'ที่อยู่อีเมล\n',
     modalformbtnsub: 'สมัครรับข่าวสาร\n',
     modalformbtnnothanks: 'ไม่ ขอบคุณ\n',
+    modalprivacy: 'เราเคารพในความเป็นส่วนตัวเกี่ยวกับอีเมลของคุณ',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1241,6 +1280,8 @@ export const languages = [
     modalformph: '电子邮件地址\n',
     modalformbtnsub: '订阅',
     modalformbtnnothanks: '不用了，谢谢\n',
+    modalprivacy: '我们尊重您电子邮件的隐私',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1270,6 +1311,7 @@ export const languages = [
     landinghero: './../../img/landing-hero-en.svg',
     menumarket: 'Market',
     standard: './../../img/shareable2.png',
+    modalprivacy: 'We respect your email privacy',
 
     healthymobile: './../../img/ladylook/healthy-mobile.png',
     healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
@@ -1345,6 +1387,8 @@ export const languages = [
     modalformph: '电子邮件地址\n',
     modalformbtnsub: '订阅',
     modalformbtnnothanks: '不用了，谢谢\n',
+    modalprivacy: '我们尊重您电子邮件的隐私',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1473,6 +1517,8 @@ export const languages = [
     modalformph: 'Email Address',
     modalformbtnsub: 'Subscribe',
     modalformbtnnothanks: 'No Thanks',
+    modalprivacy: 'We respect your email privacy',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1501,7 +1547,7 @@ export const languages = [
   },
   {   id: 27,
     language: 'id',
-    languageterm: 'Indonesia',
+    languageterm: 'Bahasa Id',
     landinghero: './../../img/landing-hero-id.svg',
     menumarket: 'Pasar',
     healthymobile: './../../img/ladylook/indonesia.png',
@@ -1511,9 +1557,7 @@ export const languages = [
 
     introheader:'Perawatan Kulit Performa Tinggi Berteknologi InCelligence®\n',
     celavivefounded: 'Berdasarkan pada sains kecantikan. \n',
-    intro: 'Introducing skincare products that actively support your skin’s natural functions to reduce the appearance of visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to improve the look of your skin.',
-    science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your unique beauty needs. Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing ability to support a younger-looking appearance, going beyond traditional skincare regimens. This comprehensive approach means Celavive responds to each individual person, helping to maintain the look of skin tone and texture, while reducing the appearance of wrinkles. By using natural botanicals and powerful peptides to support your body’s natural abilities, your complexion will begin to appear healthier, radiant, and restored. Discover your skin’s natural ability to create a youthful, radiant complexion.' +
-    '',
+    intro: 'Memperkenalkan produk-produk perawatan kulit yang secara aktif menunjang fungsi-fungsi alami kulit Anda untuk mengurangi tampilan tanda-tanda nyata penuaan, seperti kulit kering, hilangnya kekencangan kulit, tekstur kulit, dan kerutan, untuk menyempurnakan tampilan kulit Anda.',    science: 'Para pemimpin dunia dalam nutrisi dan pembuat teknologi InCelligence® telah menemukan cara khusus untuk menyasar kebutuhan kecantikan unik Anda.Dengan menggunakan kombinasi nutrisi yang disasar, Celavive membangkitkan kemampuan pembaruan alami kulit Anda untuk mendukung tampilan yang tampak muda, melampaui resimen perawatan kulit tradisional. Pendekatan komprehensif ini berarti Celavive merespons setiap orang, membantu menjaga tampilan warna dan tekstur kulit, sekaligus mengurangi tampilan kerutan.Dengan menggunakan tumbuhan alami dan peptida ampuh untuk mendukung kemampuan alami tubuh Anda, kulit Anda akan tampak lebih sehat, lebih bercahaya, dan lebih cantik.Temukan kemampuan alami kulit Anda untuk mendapatkan kulit yang muda dan bercahaya.',
     flag: './../../img/countryflag/id.png',
     incellheader: 'Dibuat dengan InCelligence®\n',
     founded: 'Celavive kompleks yang eksklusif ini mengandung dua peptida aktif dan dua ekstrak tumbuhan. Saat digabungkan, bahan-bahan ini bekerja untuk membantu melawan tanda-tanda nyata penuaan seperti garis halus dan kerutan dengan memasukkan bahan-bahan nutrisi penting ke dalam kulit. Selain itu, bahan-bahan kecantikan penting ini mendukung produksi lipid alami tubuh dan membantu menunjang enam unsur alami yang dapat membantu menjaga matriks kulit yang sehat agar kulit tampak lebih muda.\n' +
@@ -1528,6 +1572,7 @@ export const languages = [
     modalformph: 'Alamat Email\n',
     modalformbtnsub: 'Berlangganan\n',
     modalformbtnnothanks: 'Tidak, Terima Kasih\n',
+    modalprivacy: 'Kami menghormati privasi email Anda',
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',
@@ -1583,6 +1628,8 @@ export const languages = [
     modalformph: 'Email Address',
     modalformbtnsub: 'Subscribe',
     modalformbtnnothanks: 'No Thanks',
+    modalprivacy: 'We respect your email privacy',
+
     productstagline: 'A comprehensive line of high-performance skincare products will be available early 2018. Check with your local markets representatives for more details.',
     productsdryskin: 'Dry + Sensitive Skin',
     productscombooily: 'Combination + Oily Skin',

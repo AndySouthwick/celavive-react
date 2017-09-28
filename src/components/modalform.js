@@ -54,14 +54,14 @@ class ModalForm extends Component{
                                     value="Submit" tabIndex="501">{this.props.modalformbtnsub}
                             </button>
 
-                            <Link to={currentPageLink}> <button name="cancel" className="btn btn-primary-invert btn-lg btn-block modal-check" type="button"
+                            <a href={currentPageLink}> <button  onClick={this.toggle} name="cancel" className="btn btn-primary-invert btn-lg btn-block modal-check" type="button"
                                                      data-dismiss="modal" value="cancel" tabIndex="501">{this.props.modalformbtnnothanks}
-                            </button></Link>
+                            </button></a>
                             <div className="af-clear"></div>
                         </div>
-                        <div className="af-element privacyPolicy"><p>We respect your <a
+                        <div className="af-element privacyPolicy"> <p><a
                             title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank"
-                            rel="nofollow">email privacy.</a></p>
+                            rel="nofollow">{this.props.modalprivacy}</a></p>
                             <div className="af-clear"></div>
                         </div>
                     </div>
@@ -77,7 +77,8 @@ const mapStateToProps = state => {
     modalformph: state.modalformph,
     modalformbtnsub: state.changeit.modalformbtnsub,
     modalformbtnnothanks: state.modalformbtnnothanks,
-    language: state.changeit.language
+    language: state.language,
+    modalprivacy: state.changeit.modalprivacy
   }
 }
 
