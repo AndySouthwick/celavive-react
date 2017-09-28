@@ -21,7 +21,7 @@ class SectionIntro extends Component {
                 <div className="diagonal-bg"></div>
                 <Container>
                     <Row>
-                        <Col md="9">
+                        <Col md="9 addindex">
 
                             <div className="intro-header ae1">
 

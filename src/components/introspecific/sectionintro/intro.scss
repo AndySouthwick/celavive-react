@@ -14,9 +14,16 @@ img.img-responsive.ae3.product-line {
   }
 }
 
-.paragraphtext{
-  z-index: 3;
+.addindex{
+  z-index: 1;
 }
 .product-line{
-  z-index: -1;
+  z-index: 0;
+}
+
+.diagonal-bg{
+  z-index: 0;
+}
+.section-incelligence{
+  z-index: -3!important;
 }
