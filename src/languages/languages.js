@@ -9,13 +9,13 @@ export const languages = [
         healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
         standard: './../../img/shareable2.png',
         introheader:'Introducing advanced skincare',
-        celavivefounded: 'Celavive™ - Founded on the Science of Beauty',
+        celavivefounded: 'Founded on the Science of Beauty',
         intro: ' Products that actively support beauty-preserving\n' +
         'functions in your skin to defy visible signs of aging\n' +
         'like photodamage, dryness, loss of firmness,\n' +
         'discoloration, texture, and wrinkles to dramatically\n' +
         'improve the look of your skin.',
-        science: 'World leaders in nutrition and creators of USANA InCelligence Technology™ have discovered a way to specifically target your ' +
+        science: 'World leaders in nutrition and creators of USANA InCelligence Technology ™ have discovered a way to specifically target your ' +
         'unique beauty needs. Using targeted nutrient combinations, Celavive awakens your cells’ natural renewing ability to ' +
         'activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive approach ' +
         'means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically ' +
@@ -32,9 +32,9 @@ export const languages = [
         'support your body’s own natural lipid production and help reinforce six major elements that can help maintain' +
         'a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
         ctabutton: 'Sign Up For Celavive Updates\n',
-        modalheader: 'Your first look at the future of skincare!\n Product Available',
+        modalheader: 'Your First Look at the Future of Skincare\n Product Available',
         modalearly: 'early 2018',
-        modalsub: 'Subscribe for updates\n',
+        modalsub: 'Subscribe for Updates\n',
         modalformph: 'Email Address',
         modalformbtnsub: 'Subscribe',
         modalformbtnnothanks: 'No Thanks',
@@ -78,7 +78,7 @@ export const languages = [
     'funciones conservadoras de - belleza para combatir los signos visibles de envejecimiento ' +
     'como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la ' +
     'textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel. ',
-    celavivefounded: 'La línea Celavive™ fue creada con base en la ciencia de la belleza. \n',
+    celavivefounded: 'Creada con base en la ciencia de la belleza. \n',
     science: 'Los líderes mundiales en nutrición y creadores de la Tecnología InCelligence de USANA (USANA InCelligence Technology® ) han descubierto la manera de atacar específicamente sus necesidades de belleza, que son únicas.Mediante el uso de combinaciones de nutrientes dirigidas, Celavive de USANA despierta la capacidad natural de renovación de sus células para activar funciones conservadoras de belleza e ir más allá de cualquier régimen tradicional para el cuidado de la piel.  Este enfoque integral significa que Celavive responde de manera única a las necesidades de cada persona, mejorando el tono y la textura, y reduciendo dramáticamente la aparición de arrugas.A través del uso de sustancias botánicas naturales y poderosos péptidos para apoyar la comunicación que señaliza la actividad de las células de una piel saludable, su tez comenzará a verse más saludable, más radiante e increíblemente restaurada.Descubra la capacidad natural de su piel para combatir el envejecimiento visible.',
     incellheader: 'Hecho con la Tecnología InCelligence de USANA (USANA InCelligence Technology®), \n',
     flag: './../../img/countryflag/us.png',
@@ -125,7 +125,7 @@ export const languages = [
     chero2: './../../img/celavive-hero-us-zh.png',
     introheader:'採用InCelligence®的高性能護膚產品\n',
     intro: '我們推出的護膚產品，能積極支援您皮膚減少明顯老化跡象的天然機能，例如乾燥、鬆弛、粗糙、和皺紋等，有助於維持皮膚年輕的外觀與感覺。\n',
-    celavivefounded: 'ยCelavive™以美容科學為基礎。\n',
+    celavivefounded: '以美容科學為基礎。\n',
     science: 'ผ全球營養學的領先者和InCelligence®技術的開發團隊發現了一種專門解決您的獨特美容需求的新方法。Celavive使用針對性的營養素組合，可喚醒您皮膚的天然更新能力，提昇更年輕的外觀，超越傳統的護膚法。這種全面性的方法，意味著Celavive對每個人都有獨特的效果，有助於維持皮膚色調和膚質的外觀和感覺，同時減少皺紋的出現。過使用天然植物性成份和胜肽來支援您身體的天然能力，使您的膚色開始變得更健康、亮麗，容光煥發。發掘皮膚創造健康、亮麗外觀的天然能力。',
     incellheader:'採用USANA InCelligence技術®\n',
     flag: './../../img/countryflag/us.png',
@@ -177,7 +177,7 @@ export const languages = [
       healthyquote: './../../img/healthyquote/healthy-looking-skin.png',
       introheader:'High-Performance Skincare Featuring InCelligence®\n',
         intro: 'Introducing skincare products that actively support your skin’s natural functions to reduce the appearance of visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n',
-        celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
+        celavivefounded: 'Founded on the science of beauty. \n',
         science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your ' +
         'unique beauty needs.Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing ability to support a younger-looking appearance, ' +
         'going beyond traditional skincare regimens. This comprehensive approach means Celavive responds uniquely to each individual person, improving ' +
@@ -240,7 +240,7 @@ export const languages = [
       chero2: './../../img/celavive-hero-cht.png',
       standard: './../../img/standardofbeauty/chs(my,sg,anz).png',
 
-      celavivefounded: 'USANA Celavive®以美容科学为基础。\n',
+      celavivefounded: '以美容科学为基础。\n',
         science: '全球营养学的领先者和InCelligence®技术的开发团队发现了一种专门解决您的美容特殊需求的新方法。' +
         'Celavive使用针对性的营养素组合，可唤醒您皮肤的天然更新能力，提升更年轻的外貌，超越了传统的护肤法。这种全面性的方法，意味着Celavive对每个人都有独特的效果，' +
         '能改善皮肤色调和肤质，同时减少皱纹的出现。通过使用天然植物性成份和强大的胜肽来支持您身体的天然能力，您的肤色将开始变得更健康、更亮丽，还有惊人的修复力。' +
@@ -298,7 +298,7 @@ export const languages = [
       standard: './../../img/shareable2.png',
 
       intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like photodamage, dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of your skin. \n',
-        celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
+        celavivefounded: 'Founded on the science of beauty. \n',
         science: 'World leaders in nutrition and creators of InCelligence® technology ' +
         'have discovered a way to specifically target your unique beauty needs.Using targeted' +
         'nutrient combinations, Celavive awakens your skin’s natural renewing ' +
@@ -371,7 +371,7 @@ export const languages = [
         'funciones conservadoras de - belleza para combatir los signos visibles de envejecimiento ' +
         'como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la ' +
         'textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel. ',
-        celavivefounded: 'Cuidado de la piel de alto desempeño formulado con InCelligence®',
+        celavivefounded: 'Creada con base en la ciencia de la belleza.',
         science: 'Los líderes mundiales en nutrición y creadores de la Tecnología InCelligence ' +
         'de USANA han descubierto la manera de atacar específicamente sus necesidades de belleza,' +
         ' que son únicas.Mediante el uso de combinaciones focalizadas de nutrientes, Celavive ' +
@@ -444,7 +444,7 @@ export const languages = [
        intro: 'Voici des produits de soins de la peau qui renforcent activement les fonctions préservant la ' +
       'beauté de la peau afin de défier les signes visibles du vieillissement – sécheresse, perte de fermeté, ' +
       'grain irrégulier et rides – améliorant ainsi nettement l’apparence de la peau. ',
-        celavivefounded: 'Celavive™ s’appuie sur le fondement scientifique de la beauté. \n',
+        celavivefounded: 'Fondement scientifique de la beauté. \n',
         science: 'Des leaders mondiaux en nutrition et les créateurs de la technologie InCelligence® ' +
         'ont découvert un moyen de cibler précisément les besoins uniques de chacun en matière de soins ' +
         'de beauté.À l’aide de combinaisons de nutriments ciblés, les produits Celavive éveillent la capacité ' +
@@ -515,7 +515,7 @@ export const languages = [
         intro: 'Introducem produse avansate de îngrijire a pielii, care susțin în mod activ funcțiile naturale de întreținere a ' +
       'frumuseții ale pielii, combătând semnele vizibile ale îmbătrânirii precum uscăciunea, pierderea fermității, afectarea' +
       ' texturii și ridurile, îmbunătățind în mod dramatic aspectul pielii dumneavoastră. \n',
-        celavivefounded: 'Celavive™ are la bază știința frumuseții.',
+        celavivefounded: 'are la bază știința frumuseții.',
         science: 'Liderii mondiali în domeniul nutriției și creatorii tehnologiei InCelligence® au descoperit ' +
         'o modalitate de a se adresa în mod specific necesităților unice ale frumuseții dumneavoastră.Folosind ' +
         'combinații țintite de nutrienți, Celavive activează capacitatea naturală regenerantă a pielii de a pune ' +
@@ -586,7 +586,7 @@ export const languages = [
       intro: 'Products that actively support beauty-preserving functions in your skin to defy visible signs of aging like ' +
         'photodamage dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of ' +
         'your skin.\n',
-        celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
+        celavivefounded: 'Founded on the science of beauty. \n',
         science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically' +
         ' target your unique beauty needs. Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing' +
         ' ability to activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive ' +
@@ -653,7 +653,7 @@ export const languages = [
       standard: './../../img/standardofbeauty/de.png',
 
       introheader: 'Wirkungsvolle Hautpflege mit InCelligence®\n',
-        celavivefounded: 'Celavive™ gründet sich auf die Wissenschaft der Schönheit. \n',
+        celavivefounded: 'Gründet sich auf die Wissenschaft der Schönheit. \n',
         intro: 'Wir stellen vor: innovative Pflegeprodukte, die die natürlichen Schutzfunktionen Ihrer Haut aktiv unterstützen, Ihren Teint merklich verbessern und sichtbaren Anzeichen der Alterung wie Trockenheit, Schlaffheit, und Faltenbildung entgegenwirken. \n',
         science: 'Usana, ein weltweit führender Anbieter von Ernährungsprodukten und Erfinder der InCelligence®-Technologie,' +
         ' hat eine Methode entwickelt, die Ihren persönlichen Schönheitsbedürfnissen Rechnung trägt. Es verbessert den Teint, ' +
@@ -717,7 +717,7 @@ export const languages = [
 
       introheader: 'Cuidado de la piel de alto rendimiento formulado con InCelligence Technology®\n',
         intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente funciones conservadoras de la belleza para combatir los signos visibles de envejecimiento como el daño ocasionado por el sol, la sequedad, la pérdida de firmeza, la decoloración, la textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel.',
-        celavivefounded:'La línea Celavive™ fue creada con base en la ciencia de la belleza. \n',
+        celavivefounded:'Creada con base en la ciencia de la belleza. \n',
         science: 'Los líderes mundiales en nutrición y creadores de la Tecnología InCelligence de USANA han descubierto la manera de satisfacer específicamente tus necesidades de belleza, que son únicas.' +
         'Mediante el uso de combinaciones focalizadas de nutrientes, Celavive despierta la capacidad natural de renovación de la piel para activar funciones embellecedoras que conservan la juventud, yendo más allá de cualquier régimen tradicional para el cuidado de la piel.  Este enfoque integral significa que Celavive responde de manera única a las necesidades de cada persona, mejorando el tono y la textura, y reduciendo dramáticamente la aparición de arrugas.' +
         'Mediante el uso de sustancias botánicas naturales y poderosos péptidos para apoyar la capacidad natural de renovación de tu cuerpo, tu tez comenzará a verse más saludable, más radiante e increíblemente restaurada.' +
@@ -749,7 +749,7 @@ export const languages = [
 
     introheader: 'Skincare ad alte prestazioni con InCelligence®\n',
     intro: 'Introduzione di prodotti avanzati per la cura della pelle che supportano attivamente le funzioni di conservazione della bellezza naturale della pelle per sfidare i segni visibili dell\'invecchiamento, come secchezza, la perdita di tono, struttura e rughe, migliorando notevolmente l\'aspetto della tua pelle. \n',
-    celavivefounded:'Celavive® è stata fondata sulla scienza della bellezza. \n',
+    celavivefounded:'Fondata sulla scienza della bellezza. \n',
     science: 'I leader mondiali in materia di nutrizione e i creatori della tecnologia InCelligence® hanno scoperto ' +
     'un modo per affrontare le tue esigenze specifiche di bellezza.Utilizzando combinazioni mirate di nutrienti,' +
     ' Celavive risveglia la naturale capacità di rinnovamento della pelle attivando funzioni di bellezza che preservano ' +
@@ -794,7 +794,7 @@ export const languages = [
     intro: ' Introducing advanced skincare products that actively support natural beauty-preserving ' +
     'functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, ' +
     'and wrinkles to dramatically improve the look of your skin.',
-    celavivefounded: 'USANA Celavive® is founded on the science of beauty. \n',
+    celavivefounded: 'Founded on the science of beauty. \n',
     science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target' +
     ' your unique beauty needs.Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing ' +
     'ability to activate youth-preserving beauty functions, going beyond traditional skincare regimens. This ' +
@@ -852,7 +852,7 @@ export const languages = [
     chero2: './../../img/celavive-hero-cht.png',
     introheader:'採用InCelligence®的高效護膚品\n',
     intro: '我們推出融入先進科學的護膚產品，能積極支援肌膚的天然美容功能，對抗明顯的衰老跡象，例如乾燥、鬆弛、粗糙和皺紋，有效改善您的肌膚。',
-    celavivefounded: 'USANA Celavive®以美容科學為基礎。\n',
+    celavivefounded: '以美容科學為基礎。\n',
     science: '全球營養學領先者和InCelligence®技術研發團隊的重大發現，讓您能滿足自己獨特的美容需要。Celavive採用針對性的營養素組合，' +
     '超越傳統的護膚方法，可喚醒肌膚的天然再生能力，助您留住青春。全面的Celavive能對每個人產生獨特效果，不但可改善膚色和膚質，' +
     '亦明顯減少皺紋的出現。產品所含的天然植物性成分和強效胜肽能支援身體的天然再生能力，使您的膚色更顯健康亮麗，並同時展現驚人修復力。' +
@@ -1019,7 +1019,7 @@ export const languages = [
 
     introheader:'Cuidado de la piel de alto desempeño formulado con InCelligence Technology®\n',
     intro: 'Presentamos avanzados productos para el cuidado de la piel que apoyan activamente funciones conservadoras de la belleza para combatir los signos visibles de envejecimiento como el daño ocasionado por la luz, la resequedad, la pérdida de firmeza, la decoloración, la textura y las arrugas, y así mejorar dramáticamente la apariencia de su piel.  \n',
-    celavivefounded: 'La línea USANA Celavive® fue creada con base en la ciencia de la belleza. \n',
+    celavivefounded: ' Creada con base en la ciencia de la belleza. \n',
     science: 'Los líderes mundiales en nutrición y creadores de la Tecnología InCelligence® han descubierto la manera' +
     ' de atacar específicamente sus necesidades de belleza, que son únicas.Mediante el uso de combinaciones de nutrientes ' +
     'dirigidas, Celavive despierta la capacidad natural de renovación de sus células para activar funciones conservadoras ' +
@@ -1106,7 +1106,7 @@ export const languages = [
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     intro: 'Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin. \n' +
     '\n',
-    celavivefounded: 'Celavive™ is founded on the science of beauty.',
+    celavivefounded: 'Founded on the science of beauty.',
     science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your unique beauty needs.\n' +
     '\n' +
     'Using targeted nutrient combinations, Celavive helps awaken our skin’s natural renewing ability to activate youth-preserving beauty functions, going beyond traditional skincare regimens. This comprehensive approach means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically reducing the appearance of wrinkles.\n' +
@@ -1228,7 +1228,7 @@ export const languages = [
     chero2: './../../img/celavive-hero-cht.png',
     introheader:'採用InCelligence®的高性能護膚產品\n',
     intro: '我們推出的護膚產品，能積極支援您皮膚減少明顯老化跡象的天然機能，例如乾燥、鬆弛、粗糙、和皺紋等，有助於維持皮膚年輕的外觀與感覺。\n',
-    celavivefounded: 'ยCelavive™以美容科學為基礎。\n',
+    celavivefounded: '以美容科學為基礎。\n',
     science: 'ผ全球營養學的領先者和InCelligence®技術的開發團隊發現了一種專門解決您的獨特美容需求的新方法。Celavive使用針對性的營養素組合，可喚醒您皮膚的天然更新能力，提昇更年輕的外觀，超越傳統的護膚法。這種全面性的方法，意味著Celavive對每個人都有獨特的效果，有助於維持皮膚色調和膚質的外觀和感覺，同時減少皺紋的出現。過使用天然植物性成份和胜肽來支援您身體的天然能力，使您的膚色開始變得更健康、亮麗，容光煥發。發掘皮膚創造健康、亮麗外觀的天然能力。',
     incellheader:'採用InCelligence®\n',
     flag: './../../img/countryflag/tw.png',
@@ -1277,7 +1277,7 @@ export const languages = [
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
     intro: 'Introducing advanced skincare products that actively support beauty-preserving functions in your skin to defy visible signs of aging, like photodamage, dryness, loss of firmness, discoloration, texture, and wrinkles to dramatically improve the look of your skin.' +
     '\n',
-    celavivefounded: 'Celavive™ is founded on the science of beauty.',
+    celavivefounded: 'Founded on the science of beauty.',
     science: 'World leaders in nutrition and creators of InCelligence® have discovered a way to specifically target your unique beauty needs. Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing ability to activate youth-preserving beauty functions, ' +
     'going beyond traditional skincare regimens. This comprehensive approach means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically reducing the appearance of wrinkles.' +
     'By using natural botanicals and powerful peptides to support [CA] your body’s natural renewing abilities, your complexion will begin to appear healthier, more radiant, and incredibly restored. Discover your skin’s natural ability to fight visible aging.' +
@@ -1331,7 +1331,7 @@ export const languages = [
     chero2: './../../img/celavive-hero-us-zh.png',
     introheader:'InCelligence®的高性能護膚產品\n',
     intro: '我們推出先進的護膚產品，能積極支援皮膚中常保美麗的機能，防止明顯的老化跡象，例如紫外線或輻射傷害、乾燥、鬆弛、暗斑、粗糙、和皺紋等，大大改善皮膚的外觀。',
-    celavivefounded: 'USANA® Celavive™以美容科學為基礎。\n',
+    celavivefounded: '以美容科學為基礎。\n',
     science: '全球營養學的領先者和開發InCelligence®的團隊，發現了一種專門解決您的獨特美容需求的新方法。Celavive使用針對性的營養素組合，可喚醒您皮膚的天然更新能力，啟動人體常保青春的機能，超越傳統的護膚法。這種全面性的方法，意味著Celavive對每個人都有獨特的效果，能改善皮膚色調和膚質，同時明顯減少皺紋的出現。' +
     '通過使用天然植物性成份和強大的胜肽來支援 天然的更新能力，使您的膚色開始變得更健康、更亮麗，還有驚人的修復力。發掘皮膚對抗老化跡象的天然能力。',
     incellheader: '採用InCelligence®\n',
@@ -1381,7 +1381,7 @@ export const languages = [
     chero2: './../../img/celavive-hero-fr.png',
     introheader: 'Des soins de la peau d’une rare efficacité qui misent sur InCelligenceMD',
     intro: 'Voici des produits de soins de la peau perfectionnés qui renforcent activement les fonctions préservant la beauté de la peau afin de défier les signes visibles du vieillissement – lésions photochimiques, sécheresse, perte de fermeté, décoloration, texture déséquilibrée, rides, etc. –améliorant ainsi très nettement l’apparence de la peau. Découvrez dès maintenant votre régime de soins CelavivePour une peau radieuse d’apparence plus jeune, il faut des nutriments ciblés renforçant les fonctions qui préservent la beauté de la peau, tout en contribuant à lutter contre les méfaits visibles de facteurs liés à l’environnement et au style de vie.',
-    celavivefounded: 'CelaviveMC d’USANAMD s’appuie sur le fondement scientifique de la beauté. ',
+    celavivefounded: 'S’appuie sur le fondement scientifique de la beauté. ',
     science: 'Des leaders mondiaux en nutrition et les créateurs d’InCelligenceMD la technologie InCelligence® ' +
     'ont découvert un moyen de cibler précisément les besoins uniques de chacun en matière de soins ' +
     'de beauté.À l’aide de combinaisons de nutriments ciblés, les produits Celavive éveillent la capacité ' +
@@ -1449,7 +1449,7 @@ export const languages = [
     standard: './../../img/shareable2.png',
 
     introheader:'Introducing advanced skincare',
-    celavivefounded: 'USANA® Celavive is founded on the science of beauty. \n',
+    celavivefounded: 'Founded on the science of beauty. \n',
     intro: ' Products that actively support beauty-preserving\n' +
     'functions in your skin to defy visible signs of aging\n' +
     'like photodamage, dryness, loss of firmness,\n' +
@@ -1510,7 +1510,7 @@ export const languages = [
     standard: './../../img/standardofbeauty/in.png',
 
     introheader:'Perawatan Kulit Performa Tinggi Berteknologi InCelligence®\n',
-    celavivefounded: 'USANA® Celavive berdasarkan pada sains kecantikan. \n',
+    celavivefounded: 'Berdasarkan pada sains kecantikan. \n',
     intro: 'Introducing skincare products that actively support your skin’s natural functions to reduce the appearance of visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to improve the look of your skin.',
     science: 'World leaders in nutrition and creators of InCelligence® technology have discovered a way to specifically target your unique beauty needs. Using targeted nutrient combinations, Celavive awakens your skin’s natural renewing ability to support a younger-looking appearance, going beyond traditional skincare regimens. This comprehensive approach means Celavive responds to each individual person, helping to maintain the look of skin tone and texture, while reducing the appearance of wrinkles. By using natural botanicals and powerful peptides to support your body’s natural abilities, your complexion will begin to appear healthier, radiant, and restored. Discover your skin’s natural ability to create a youthful, radiant complexion.' +
     '',
@@ -1563,7 +1563,7 @@ export const languages = [
     standard: './../../img/shareable2.png',
 
     introheader:'High-Performance Skincare Featuring InCelligence®\n',
-    celavivefounded: 'USANA® Celavive is founded on the science of beauty. \n',
+    celavivefounded: 'Founded on the science of beauty. \n',
     intro: ' Introducing advanced skincare products that actively support natural beauty-preserving functions in your skin to reduce visible signs of aging, like dryness, loss of firmness, texture, and wrinkles to dramatically improve the look of your skin.',
     science: 'World leaders in nutrition and creators of USANA InCelligence® technology have discovered a way to specifically target your ' +
     'unique beauty needs. Using targeted nutrient combinations, Celavive awakens your cells’ natural renewing ability to ' +
