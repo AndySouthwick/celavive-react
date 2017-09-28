@@ -932,7 +932,7 @@ export const languages = [
 
     healthymobile: './../../img/ladylook/jp.png',
     healthyquote: './../../img/healthyquote/jp.png',
-    chero2: './../../img/celavive-hero-jp.png',
+    chero2: './../../img/celavive-hero.png',
     standard: './../../img/standardofbeauty/jp.png',
 
     introheader:'インセリジェンス®を採用したスキンケア製品\n',
