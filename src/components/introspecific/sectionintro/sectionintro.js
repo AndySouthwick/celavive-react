@@ -18,7 +18,7 @@ class SectionIntro extends Component {
 
         return (
             <section className="section-intro">
-
+                <div className="diagonal-bg"></div>
                 <Container>
                     <Row>
                         <Col md="9">

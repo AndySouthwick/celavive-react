@@ -529,9 +529,6 @@ section span.fa-3x {
   .intro-header .intro-header-text {
     margin-top: 20px; }
 
-.incelligence {
-  margin-top: -40px; }
-
 .incelligence h1 {
   color: #8FC7E8; }
 
@@ -749,10 +746,17 @@ div.col-lg-6.bluerectangle img {
   position: relative; }
 
 section.section-intro {
-  background-image: url(../backgroundimg/rhombusBG.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 530px; }
+  position: relative; }
+
+.diagonal-bg {
+  position: absolute;
+  height: 50%;
+  background: linear-gradient(to bottom left, #FFF 50%, #f9f9f9 50%);
+  display: block;
+  top: 60%;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 span.incelligence-header {
   position: relative;
