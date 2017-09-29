@@ -1,0 +1,11 @@
+@keyframes fadeUpAnimation {
+
+  0%   {margin-bottom: -50em;}
+  100%   {margin-top:100%;}
+}
+
+.fadeInUp{
+  opacity: 1;
+  animation-name: fadeUpAnimation;
+  animation-duration: 2s;
+}

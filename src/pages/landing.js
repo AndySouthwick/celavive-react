@@ -20,15 +20,14 @@ class Landing extends Component {
     this.state = {
       id: '1',
       page:'1',
-      language: 'us-en',
       redirect: false
     }
 
   }
 
 
-    render() {
 
+    render() {
 
       const metaData = {
         title: 'Introducing Celavive',
@@ -41,6 +40,26 @@ class Landing extends Component {
           }
         }
       };
+
+
+
+      const { redirect } = this.state;
+      const redirectIfVistised = localStorage.getItem('languageRedirectIfVisited')
+
+
+      if(redirectIfVistised){
+        this.setState({
+          redirect: true
+        })
+      }
+
+      if(redirect){
+        return <Redirect to={`${redirectIfVistised}/2/intro`}/>;
+      }
+
+
+
+
 
 console.log(this.state)
       const currentPage =  this.props.match.params.page

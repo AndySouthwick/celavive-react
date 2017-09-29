@@ -15,7 +15,7 @@ class CelaviveCta extends Component {
 
                     <Container fluid>
                     <Row>
-                        <Col className="section-cta">
+                        <Col  className="section-cta">
                             <div className="cta">
                             <CaptureModal/>
                             </div>

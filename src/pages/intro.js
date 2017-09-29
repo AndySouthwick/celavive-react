@@ -35,6 +35,9 @@ class Intro extends Component {
        const chosenLanguage = languages.find(item => item.language === this.props.match.params.language)
         const currentPage =  this.props.match.params.page
         const currentState = store.getState()
+         const storeLanguage = this.props.match.params.language
+
+            localStorage.setItem('languageRedirectIfVisited', storeLanguage)
 
       console.log(currentPage)
 

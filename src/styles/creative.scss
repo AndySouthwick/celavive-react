@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "mixins.scss";
+@import "animations.scss";
 html,
 body {
   height: 100%;
@@ -441,7 +442,6 @@ header {
 
 .btn-xl {
   padding: 15px 30px;
-  max-width: 250px;
   white-space: normal;
 }
 

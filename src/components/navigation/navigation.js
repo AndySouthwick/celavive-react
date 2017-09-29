@@ -16,7 +16,8 @@ class Navigation extends Component {
       ...currentState,
       toggleNavMenu: 'hideMenu',
       toggleButton: 'togleButonOff',
-      redirect: false
+      redirect: false,
+      language: ''
     };
   }
 
@@ -28,18 +29,16 @@ class Navigation extends Component {
   toggleMenuOff = () => {
     this.setState({
       toggleNavMenu: 'hideMenu',
+
     })
   }
       render(){
 
 
 
+
         const currentState = store.getState()
 
-
-        if(this.props.page === 1){
-
-        }
         const localStateId = this.state.id
 
         if(currentState.id !== localStateId){
@@ -90,10 +89,6 @@ class Navigation extends Component {
         if(this.props.page === '2'){
 
           Selectors = languages.map((lan) =>
-
-
-
-
             <div key={lan.id} className="navmenuitem">
               <div onClick={() => this.setState({
                 id: lan.id,
@@ -168,7 +163,8 @@ const mapStateToProps = state => {
   return {
     menumarket: state.changeit.menumarket,
     page: state.page,
-    flag: state.flag
+    flag: state.flag,
+    language: state.language
   }
 }
 

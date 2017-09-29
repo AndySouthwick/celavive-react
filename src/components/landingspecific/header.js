@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import ReactSVG from 'react-svg'
 import {connect} from'react-redux'
+import './landinghero.css'
 
 
 class CelaviveHeader extends Component {
