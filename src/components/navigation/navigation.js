@@ -43,6 +43,8 @@ class Navigation extends Component {
 
         if(currentState.id !== localStateId){
             store.dispatch(chlan(this.state))
+          localStorage.setItem('redirectIfVisited', this.props.language)
+
         }
 
 

@@ -44,17 +44,17 @@ class Landing extends Component {
 
 
       const { redirect } = this.state;
-      const redirectIfVistised = localStorage.getItem('languageRedirectIfVisited')
+      const redirectIfVisited = localStorage.getItem('languageRedirectIfVisited')
 
 
-      if(redirectIfVistised){
+      if(redirectIfVisited){
         this.setState({
           redirect: true
         })
       }
 
       if(redirect){
-        return <Redirect to={`${redirectIfVistised}/2/intro`}/>;
+        return <Redirect to={`${redirectIfVisited}/2/intro`}/>;
       }
 
 
