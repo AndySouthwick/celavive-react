@@ -48,7 +48,7 @@ class CaptureModal extends Component {
 
       return (
             <div>
-                <Button type="button" className="btn btn-primary btn-xl"  onClick={this.toggle}>{this.props.ctabutton}</Button>
+                <Button type="button" className="btn-xl"  onClick={this.toggle}>{this.props.ctabutton}</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalBody className="text-center" >
                         <Link to={currentPageLink}><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">

@@ -13,16 +13,22 @@ body {
 }
 }
 
-
+.donotdisplay{
+  display: none!important;
+}
+.btn-secondary{
+  border-color: #8FC7E8!important;
+  margin: 5px;
+}
 
 .intro-header h1{
-  font-family: 'Arapey', serif;
+  font-family: 'Bauer Bodoni Std 1', serif;
   color: #828282;
   font-size: 4em;
 }
 
 .incelligence h1{
-  font-family: 'Arapey', serif;
+  font-family: 'Bauer Bodoni Std 1', serif;
   color: #828282!important;
   font-size: 3em!important;
 }
@@ -283,9 +289,25 @@ header {
 .intro-img {
   position: relative;
 }
+
+#section-footer a {
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Gotham B', 'Gotham A', 'Source Sans Pro', sans-serif;
+  list-style: none;
+  color: rgba(97, 96, 96, 0.49);
+  margin-bottom: 10px;
+  line-height: 1em;
+  font-size: 12px;
+}
+
 #section-footer {
+  display: flex;
+  justify-content: center;
   background-color: #E3E5E8;
   z-index: 100;
+  text-align: center;
+  padding-top: 4em;
   ul {
     margin-left: -34px;
   }
@@ -308,6 +330,7 @@ header {
   li.icons i.fa {
     margin-right: 8px;
     color: #FFF;
+    letter-spacing: 15px;
   }
   .footerHeader {
     font-weight: 400;
@@ -332,7 +355,7 @@ header {
 
   .footer-logo {
     width: 200px;
-    margin: 0 auto 50px auto;
+    //margin: 0 auto 50px auto;
 
   }
 

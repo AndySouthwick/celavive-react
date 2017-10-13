@@ -1,17 +1,38 @@
 import React, {Component} from 'react'
-import { Container, Row, Col} from 'reactstrap';
+import { Container, Row, Col, Button} from 'reactstrap';
 import {connect} from 'react-redux'
 import store from '../../../store'
 import founded from './founded.css'
 
 
 class SectionFounder extends Component {
+  constructor (){
+    super()
+    this.state = {
+      readmoreclass: 'donotdisplay',
+      readlessclass: 'displaytherest'
+
+    }
+  }
 
     componentWillMount () {
         const currentState = store.getState()
     }
 
+  showreadmore = () => {
+    this.setState({
+      readmoreclass: 'displaytherest',
+      readlessclass: 'donotdisplay'
+
+    })
+  }
+
     render() {
+
+        let readmoreincell = this.props.founded
+        let length = 140
+        let incellstringless = readmoreincell.substring(0, length)
+
         return (
             <section className="section-founded-on-science">
                 <Container>
@@ -23,7 +44,10 @@ class SectionFounder extends Component {
                             <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>
                             <div className="celvCarouse">
                                 <div className="celv-secondary-text">
-                                    <p className="paragraphtext ae1">{this.props.founded} </p>
+                                    <p className={this.state.readmoreclass}>{readmoreincell}</p>
+                                    <p className={this.state.readlessclass}>{incellstringless}</p>
+                                    <Button onClick={this.showreadmore} className={this.state.readlessclass} >{this.props.readmore}</Button>
+
                                 </div>
                             </div>
                         </Col>
@@ -35,7 +59,7 @@ class SectionFounder extends Component {
                             <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>
                             <div className="celvCarouse">
                                 <div className="celv-secondary-text">
-                                    <p className="paragraphtext ae1">{this.props.founded} </p>
+                                    <p className="paragraphtext ae1">{this.props.founded}</p>
                                 </div>
                             </div>
                         </Col>
@@ -48,6 +72,7 @@ class SectionFounder extends Component {
 
 const mapStateToProps = state => {
     return {
+        readmore: state.changeit.readmore,
         founded: state.founded,
         incellheader: state.incellheader
 

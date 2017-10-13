@@ -31,7 +31,7 @@ class Landing extends Component {
 
       const metaData = {
         title: 'Introducing Celavive',
-        description: 'I am a description, and I can create multiple tags',
+        description: 'Best Skin Care Line – Healthy Skin for the Win - Celavive',
         canonical: 'http://example.com/path/to/page',
         meta: {
           charset: 'utf-8',

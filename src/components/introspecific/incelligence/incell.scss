@@ -2,14 +2,21 @@
   .testube-desktop{
     display: none;
   }
+  .tablet{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
   .testube-mobile{
     display: none;
   }
+
 }
 
 .small{
   font-weight: normal;
 }
+
+
+

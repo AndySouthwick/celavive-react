@@ -22,8 +22,8 @@ class Intro extends Component {
 
       const metaData = {
         title: 'Introducing Celavive',
-        description: 'I am a description, and I can create multiple tags',
-        canonical: 'http://example.com/path/to/page',
+        description: 'Best Skin Care Line – Healthy Skin for the Win - Celavive',
+        canonical: '/',
         meta: {
           charset: 'utf-8',
           name: {

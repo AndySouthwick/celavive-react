@@ -1,5 +1,7 @@
 @media only screen and (max-width: 1025px) {
   .testube-desktop {
+    display: none; }
+  .tablet {
     display: none; } }
 
 @media only screen and (min-width: 1025px) {
