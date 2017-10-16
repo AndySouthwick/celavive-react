@@ -1,5 +1,5 @@
 .section-cta {
-  height: 15px;
+  height: 65px;
   color: #ffffff;
   padding: 25px;
   display: flex;
@@ -15,24 +15,8 @@
   a{
     color:  #71b8e2;
   }
-  .btn-xl {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 24px;
-    background-color: #8fc7e8;
-    color: #ffffff;
-    border-color: #71b8e2;
-    font-weight: 700;
-    white-space: normal;
-    max-width: 520px;
-    padding: 24px;
-  }
-  .btn-xl:hover{
-    color: #fff;
-    background-color: #7abce4;
-    border-color: #71b8e2;
-  }
-  .btn-secondary{
 
+  .btn-secondary{
     background-color: transparent;
     color: #ffffff;
     border: none;
@@ -70,7 +54,25 @@ width: 25em;
 }
 
 @media only screen and (max-width: 480px) {
-  .section-cta .btn-xl {
-    font-size: 18px;
+  .section-cta{
+    width: 100%;
+    height: 65px;
+    color: #ffffff;
+    display: flex;
+    background-color: #BCDEF3;
+
+    input[type=text]{
+      border-radius: 5em;
+      background-color:rgba(255, 255, 255, 0.45);
+    }
+  .cta-form{
   }
+    .cta-form span {
+      width:20em;
+    }
+    .section-cta .btn-xl {
+      font-size: 18px;
+    }
+  }
+
 }
