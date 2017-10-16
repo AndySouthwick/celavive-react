@@ -1049,6 +1049,9 @@ body {
     body {
       font-size: 14px; } }
 
+button.displaytherest.btn.btn-secondary {
+  color: #8FC7E8; }
+
 .donotdisplay {
   display: none !important; }
 
@@ -1064,7 +1067,8 @@ body {
 .incelligence h1 {
   font-family: 'Bauer Bodoni Std 1', serif;
   color: #828282 !important;
-  font-size: 3em !important; }
+  font-size: 3em !important;
+  margin-top: 1em !important; }
 
 #root {
   height: 100%; }

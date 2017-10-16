@@ -12,27 +12,27 @@ class CelaviveFooter extends Component {
         return(
             <section id="section-footer" >
               <Container >
-                  <Row className="d-flex justify-content-center">
+                  {/*<Row className="d-flex justify-content-center">*/}
 
-                  </Row>
+                  {/*</Row>*/}
 
-                  <Row className="d-flex justify-content-center">
-                    <Col xs="12" lg="2">
+                  {/*<Row className="d-flex justify-content-center">*/}
+                    <Col xs="12" lg="12">
                       <img src={require('../img/usanalogo.svg')} alt="" className="img-responsive footer-logo"/>
-                    </Col>
-                  <Col xs="12" lg={{size: 2, offset: 1}}>
-                    <a href="http://www.usanahealth.net/en_US.html" target="_blank">{this.props.products}</a>
-                  </Col>
-                    <Col xs="12" lg="2">
-                      <a href="https://askthescientists.com/">{this.props.askthescientists}</a>
-                    </Col>
-                  <Col xs="12" lg="2">
-                      <a href="https://whatsupusana.com/">{this.props.whatsup}</a>
-                  </Col>
 
-                  </Row>
-                <Row className="d-flex justify-content-center">
-                  <Col>
+                  {/*<Col xs="12" lg={{size: 2, offset: 1}}>*/}
+                    {/*<a href="http://www.usanahealth.net/en_US.html" target="_blank">{this.props.products}</a>*/}
+                  {/*</Col>*/}
+                    {/*<Col xs="12" lg="2">*/}
+                      {/*<a href="https://askthescientists.com/">{this.props.askthescientists}</a>*/}
+                    {/*</Col>*/}
+                  {/*<Col xs="12" lg="2">*/}
+                      {/*<a href="https://whatsupusana.com/">{this.props.whatsup}</a>*/}
+                  {/*</Col>*/}
+
+                  {/*</Row>*/}
+
+
                     <ul className="iconList">
                       <li className="icons">
                         <a href="https://www.facebook.com/celavive" target="_blank"><i className="fa fa-2x fa-facebook"></i></a>
@@ -42,7 +42,7 @@ class CelaviveFooter extends Component {
                       </li>
                     </ul>
                   </Col>
-                </Row>
+
               </Container>
             </section>
         )

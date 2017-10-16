@@ -1,8 +1,17 @@
 .section-cta {
-  padding: 50px;
+  height: 15px;
+  color: #ffffff;
+  padding: 25px;
   display: flex;
   background-color: #BCDEF3;
   justify-content: center; }
+  .section-cta .form-control {
+    font-size: .8rem; }
+  .section-cta input[type=text] {
+    border-radius: 5em;
+    background-color: rgba(255, 255, 255, 0.45); }
+  .section-cta a {
+    color: #71b8e2; }
   .section-cta .btn-xl {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 24px;
@@ -17,3 +26,35 @@
     color: #fff;
     background-color: #7abce4;
     border-color: #71b8e2; }
+  .section-cta .btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: none; }
+
+.cta-form {
+  margin-top: -16px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%; }
+
+.cta-form span {
+  margin-right: 2px;
+  padding-top: .47em;
+  width: 25em; }
+
+.btn-circle {
+  background: url(./../../img/Group-submit.png) no-repeat center center;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-size: 15px;
+  padding-top: -25em; }
+
+@media only screen and (max-width: 480px) {
+  .section-cta .btn-xl {
+    font-size: 18px; } }

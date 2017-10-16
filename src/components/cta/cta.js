@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import CaptureModal from '../modal'
 import {Container, Row, Col} from 'reactstrap'
 import './cta.css'
+import CtaForm from './ctaform'
 
 class CelaviveCta extends Component {
 
@@ -16,9 +17,8 @@ class CelaviveCta extends Component {
                     <Container fluid>
                     <Row>
                         <Col  className="section-cta">
-                            <div className="cta">
                             <CaptureModal/>
-                            </div>
+                              <CtaForm/>
                         </Col>
                     </Row>
                     </Container>

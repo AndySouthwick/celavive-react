@@ -5,3 +5,8 @@
 @media only screen and (min-width: 1025px) {
   .bubbles-mobile {
     display: none; } }
+
+
+.celv-secondary-text button {
+  margin: 0;
+}

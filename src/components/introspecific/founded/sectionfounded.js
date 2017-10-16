@@ -27,6 +27,14 @@ class SectionFounder extends Component {
     })
   }
 
+  showreadless = () => {
+    this.setState({
+      readmoreclass: 'donotdisplay',
+      readlessclass: 'displaytherest'
+
+    })
+  }
+
     render() {
 
         let readmoreincell = this.props.founded
@@ -47,6 +55,8 @@ class SectionFounder extends Component {
                                     <p className={this.state.readmoreclass}>{readmoreincell}</p>
                                     <p className={this.state.readlessclass}>{incellstringless}</p>
                                     <Button onClick={this.showreadmore} className={this.state.readlessclass} >{this.props.readmore}</Button>
+                                  <Button onClick={this.showreadless} className={this.state.readmoreclass} ><i className="fa fa-caret-up" aria-hidden="true"></i></Button>
+
 
                                 </div>
                             </div>

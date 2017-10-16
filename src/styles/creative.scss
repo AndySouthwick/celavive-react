@@ -13,6 +13,10 @@ body {
 }
 }
 
+button.displaytherest.btn.btn-secondary {
+  color:#8FC7E8;
+}
+
 .donotdisplay{
   display: none!important;
 }
@@ -20,6 +24,7 @@ body {
   border-color: #8FC7E8!important;
   margin: 5px;
 }
+
 
 .intro-header h1{
   font-family: 'Bauer Bodoni Std 1', serif;
@@ -31,6 +36,8 @@ body {
   font-family: 'Bauer Bodoni Std 1', serif;
   color: #828282!important;
   font-size: 3em!important;
+  margin-top: 1em!important;
+
 }
 
 #root {

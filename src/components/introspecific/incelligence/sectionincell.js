@@ -26,6 +26,13 @@ class SectionIncell extends Component {
 
       })
     }
+  showreadless = () => {
+    this.setState({
+      readmoreclass: 'donotdisplay',
+      readlessclass: 'displaytherest'
+
+    })
+  }
 
 
     render() {
@@ -43,17 +50,19 @@ class SectionIncell extends Component {
                     <Row className="greybg">
                         <Col lg="6" sm="12" xs="12">
                             <img src={require('../../../img/testubeladymob.png')} className="img-responsive visible-xs visible-sm ae1 testube-mobile" alt=""/>
-                            <h1>{ this.props.celavivefounded}</h1>
+                           <p> <h1>{ this.props.celavivefounded}</h1>
                                     <div className="celv-secondary-text desktop tablet">
                                         <p className="paragraphtext ae1">{this.props.science}</p>
                                     </div>
+                           </p>
                             <div className="celv-secondary-text mobile">
                                 <p className="paragraphtext ae1">
 
-                                  <span className={this.state.readmoreclass}>{sciencestring}</span>
-                                  <span className={this.state.readlessclass}>{sciencestringless}</span>
+                                  <p className={this.state.readmoreclass}>{sciencestring}</p>
+                                  <p className={this.state.readlessclass}>{sciencestringless}</p>
 
                                   <Button onClick={this.showreadmore} className={this.state.readlessclass} > {this.props.readmore}</Button>
+                                  <Button onClick={this.showreadless} className={this.state.readmoreclass} ><i className="fa fa-caret-up" aria-hidden="true"></i></Button>
 
 
                                 </p>

@@ -9,3 +9,9 @@
   animation-name: fadeUpAnimation;
   animation-duration: 2s;
 }
+
+@media only screen and (max-width: 1025px) {
+  header{
+    height: 100%;
+  }
+}

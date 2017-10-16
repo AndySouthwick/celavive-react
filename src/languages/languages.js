@@ -902,7 +902,7 @@ export const languages = [
     healthyquote: './../../img/healthyquote/it.png',
     chero2: './../../img/celavive-hero-it.png',
     standard: './../../img/standardofbeauty/it.png',
-    readmore: '',
+    readmore: 'Per saperne di più',
     introheader: 'Presentiamo la cura avanzata della pelle',
     intro: 'Prodotti che sostengono attivamente le funzioni di conservazione della bellezza nella tua pelle per sfidare i segni visibili dell\'invecchiamento, come fotodanneggiamento, secchezza, perdita di elasticità, perdita di colore, texture e rughe per migliorare notevolmente l\'aspetto della tua pelle.',
     celavivefounded:'Fondata sulla scienza della bellezza. \n',
@@ -954,7 +954,7 @@ export const languages = [
     chero2: './../../img/celavive-hero.png',
     standard: './../../img/shareable2.png',
 
-    introheader:'High-Performance Skincare Featuring InCelligence®\n',
+    introheader:'Introducing advanced skincare',
     intro: ' Introducing advanced skincare products that actively support natural beauty-preserving ' +
     'functions in your skin to defy visible signs of aging, like dryness, loss of firmness, texture, ' +
     'and wrinkles to dramatically improve the look of your skin.',
@@ -1165,7 +1165,7 @@ export const languages = [
     healthyquote: './../../img/healthyquote/ko.png',
     chero2: './../../img/celavive-hero.png',
     standard: './../../img/standardofbeauty/ko.png',
-    readmore: '',
+    readmore: ' 더 보기',
     introheader:'고품질 스킨 케어 제품 소개',
     intro: '고유한 영양소 조합으로 세포의 자연적인 재생 능력을 활성화하여 햇볕으로 인한 피부 손상, 건조, 피부 처짐, 피부 변색, 피부 텍스처 및 주름과 같은 피부 고민을 현저히 줄여주는 고품질 스킨 케어 제품입니다.',
     celavivefounded: '유사나®셀라비브™는 아름다움의 과학으로 탄생하였습니다.\n',
@@ -1597,7 +1597,7 @@ export const languages = [
     'going beyond traditional skincare regimens. This comprehensive approach means Celavive responds uniquely to each individual person, improving the look of skin tone and texture, while dramatically reducing the appearance of wrinkles.' +
     'By using natural botanicals and powerful peptides to support [CA] your body’s natural renewing abilities, your complexion will begin to appear healthier, more radiant, and incredibly restored. Discover your skin’s natural ability to fight visible aging.' +
     '',
-    incellheader: 'InCelligence \n',
+    incellheader: 'INCELLIGENCE \n',
     flag: './../../img/countryflag/ca.png',
 
     founded: 'The exclusive Cell-Signaling Complex found in Celavive™ is made up of two bioactive peptides and two botanical extracts. When combined, these ingredients work to counteract visible signs of chronological and lifestyle stress aging like fine lines and wrinkles by targeting key skin receptors. Plus, these key beauty ingredients support your body’s own natural lipid production and help reinforce six major elements that can help maintain a healthy skin matrix, including collagen, elastin, and hyaluronic acid, for noticeably younger-looking skin.',
@@ -1895,8 +1895,9 @@ export const languages = [
     healthyquote: './../../img/healthyquote/in.png',
     chero2: './../../img/celavive-hero-id.png',
     standard: './../../img/standardofbeauty/in.png',
-
-    introheader:'Memperkenalkan Perawatan Kulit Canggih',
+    readmore: ' Simak Selengkapnya',
+    introheader:'Memperke-' +
+    'nalkan Perawatan Kulit Canggih',
     celavivefounded: 'Berdasarkan pada sains kecantikan. \n',
     intro: 'Produk yang secara aktif mendukung fungsi perawatan kecantikan dalam kulit Anda untuk melawan tanda-tanda nyata penuaan, seperti kulit kering, hilangnya kekencangan kulit, perubahan warna kulit, tekstur kulit, dan kerutan, untuk menyempurnakan tampilan kulit Anda secara drastis.',
     science: 'Para pemimpin dunia dalam nutrisi dan pencipta USANA InCelligence Technology® telah menemukan cara untuk menargetkan kebutuhan kecantikan Anda secara khusus.\n' +

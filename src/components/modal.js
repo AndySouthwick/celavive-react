@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import { Button, Modal, ModalBody} from 'reactstrap';
 import ModalForm from './modalform'
 import {connect} from 'react-redux'
-import {Link} from 'react-router-dom'
+import {Link, Redirect} from 'react-router-dom'
 
 class CaptureModal extends Component {
     constructor(props) {
@@ -11,10 +11,12 @@ class CaptureModal extends Component {
         if (eventfired == 1) {
             this.state = {
                 modal: false,
+                redirect: false
             }
         }else {
             this.state = {
                 modal: false,
+                redirect: false
             };
             setTimeout(function() { this.setState({modal: true}); }.bind(this), 4000);
         }
@@ -23,10 +25,18 @@ class CaptureModal extends Component {
     toggle() {
             this.setState({
                 modal: !this.state.modal,
+                redirect: true
         })
         localStorage.setItem("eventfired", 1)
     }
     render() {
+
+      const { redirect } = this.state;
+
+      if (redirect) {
+        return <Redirect to={`/${this.props.language}/2/intro`}/>;
+      }
+
 
       let currentPageLink =  [];
       if(!this.props.page){
@@ -48,7 +58,13 @@ class CaptureModal extends Component {
 
       return (
             <div>
-                <Button type="button" className="btn-xl"  onClick={this.toggle}>{this.props.ctabutton}</Button>
+
+
+
+
+
+
+
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalBody className="text-center" >
                         <Link to={currentPageLink}><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
