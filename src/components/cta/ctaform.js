@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Form,  Input, Button } from 'reactstrap';
+import { Form,  Input, Button, Col, Row, Container } from 'reactstrap';
 import {connect} from 'react-redux'
 
 class CtaForm extends Component{
@@ -36,16 +36,42 @@ class CtaForm extends Component{
           <Input type="hidden" name="meta_tooltip" value=""/>
         </div>
 
-        <div className="cta-form">
-         <span>{this.props.ctabutton}</span>
+        {/*<div className="cta-form">*/}
+         {/*<span>{this.props.ctabutton}</span>*/}
 
-                <Input className="text" id="awf_field-92405287" type="text" name="email"
-                       tabIndex="500" placeholder={this.props.modalformph}/>
+                {/*<Input className="text" id="awf_field-92405287" type="text" name="email"*/}
+                       {/*tabIndex="500" placeholder={this.props.modalformph}/>*/}
 
-              <Button name="submit" className="btn-circle" type="submit"
-                      value="Submit" tabIndex="501">
-              </Button>
-        </div>
+              {/*<Button name="submit" className="btn-circle" type="submit"*/}
+                      {/*value="Submit" tabIndex="501">*/}
+              {/*</Button>*/}
+        {/*</div>*/}
+        <Container>
+              <Row>
+
+
+                  <Col className="text-right" xs="12" md="6" lg="6">     <span>{this.props.ctabutton}</span>
+
+                  </Col>
+
+                  <Col>
+                    <Row>
+                      <Col xs={{size: 8}}  md="5" lg="5">   <Input className="text" id="awf_field-92405287" type="text" name="email"
+                                     tabIndex="500" placeholder={this.props.modalformph}/>
+                      </Col>
+                      <Col xs={{size: 1, offset: 1}} md="1" lg="1">
+                        <Button name="submit" className="btn-circle" type="submit"
+                                value="Submit" tabIndex="501">
+
+                        </Button>
+                      </Col>
+
+
+                    </Row>
+                 </Col>
+
+              </Row>
+        </Container>
 
             {/*<div className="af-element privacyPolicy cta-form"> <p><a*/}
               {/*title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank"*/}

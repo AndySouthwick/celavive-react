@@ -13,15 +13,17 @@ class CelaviveCta extends Component {
         return(
 
 
+<section  className="section-cta">
+  <Container fluid className="ctatablecel">
+    <Row>
+      <Col xs="12">
+        <CaptureModal/>
+        <CtaForm/>
+      </Col>
+    </Row>
+  </Container>
+</section>
 
-                    <Container fluid>
-                    <Row>
-                        <Col  className="section-cta">
-                            <CaptureModal/>
-                              <CtaForm/>
-                        </Col>
-                    </Row>
-                    </Container>
 
 
         )

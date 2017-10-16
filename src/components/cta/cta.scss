@@ -1,12 +1,18 @@
 .section-cta {
   height: 65px;
   color: #ffffff;
-  padding: 25px;
-  display: flex;
+  padding-top: 45px;
   background-color: #BCDEF3;
+  //align-self: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   .form-control{
     font-size: .8rem;
+  }
+  .ctatablecel{
+    display: table-cell;
+    vertical-align: middle;
   }
   input[type=text]{
     border-radius: 5em;
@@ -21,24 +27,13 @@
     color: #ffffff;
     border: none;
   }
-
-
+.text-right{
+padding-top: .3em;}
 }
 
-.cta-form{
-  margin-top: -16px;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  width: 100%;
-}
 
-.cta-form span {
-  margin-right:2px;
-  padding-top: .47em;
-width: 25em;
-}
+
+
 
 .btn-circle {
   background: url(./../../img/Group-submit.png) no-repeat center center;
@@ -49,12 +44,13 @@ width: 25em;
   border-color: #ffffff;
   color: #ffffff;
   font-size: 15px;
-  padding-top: -25em;
-
+  margin-top:2px;
 }
 
 @media only screen and (max-width: 480px) {
+
   .section-cta{
+    padding-top: 45px;
     width: 100%;
     height: 65px;
     color: #ffffff;
@@ -64,11 +60,16 @@ width: 25em;
     input[type=text]{
       border-radius: 5em;
       background-color:rgba(255, 255, 255, 0.45);
+      width: 250px;
+    }
+    .text-right{
+      text-align: center!important;
     }
   .cta-form{
   }
     .cta-form span {
       width:20em;
+
     }
     .section-cta .btn-xl {
       font-size: 18px;

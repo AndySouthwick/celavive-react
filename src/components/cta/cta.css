@@ -1,12 +1,16 @@
 .section-cta {
   height: 65px;
   color: #ffffff;
-  padding: 25px;
-  display: flex;
+  padding-top: 45px;
   background-color: #BCDEF3;
+  display: flex;
+  align-items: center;
   justify-content: center; }
   .section-cta .form-control {
     font-size: .8rem; }
+  .section-cta .ctatablecel {
+    display: table-cell;
+    vertical-align: middle; }
   .section-cta input[type=text] {
     border-radius: 5em;
     background-color: rgba(255, 255, 255, 0.45); }
@@ -16,19 +20,8 @@
     background-color: transparent;
     color: #ffffff;
     border: none; }
-
-.cta-form {
-  margin-top: -16px;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  width: 100%; }
-
-.cta-form span {
-  margin-right: 2px;
-  padding-top: .47em;
-  width: 25em; }
+  .section-cta .text-right {
+    padding-top: .3em; }
 
 .btn-circle {
   background: url(./../../img/Group-submit.png) no-repeat center center;
@@ -39,10 +32,11 @@
   border-color: #ffffff;
   color: #ffffff;
   font-size: 15px;
-  padding-top: -25em; }
+  margin-top: 2px; }
 
 @media only screen and (max-width: 480px) {
   .section-cta {
+    padding-top: 45px;
     width: 100%;
     height: 65px;
     color: #ffffff;
@@ -50,7 +44,10 @@
     background-color: #BCDEF3; }
     .section-cta input[type=text] {
       border-radius: 5em;
-      background-color: rgba(255, 255, 255, 0.45); }
+      background-color: rgba(255, 255, 255, 0.45);
+      width: 250px; }
+    .section-cta .text-right {
+      text-align: center !important; }
     .section-cta .cta-form span {
       width: 20em; }
     .section-cta .section-cta .btn-xl {
