@@ -14,14 +14,10 @@ class CelaviveCta extends Component {
 
 
 <section  className="section-cta">
-  <Container fluid className="ctatablecel">
-    <Row>
-      <Col xs="12">
+
         <CaptureModal/>
-        <CtaForm/>
-      </Col>
-    </Row>
-  </Container>
+         <CtaForm/>
+
 </section>
 
 

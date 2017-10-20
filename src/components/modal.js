@@ -70,10 +70,8 @@ class CaptureModal extends Component {
                         <Link to={currentPageLink}><Button type="button" className="close" data-dismiss="modal"  onClick={this.toggle} aria-label="Close">
                             <i className="fa fa-times faCloseModal"></i>
                         </Button></Link><br/>
-                        <h3 className="">{this.props.modalheader}<br/>
-
-                            <span className="date">{this.props.modalearly}</span>
-                        </h3>
+                        <h3  dangerouslySetInnerHTML={ {__html: this.props.modalheader}} />
+                      <h3> <span className="date">{this.props.modalearly}</span></h3>
                         <h3 className="mb-0">{this.props.modalsub}</h3>
                             <ModalForm/>
                     </ModalBody>

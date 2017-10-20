@@ -14,7 +14,7 @@ class SectionSocial extends Component {
         <Container>
           <Row className=" flexRow">
             <Col xs="2" md="2" className="left">
-              <img src={require('../../img/follow-us.svg')} alt="" className="ae10"/>
+              <img src={this.props.verticlefollow} alt="" className="ae10"/>
             </Col>
             <Col xs="10" md="10" className="right">
               <Row className="top ae11">
@@ -35,6 +35,7 @@ class SectionSocial extends Component {
 
 const mapStateToProps = state => {
   return {
+    verticlefollow: state.changeit.verticlefollow,
     celavivefounded: state.celavivefounded,
     science: state.science,
     standard: state.changeit.standard

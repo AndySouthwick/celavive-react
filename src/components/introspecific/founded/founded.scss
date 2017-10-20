@@ -2,11 +2,24 @@
   .bubbles-desktop{
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 1025px) {
   .bubbles-mobile{
     display: none;
+  }
+  .founded-on-science-img{
+    max-width: 80%!important;
+
+  }
+  .bubbles-desktop{
+    margin-left: -100px;
+  }
+.section-founded-on-science {
+    .celv-secondary-text {
+      width: 700px;
+    }
   }
 }
 

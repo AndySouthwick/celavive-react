@@ -46,7 +46,7 @@ class SectionFounder extends Component {
                 <Container>
                     <Row>
                         <Col md="12" sm="12" xs="12" className="left">
-                            <img src={require("../../../img/bubbles-mobile.png")} className="ae7 bubbles-mobile " alt=""/>
+                            <img src={require("../../../img/skinmobile.png")} className="ae7 bubbles-mobile " alt=""/>
                         </Col>
                         <Col md="12" className="bubbles-mobile">
                             <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>
@@ -54,8 +54,8 @@ class SectionFounder extends Component {
                                 <div className="celv-secondary-text">
                                     <p className={this.state.readmoreclass}>{readmoreincell}</p>
                                     <p className={this.state.readlessclass}>{incellstringless}</p>
-                                    <Button onClick={this.showreadmore} className={this.state.readlessclass} >{this.props.readmore}</Button>
-                                  <Button onClick={this.showreadless} className={this.state.readmoreclass} ><i className="fa fa-caret-up" aria-hidden="true"></i></Button>
+                                    <Button onClick={this.showreadmore} className={this.state.readlessclass} >{this.props.readmore} <i className="fa fa-caret-down" aria-hidden="true"></i></Button>
+                                  <Button onClick={this.showreadless} className={this.state.readmoreclass} > {this.props.readless} <i className="fa fa-caret-up" aria-hidden="true"></i></Button>
 
 
                                 </div>
@@ -63,7 +63,7 @@ class SectionFounder extends Component {
                         </Col>
 
                         <Col md="6" className="bubbles-desktop">
-                            <img className="founded-on-science-img ae7" src={require("../../../img/founded-on-science-left.png")} alt=""/>
+                            <img className="founded-on-science-img ae7" src={require("../../../img/skin.png")} alt=""/>
                         </Col>
                         <Col md="6" className="bubbles-desktop">
                             <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>
@@ -82,6 +82,7 @@ class SectionFounder extends Component {
 
 const mapStateToProps = state => {
     return {
+        readless: state.changeit.readless,
         readmore: state.changeit.readmore,
         founded: state.founded,
         incellheader: state.incellheader

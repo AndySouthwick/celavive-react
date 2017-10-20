@@ -1,45 +1,65 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "animations.scss";
+@import "fonts.scss";
 html,
 body {
-  font-weight: 100;
   height: 100%;
   width: 100%;
-  font-family: 'Gotham A', 'Gotham B', sans-serif !important;
-  font-size: 14px;
+  font-family: 'Montserrat-ExtraLight', sans-serif !important;
+  font-size: 16px;
   @media (max-width: 991px) {
-  font-size: 14px;
+  font-size: 16px;
     font-weight: 100;
 
 }
 }
+@keyframes readmoreanimation {
 
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 button.displaytherest.btn.btn-secondary {
   color:#8FC7E8;
+  margin: 0;
 }
-
 .donotdisplay{
   display: none!important;
+}
+.displaytherest{
+  animation: readmoreanimation 1s;
 }
 .btn-secondary{
   border-color: #8FC7E8!important;
   margin: 5px;
 }
-
-
 .intro-header h1{
   font-family: 'Bauer Bodoni Std 1', serif;
   color: #828282;
   font-size: 4em;
 }
-
 .incelligence h1{
   font-family: 'Bauer Bodoni Std 1', serif;
   color: #828282!important;
   font-size: 3em!important;
   margin-top: 1em!important;
 
+}
+@media (max-width: 480px){
+  .intro-header h1{
+    font-size: 50px;
+      font-family: 'Arapey', serif;
+    margin-top: 15px!important;
+
+  }
+  .incelligence h1{
+    font-size: 50px;
+    font-family: 'Arapey', serif;
+  }
 }
 
 #root {
@@ -93,7 +113,7 @@ a {
 
 p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
   margin-bottom: 20px;
 }
 
@@ -302,7 +322,7 @@ header {
 #section-footer a {
   text-decoration: none;
   color: #333333;
-  font-family: 'Gotham B', 'Gotham A', 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat-ExtraLight', sans-serif;
   list-style: none;
   color: rgba(97, 96, 96, 0.49);
   margin-bottom: 10px;
@@ -321,7 +341,7 @@ header {
     margin-left: -34px;
   }
   ul li {
-    font-family: 'Gotham B', 'Gotham A', 'Source Sans Pro', sans-serif;
+    font-family: 'GMontserrat-ExtraLight', sans-serif;
     list-style: none;
     color: rgba(97, 96, 96, 0.49);
     margin-bottom: 10px;
@@ -503,7 +523,7 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: $gray-darker;
-  font-family: 'Gotham B', 'Gotham A', 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat-ExtraLight', sans-serif;
 }
 
 .modal {
@@ -632,7 +652,7 @@ section {
     color: #8FC7E8;
     margin-top: 60px;
     display: block;
-    font-family: 'Gotham A', 'Gotham B', 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat-ExtraLight', sans-serif;
     line-height: 1.2em;
   }
 
@@ -698,7 +718,7 @@ div.col.whitebg {
 }
 
 .paragraphtext {
-  line-height: 2rem;
+  line-height: 2.24rem;
   font-weight: 200;
   margin: 2rem 0;
   color: #828282;
@@ -760,7 +780,7 @@ div.col-lg-6.bluerectangle img {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  font-family: 'Gotham B', 'Gotham A', 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat-ExtraLight', sans-serif;
 }
 
 #af-form-1556410765 .af-body {
@@ -997,7 +1017,7 @@ img.img-responsive.floatimg.hidden-xs.hidden-sm.hidden-md.ae6 {
 .section-founded-on-science {
   background-color: #f9f9f9;
   background-image: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
-
+  margin-top: -50px;
   img {
     max-width: 100%;
   }

@@ -17,18 +17,34 @@
   input[type=text]{
     border-radius: 5em;
     background-color:rgba(255, 255, 255, 0.45);
+    width:250px;
+    border-color: #ffffff;
+    padding-left: 15px;
+
   }
+  input{
+    padding-right:2em;
+  }
+
   a{
     color:  #71b8e2;
   }
 
+  Form{
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
   .btn-secondary{
+    border-radius: 50%;
     background-color: transparent;
     color: #ffffff;
     border: none;
   }
-.text-right{
-padding-top: .3em;}
+
+  span{
+    padding-right:2em;
+  }
 }
 
 
@@ -38,29 +54,37 @@ padding-top: .3em;}
 .btn-circle {
   background: url(./../../img/Group-submit.png) no-repeat center center;
   background-color: transparent;
-  border-radius: 50%;
-  width:25px;
-  height: 25px;
-  border-color: #ffffff;
-  color: #ffffff;
-  font-size: 15px;
-  margin-top:2px;
+  width:35px;
+  height: 35px;
+
+  margin-left: 15px;
 }
 
 @media only screen and (max-width: 480px) {
 
   .section-cta{
-    padding-top: 45px;
+    height: 150px;
     width: 100%;
-    height: 65px;
     color: #ffffff;
     display: flex;
     background-color: #BCDEF3;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 15px;
+
+    span{
+      padding-right: 0;
+    }
+
+    form{
+      justify-content: center;
+    }
 
     input[type=text]{
       border-radius: 5em;
       background-color:rgba(255, 255, 255, 0.45);
-      width: 250px;
+      max-width: 200px!important;
+
     }
     .text-right{
       text-align: center!important;

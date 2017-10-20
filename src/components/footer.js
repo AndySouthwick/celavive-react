@@ -12,11 +12,7 @@ class CelaviveFooter extends Component {
         return(
             <section id="section-footer" >
               <Container >
-                  {/*<Row className="d-flex justify-content-center">*/}
 
-                  {/*</Row>*/}
-
-                  {/*<Row className="d-flex justify-content-center">*/}
                     <Col xs="12" lg="12">
                       <img src={require('../img/usanalogo.svg')} alt="" className="img-responsive footer-logo"/>
 

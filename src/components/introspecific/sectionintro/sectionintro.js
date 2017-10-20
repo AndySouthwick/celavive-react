@@ -26,15 +26,16 @@ class SectionIntro extends Component {
                             <div className="intro-header ae1">
 
                                 <img src={require('../../../img/intro-mobile.png')} className="img-responsive ae1 intro-header-mobile mobile" alt="Introducing Advanced Skincare" />
+                                <h1>{this.props.introheader}</h1>
                                         <p className="paragraphtext ae3">
-                                            <h1>{this.props.introheader}</h1>
+
                                             {this.props.intro}
                                         </p>
                             </div>
                         </Col>
                     </Row>
                     <Row className="intro-img">
-                        <img src={require('../../../img/science-vertical.png')} alt="" className="science-vertical desktop ae4 "/>
+                        <img src={this.props.verticlescience} alt="" className="science-vertical desktop ae4 "/>
                             <Col md={{size:10, offset: 2}}>
                                  <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line intro-desktop" alt=""/>
                             </Col>
@@ -47,6 +48,7 @@ class SectionIntro extends Component {
 
 const mapStateToProps = (state) => {
     return{
+        verticlescience: state.changeit.verticlescience,
         introheader: state.introheader,
         intro: state.intro,
         img1: state.img1,

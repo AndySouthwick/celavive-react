@@ -18,7 +18,7 @@ class App extends Component {
             <Route exact path="/:language/:page/?lan=us-en" component={Landing}/>
             <Route  path="/intro" component={Intro}/>
             <Route exact  path="/:language/:page/intro" component={Intro}/>
-            {/*<Route exact  path="/:language/:page/products" component={Products}/>*/}
+            <Route exact  path="/:language/:page/products" component={Products}/>
           </Switch>
       </div>
     );

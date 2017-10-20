@@ -4,9 +4,10 @@
 
 @media only screen and (min-width: 1025px) {
   .bubbles-mobile {
-    display: none; } }
-
-
-.celv-secondary-text button {
-  margin: 0;
-}
+    display: none; }
+  .founded-on-science-img {
+    max-width: 80% !important; }
+  .bubbles-desktop {
+    margin-left: -100px; }
+  .section-founded-on-science .celv-secondary-text {
+    width: 700px; } }

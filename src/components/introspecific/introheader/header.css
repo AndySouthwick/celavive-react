@@ -1,36 +1,12 @@
 @media only screen and (min-width: 1025px) {
   img.img-responsive {
-    max-width: 1200px; }
-  .productReveal {
-    /*transform:scale 1s;
-    animation: scale 1s;*/
-    -moz-animation: scale 1.5s;
-    /* Firefox */
-    -webkit-animation: scale 1.5s;
-    /* Safari and Chrome */
-    -o-animation: scale 1.5s;
-    /* Opera */
-    margin-top: -7em; }
-  @keyframes scale {
-    from {
-      width: 500px; }
-    to {
-      width: 100%; } }
-  @-moz-keyframes scale {
-    /* Firefox */
-    from {
-      width: 500px; }
-    to {
-      width: 100%; } }
-  @-webkit-keyframes scale {
-    /* Safari and Chrome */
-    from {
-      width: 100%; }
-    to {
-      width: 100%; } }
-  @-o-keyframes scale {
-    /* Opera */
-    from {
-      width: 500px; }
-    to {
-      width: 100%; } } }
+    max-width: 1200px; } }
+
+.productReveal {
+  animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: .1; }
+  100% {
+    opacity: 1; } }

@@ -1,13 +1,17 @@
 @keyframes slideMenuIn {
   0% {
-    right: -100%; }
+    right: -100%;
+    opacity: .0; }
   100% {
-    right: 0%; } }
+    right: 0%;
+    opacity: 1; } }
 
 @keyframes slideMenuOut {
   0% {
-    right: 0%; }
+    right: 0%;
+    opacity: 1; }
   100% {
+    opacity: 0;
     right: -100%; } }
 
 .hideMenu {
@@ -17,11 +21,11 @@
   margin-top: -.5em;
   line-height: .5em;
   z-index: 101;
-  animation: slideMenuOut 1s;
+  animation: slideMenuOut 2s;
   position: fixed;
   right: -100%;
   width: 250px;
-  background-color: rgba(255, 255, 255, 0.86);
+  background-color: rgba(255, 255, 255, 0.94);
   overflow-y: scroll;
   overflow-x: hidden; }
 
@@ -32,11 +36,11 @@
   margin-top: -.5em;
   line-height: .5em;
   z-index: 101;
-  animation: slideMenuIn .5s;
+  animation: slideMenuIn .75s;
   position: fixed;
   right: 0%;
   width: 250px;
-  background-color: rgba(255, 255, 255, 0.86);
+  background-color: rgba(255, 255, 255, 0.94);
   overflow-y: scroll;
   overflow-x: hidden; }
 
@@ -66,4 +70,9 @@
   margin-right: 2em; }
 
 .myflexcontainer {
-  height: 28em; }
+  height: 30em; }
+  .myflexcontainer a {
+    color: #33afd4; }
+  .myflexcontainer a:hover {
+    color: #92d0f5 !important;
+    text-decoration: none; }
