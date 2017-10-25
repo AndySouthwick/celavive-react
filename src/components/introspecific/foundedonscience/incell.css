@@ -6,7 +6,12 @@
 
 @media only screen and (min-width: 1025px) {
   .testube-mobile {
-    display: none; } }
+    display: none; }
+  .testube-desktop {
+    width: 475px; }
+  .foundedtexttreat {
+    margin-left: -50px;
+    width: 500px; } }
 
 .small {
   font-weight: normal; }

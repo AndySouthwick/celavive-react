@@ -3,7 +3,7 @@ import { Container, Row, Col, Button} from 'reactstrap';
 import store from '../../../store'
 import {connect} from 'react-redux'
 import './incell.css'
-class SectionIncell extends Component {
+class FoundedOnScience extends Component {
     constructor (){
         super()
       this.state = {
@@ -37,9 +37,12 @@ class SectionIncell extends Component {
             <section className="incelligence section-incelligence">
                 <Container>
                     <Row className="greybg">
-                        <Col lg="6" sm="12" xs="12">
-                            <img src={require('../../../img/testubeladymob.png')} className="img-responsive visible-xs visible-sm ae1 testube-mobile" alt=""/>
-                           <p> <h1>{ this.props.celavivefounded}</h1>
+                      <Col lg="5" sm="12" xs="12">
+                        <img src={require("../../../img/skin.png")} className="img-responsive floatimg hidden-xs hidden-sm hidden-md ae6 testube-desktop" alt=""/>
+                      </Col>
+                        <Col lg="7" sm="12" xs="12">
+                            <img src={require('../../../img/skinmobile.png')} className="img-responsive visible-xs visible-sm ae1 testube-mobile" alt=""/>
+                           <p> <span className="fa-3x ae1 incelligence-header foundedtexttreat">{ this.props.celavivefounded}</span>
                                     <div className="celv-secondary-text desktop tablet">
                                         <p className="paragraphtext ae1">{this.props.science}</p>
                                     </div>
@@ -55,9 +58,7 @@ class SectionIncell extends Component {
                                 </p>
                             </div>
                         </Col>
-                        <Col lg="6" sm="12" xs="12">
-                            <img src={require("../../../img/Test-Tube-Lady.png")} className="img-responsive floatimg hidden-xs hidden-sm hidden-md ae6 testube-desktop" alt=""/>
-                        </Col>
+
                     </Row>
                 </Container>
 
@@ -75,5 +76,5 @@ const mapStateToProps = state => {
     }
 }
 
-const reduxConnect = connect(mapStateToProps)(SectionIncell)
+const reduxConnect = connect(mapStateToProps)(FoundedOnScience)
 export default reduxConnect

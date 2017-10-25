@@ -8,10 +8,12 @@ class Scinece extends Component {
         return(
             <section className="section-science">
                 <Container>
-                    <Row className="animatedRow">
+                  <img src={this.props.verticlescience} alt="" className="science-vertical desktop ae4 "/>
+
+                  <Row className="animatedRow">
                         <Col md="12" xs="12">
                             <img src={require("../../../img/celavive-pic-1.png")} alt="" className="celavive-pic-1 img-responsive lady-desktop"/>
-                            <img src={require("../../../img/healthy-rect.png")} alt="" className="healthy-rect img-responsive lady-desktop"/>
+                            <img src={require("../../../img/healthy-rect.png")} alt="" className="healthy-rect img-responsive lady-desktop" />
                             <img src={this.props.healthyquote} alt="" className="healthy-quote img-responsive lady-desktop"/>
                             <img src={this.props.healthymobile} alt="" className="lady-mobile  img-responsive"/>
                         </Col>
@@ -24,6 +26,7 @@ class Scinece extends Component {
 
 const mapStateToProps = state => {
   return {
+    verticlescience: state.changeit.verticlescience,
     healthymobile: state.changeit.healthymobile,
     healthyquote: state.changeit.healthyquote
   }

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import CelaviveFooter from '../components/footer'
 import CelaviveCta from '../components/cta/cta'
 import Hero from '../components/introspecific/introheader/header'
-import SectionIntro from '../components/introspecific/sectionintro/sectionintro'
-import SectionIncell from '../components/introspecific/incelligence/sectionincell'
-import SectionFounded from '../components/introspecific/founded/sectionfounded'
+import SectionIntro from '../components/introspecific/products/products'
+import FoundedOnScience from '../components/introspecific/foundedonscience/foundedonscience'
+import SectionIncelligence from '../components/introspecific/incelligence/sectionincelligence'
 import Navigation from '../components/navigation/navigation'
 import {languages} from '../languages/languages'
 import { chlan, chpage } from '../actions/actions'
@@ -64,10 +64,10 @@ class Intro extends Component {
               <DocumentMeta {...metaData} extend />
                 <Navigation/>
                 <Hero/>
-                <SectionIntro/>
-                <SectionIncell/>
-                <SectionFounded/>
                 <Science/>
+                <FoundedOnScience/>
+                <SectionIncelligence/>
+              <SectionIntro/>
               <SectionSocial/>
                 <CelaviveCta/>
                 <CelaviveFooter/>

@@ -17,21 +17,21 @@ class Cleanse extends Component{
             Text about tone product here
           </Col>
         </Row>
-        <Row>
-          <Col md="4" xs="12">
+        <Row className="d-flex justify-content-center justify-content-around">
+          <div className="d-flex flex-column align-text-bottom justify-content-end">
             <img src={require('../../../img/conditioningmakeupremover.png')} alt=""/>
-            <p>{this.props.makeupremover}</p>
-          </Col>
-          <Col md="4" xs="12">
-            <img src={require('../../../img/creamyfoamcleanser.png')} alt=""/>
-          <p>{this.props.creamyfoam}</p>
-            <p><i>{this.props.combo}</i></p>
-          </Col>
-          <Col md="4" xs="12">
-            <img src={require('../../../img/gentlemilkcleanser.png')} alt=""/>
-            <p>{this.props.gentlemilk}</p>
-            <i>{this.props.dry}</i>
-          </Col>
+            {this.props.makeupremover}
+          </div>
+        <div className="d-flex flex-column align-text-bottom justify-content-end">
+          <img src={require('../../../img/creamyfoamcleanser.png')} alt=""/>
+          {this.props.creamyfoam}
+          <i>{this.props.combo}</i>
+        </div>
+        <div className="d-flex flex-column justify-content-end">
+          <img src={require('../../../img/gentlemilkcleanser.png')} alt=""/>
+          {this.props.gentlemilk}
+          <i>{this.props.dry}</i>
+        </div>
         </Row>
         <hr/>
       </Container>

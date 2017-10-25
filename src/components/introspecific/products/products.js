@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import { Container, Row, Col} from 'reactstrap';
 import {connect} from 'react-redux'
 import store from '../../../store'
-import './intro.css'
+import './products.css'
 import { Link } from 'react-router-dom'
 
 class SectionIntro extends Component {
@@ -18,28 +18,24 @@ class SectionIntro extends Component {
 
         return (
             <section className="section-intro">
-                <div className="diagonal-bg"></div>
                 <Container>
+                    <Row className="intro-img">
+                        <Col lg={{size:10}}>
+                            <img src={require('../../../img/products1.png')} className="img-responsive ae3 product-line intro-desktop" alt=""/>
+                        </Col>
+                    </Row>
                     <Row>
-                        <Col lg="9" md="12 addindex">
-
+                        <Col lg={{size:9, offset:3}} md="12 addindex">
                             <div className="intro-header ae1">
-
                                 <img src={require('../../../img/intro-mobile.png')} className="img-responsive ae1 intro-header-mobile mobile" alt="Introducing Advanced Skincare" />
                                 <h1>{this.props.introheader}</h1>
                                         <p className="paragraphtext ae3">
-
                                             {this.props.intro}
                                         </p>
                             </div>
                         </Col>
                     </Row>
-                    <Row className="intro-img">
-                        <img src={this.props.verticlescience} alt="" className="science-vertical desktop ae4 "/>
-                            <Col md={{size:10, offset: 2}}>
-                                 <img src={require('../../../img/introducing-desktop.png')} className="img-responsive ae3 product-line intro-desktop" alt=""/>
-                            </Col>
-                    </Row>
+
                 </Container>
             </section>
         );
@@ -48,7 +44,6 @@ class SectionIntro extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        verticlescience: state.changeit.verticlescience,
         introheader: state.introheader,
         intro: state.intro,
         img1: state.img1,

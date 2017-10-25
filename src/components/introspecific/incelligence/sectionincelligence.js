@@ -5,7 +5,7 @@ import store from '../../../store'
 import founded from './founded.css'
 
 
-class SectionFounder extends Component {
+class SectionIncelligence extends Component {
   constructor (){
     super()
     this.state = {
@@ -46,7 +46,7 @@ class SectionFounder extends Component {
                 <Container>
                     <Row>
                         <Col md="12" sm="12" xs="12" className="left">
-                            <img src={require("../../../img/skinmobile.png")} className="ae7 bubbles-mobile " alt=""/>
+                            <img src={require("../../../img/testubeladymob.png")} className="ae7 bubbles-mobile " alt=""/>
                         </Col>
                         <Col md="12" className="bubbles-mobile">
                             <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>
@@ -62,10 +62,8 @@ class SectionFounder extends Component {
                             </div>
                         </Col>
 
-                        <Col md="6" className="bubbles-desktop">
-                            <img className="founded-on-science-img ae7" src={require("../../../img/skin.png")} alt=""/>
-                        </Col>
-                        <Col md="6" className="bubbles-desktop">
+
+                        <Col md="8" className="bubbles-desktop">
                             <span className="fa-3x ae1 incelligence-header">{this.props.incellheader}</span>
                             <div className="celvCarouse">
                                 <div className="celv-secondary-text">
@@ -73,6 +71,9 @@ class SectionFounder extends Component {
                                 </div>
                             </div>
                         </Col>
+                      <Col md="4" className="bubbles-desktop">
+                        <img className="founded-on-science-img ae7" src={require("../../../img/Test-Tube-Lady.png")} alt=""/>
+                      </Col>
                     </Row>
                 </Container>
             </section>
@@ -90,5 +91,5 @@ const mapStateToProps = state => {
     }
 }
 
-const reduxConnect = connect(mapStateToProps)(SectionFounder)
+const reduxConnect = connect(mapStateToProps)(SectionIncelligence)
 export default reduxConnect

@@ -1,7 +1,3 @@
-img.img-responsive.ae3.product-line {
-  margin-top: -18em;
-}
-
 @media only screen and (max-width: 1025px) {
   .intro-desktop{
     display: none;
@@ -13,6 +9,9 @@ img.img-responsive.ae3.product-line {
     display: none;
   }
   .intro-header{
+    margin: -32em 28px 0 132px;
+    padding: 138px 89px 82px 139px;
+    width: 805px;
     .paragraphtext{
       width: 600px;
     }
@@ -32,3 +31,4 @@ img.img-responsive.ae3.product-line {
 .section-incelligence{
   z-index: -3!important;
 }
+

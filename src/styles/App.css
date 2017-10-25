@@ -1836,6 +1836,7 @@ div.col-lg-6.bluerectangle img {
   position: relative; }
 
 section.section-intro {
+  margin-left: -10em;
   position: relative; }
 
 .diagonal-bg {
@@ -1847,13 +1848,6 @@ section.section-intro {
   right: 0;
   bottom: 0;
   left: 0; }
-
-span.incelligence-header {
-  position: relative;
-  left: -110px; }
-
-.section-incelligence {
-  background: #f9f9f9; }
 
 img.celavive-pic-1 {
   position: absolute;
@@ -1873,25 +1867,28 @@ img.healthy-quote {
   z-index: 500; }
 
 img.science-vertical {
-  left: 102px;
-  top: 103px;
+  left: 334px;
+  top: 418px;
   position: absolute;
-  height: 710px; }
+  height: 494px;
+  z-index: 1; }
 
 img.img-responsive.ae3.product-line {
   position: relative;
-  right: -60px; }
+  right: -60px;
+  z-index: 2; }
 
 img.img-responsive {
-  width: 100%;
-  max-width: 800px; }
+  max-width: 800px;
+  width: 100%; }
 
 img.img-responsive.floatimg.hidden-xs.hidden-sm.hidden-md.ae6 {
   position: relative;
-  top: -70px; }
+  top: 0; }
 
 @media (min-width: 1200px) {
   .section-science .container {
+    margin-top: 5em;
     width: 1310px; } }
 
 @media only screen and (max-width: 1024px) {
@@ -1960,44 +1957,44 @@ img.img-responsive.floatimg.hidden-xs.hidden-sm.hidden-md.ae6 {
   .mobileproduct {
     margin-top: 12em; } }
 
-.section-founded-on-science {
-  background-color: #f9f9f9;
-  background-image: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%);
-  margin-top: -50px; }
-  .section-founded-on-science img {
-    max-width: 100%; }
-  .section-founded-on-science .left {
-    text-align: right; }
-    @media (max-width: 991px) {
-      .section-founded-on-science .left .founded-on-science-img {
-        width: 40%; } }
-  .section-founded-on-science .title {
-    margin-left: -8%; }
-    .section-founded-on-science .title.visible-xs, .section-founded-on-science .title.visible-sm {
-      position: absolute;
-      bottom: -2.5rem;
-      margin: 0;
-      padding: 0 2rem; }
-  .section-founded-on-science .celvCarouse .celv-secondary-text h4 {
-    line-height: 2rem;
-    font-style: italic;
-    font-weight: 300;
-    text-align: left; }
-  .section-founded-on-science .celvCarouse .celv-secondary-text div {
-    text-align: left; }
-  .section-founded-on-science .celvCarouse .btn.btnReadMore {
-    border: #8FC7E8 1px solid;
-    text-transform: none;
-    padding: 10px 20px; }
-    .section-founded-on-science .celvCarouse .btn.btnReadMore:hover {
-      background: white;
-      color: #8FC7E8; }
-    .section-founded-on-science .celvCarouse .btn.btnReadMore.hidden {
-      display: none; }
-  .section-founded-on-science .celvCarouse #readMoreScienceText .hidden {
+.section-founded-on-science img {
+  max-width: 100%; }
+
+.section-founded-on-science .left {
+  text-align: right; }
+
+.section-founded-on-science .title {
+  margin-left: -8%; }
+  .section-founded-on-science .title.visible-xs, .section-founded-on-science .title.visible-sm {
+    position: absolute;
+    bottom: -2.5rem;
+    margin: 0;
+    padding: 0 2rem; }
+
+.section-founded-on-science .celvCarouse .celv-secondary-text h4 {
+  line-height: 2rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: left; }
+
+.section-founded-on-science .celvCarouse .celv-secondary-text div {
+  text-align: left; }
+
+.section-founded-on-science .celvCarouse .btn.btnReadMore {
+  border: #8FC7E8 1px solid;
+  text-transform: none;
+  padding: 10px 20px; }
+  .section-founded-on-science .celvCarouse .btn.btnReadMore:hover {
+    background: white;
+    color: #8FC7E8; }
+  .section-founded-on-science .celvCarouse .btn.btnReadMore.hidden {
     display: none; }
-  .section-founded-on-science .celvCarouse #readMoreScienceText .visible {
-    display: inline-block; }
+
+.section-founded-on-science .celvCarouse #readMoreScienceText .hidden {
+  display: none; }
+
+.section-founded-on-science .celvCarouse #readMoreScienceText .visible {
+  display: inline-block; }
 
 .section-social-media {
   padding-top: 0; }

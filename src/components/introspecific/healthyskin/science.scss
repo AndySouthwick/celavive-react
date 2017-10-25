@@ -16,9 +16,15 @@
    display: none;
  }
 }
-
 @media only screen and (min-width: 1201px) {
   .lady-mobile{
     display: none;
+  }
+  .section-science img.img-responsive {
+    max-width: 45em;
+    margin: 0 15px 0 15px;
+  }
+  .healthy-quote{
+    width: 635px!important;
   }
 }

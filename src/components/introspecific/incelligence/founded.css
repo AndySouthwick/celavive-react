@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1025px) {
+  .bubbles-desktop {
+    display: none; }
+  .founded-on-science-img {
+    max-width: 100% !important; } }
+
+@media only screen and (min-width: 1025px) {
+  .section-incelligence {
+    margin-top: 3em;
+    margin-left: -8em; }
+  .bubbles-mobile {
+    display: none; }
+  .founded-on-science-img {
+    max-width: 123% !important; }
+  .bubbles-desktop {
+    margin-left: -100px; } }
