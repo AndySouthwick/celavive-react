@@ -32,10 +32,10 @@ class Landing extends Component {
 
 
   componentWillMount(){
-    axios.get("https://ip-api.com/json").then((res) => {
-      console.log(res.data.countryCode)
+    axios.get("https://geoip-db.com/json/").then((res) => {
+      console.log(res.data.country_code)
       let browserLanguage = window.navigator.languages[0]
-      let str = res.data.countryCode
+      let str = res.data.country_code
       let language = str.toLowerCase() + '-' + browserLanguage[0] + browserLanguage[1]
       console.log(language)
       this.setState({
