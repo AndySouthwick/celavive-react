@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import CaptureModal from '../modal'
-import {Container, Row, Col} from 'reactstrap'
 import './cta.css'
 import CtaForm from './ctaform'
 

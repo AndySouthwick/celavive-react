@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Form,  Input, Button, Label, FormGroup } from 'reactstrap';
+import { Form,  Input, Button} from 'reactstrap';
 import {connect} from 'react-redux'
 
 class CtaForm extends Component{

@@ -1835,10 +1835,6 @@ div.col-lg-6.bluerectangle img {
 .animatedRow {
   position: relative; }
 
-section.section-intro {
-  margin-left: -10em;
-  position: relative; }
-
 .diagonal-bg {
   position: absolute;
   height: 50%;
@@ -1939,8 +1935,6 @@ img.img-responsive.floatimg.hidden-xs.hidden-sm.hidden-md.ae6 {
     top: -84px;
     z-index: 500;
     width: 20em; }
-  .section-science {
-    min-height: 300px !important; }
   .section-cta .btn-xl {
     font-size: 13px; }
   .section-footer ul li {

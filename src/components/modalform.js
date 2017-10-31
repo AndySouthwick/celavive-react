@@ -1,10 +1,13 @@
 import React, {Component} from 'react'
-import { Button, Modal, Form, ModalBody, Input, Label } from 'reactstrap';
+import {  Form, Input, Label } from 'reactstrap';
 import {connect} from 'react-redux'
-import {Link} from 'react-router-dom'
 
 
 class ModalForm extends Component{
+
+  toggle = () => {
+    localStorage.setItem("eventfired", 1)
+  }
 
     render(){
 
@@ -60,7 +63,7 @@ class ModalForm extends Component{
                             <div className="af-clear"></div>
                         </div>
                         <div className="af-element privacyPolicy"> <p><a
-                            title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank"
+                            title="Privacy Policy" href="https://www.aweber.com/permission.htm"
                             rel="nofollow">{this.props.modalprivacy}</a></p>
                             <div className="af-clear"></div>
                         </div>

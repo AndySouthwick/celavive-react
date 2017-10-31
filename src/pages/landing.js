@@ -19,9 +19,15 @@ class Landing extends Component {
     super()
     this.state = {
       redirect: false,
-      language: ''
+      language: '',
+      redirectIfVisited: null
     }
 
+  }
+
+
+  redirectForLanguage = () => {
+    console.log('test')
   }
 
 
@@ -32,18 +38,19 @@ class Landing extends Component {
       let str = res.data.countryCode
       let language = str.toLowerCase() + '-' + browserLanguage[0] + browserLanguage[1]
       console.log(language)
-
       this.setState({
-        redirect: true,
-        language: language
+        language: language,
       })
-
-
     })
   }
 
-
     render() {
+
+    let redirectIfVisited = localStorage.getItem('languageRedirectIfVisited')
+
+      if(redirectIfVisited){
+        return <Redirect to={`${redirectIfVisited}/2/intro`}/>
+      }
 
       const metaData = {
         title: 'Introducing Celavive',
@@ -56,24 +63,6 @@ class Landing extends Component {
           }
         }
       };
-
-
-
-      // const { redirect } = this.state;
-      // const redirectIfVisited = localStorage.getItem('languageRedirectIfVisited')
-      //
-      //
-      // if(redirectIfVisited){
-      //   this.setState({
-      //     redirect: true
-      //   })
-      // }
-      //
-
-
-
-
-
 
 console.log(this.state)
       const currentPage =  this.props.match.params.page
@@ -104,15 +93,10 @@ console.log(this.state)
       //if the chosen language does not equal current state, update redux store
       if(chosenLanguage){
         store.dispatch(chlan(chosenLanguage))
-      }else{
-        chosenLanguage = languages.find(item => item.language === 'us-en')
-        store.dispatch(chlan(chosenLanguage))
-        }
+      }
 
 
       console.log(chosenLanguage)
-
-
       if(!this.state.language){
         return <div>
           ...Loading

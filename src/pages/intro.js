@@ -60,8 +60,11 @@ class Intro extends Component {
         const currentPage =  this.props.match.params.page
         const currentState = store.getState()
          const storeLanguage = this.props.match.params.language
+        let storedLanguage = localStorage.getItem('languageRedirectIfVisited')
 
-            localStorage.setItem('languageRedirectIfVisited', storeLanguage)
+      if(!storedLanguage) {
+        localStorage.setItem('languageRedirectIfVisited', storeLanguage)
+      }
 
       console.log(currentPage)
 
