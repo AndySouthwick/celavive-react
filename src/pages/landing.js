@@ -32,7 +32,7 @@ class Landing extends Component {
 
 
   componentWillMount(){
-    axios.get("http://ip-api.com/json").then((res) => {
+    axios.get("https://ip-api.com/json").then((res) => {
       console.log(res.data.countryCode)
       let browserLanguage = window.navigator.languages[0]
       let str = res.data.countryCode
