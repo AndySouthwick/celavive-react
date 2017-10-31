@@ -2,7 +2,7 @@ import {actionTypes} from "../actions/actions";
 
 export const initialState = {
     id: '',
-    language: 'us-en',
+    language: '',
     intro: '',
     science: '',
    founded: '',

@@ -10,7 +10,7 @@ import store from '../store'
 import {Redirect} from 'react-router-dom'
 import {connect} from 'react-redux'
 import DocumentMeta from 'react-document-meta';
-
+import axios from 'axios'
 
 
 
@@ -18,13 +18,29 @@ class Landing extends Component {
   constructor(){
     super()
     this.state = {
-      id: '1',
-      page:'1',
-      redirect: false
+      redirect: false,
+      language: ''
     }
 
   }
 
+
+  componentWillMount(){
+    axios.get("http://ip-api.com/json").then((res) => {
+      console.log(res.data.countryCode)
+      let browserLanguage = window.navigator.languages[0]
+      let str = res.data.countryCode
+      let language = str.toLowerCase() + '-' + browserLanguage[0] + browserLanguage[1]
+      console.log(language)
+
+      this.setState({
+        redirect: true,
+        language: language
+      })
+
+
+    })
+  }
 
 
     render() {
@@ -43,19 +59,17 @@ class Landing extends Component {
 
 
 
-      const { redirect } = this.state;
-      const redirectIfVisited = localStorage.getItem('languageRedirectIfVisited')
+      // const { redirect } = this.state;
+      // const redirectIfVisited = localStorage.getItem('languageRedirectIfVisited')
+      //
+      //
+      // if(redirectIfVisited){
+      //   this.setState({
+      //     redirect: true
+      //   })
+      // }
+      //
 
-
-      if(redirectIfVisited){
-        this.setState({
-          redirect: true
-        })
-      }
-
-      if(redirect){
-        return <Redirect to={`${redirectIfVisited}/2/intro`}/>;
-      }
 
 
 
@@ -82,7 +96,7 @@ console.log(this.state)
 
 
       //get language from file languages/languages.js
-      let chosenLanguage = languages.find(item => item.language === this.props.match.params.language)
+      let chosenLanguage = languages.find(item => item.language === this.state.language)
 
       //assign the current state that is in the store
       //const currentState = store.getState()
@@ -97,6 +111,13 @@ console.log(this.state)
 
 
       console.log(chosenLanguage)
+
+
+      if(!this.state.language){
+        return <div>
+          ...Loading
+        </div>
+      }
         return (
             <div className="full-height">
               <DocumentMeta {...metaData} extend />
