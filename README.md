@@ -1,8 +1,8 @@
 # README #
 
 ### The Celavive-react project ###
-go to https://chambermaid-sundays-42824.netlify.com to view working example
-this project uses redux for language selection it also detects browser language and ip and routes accordingly
+go to https://chambermaid-sundays-42824.netlify.com to view working example.
+This project uses redux for language selection, it also detects browser language and ip and routes accordingly
 
 ### What is this repository for? ###
 
